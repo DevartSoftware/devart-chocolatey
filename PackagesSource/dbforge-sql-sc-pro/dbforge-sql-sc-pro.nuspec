@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <metadata>
+        <id>dbforge-sql-sc-pro</id>
+        <version>4.4.66</version>
+        <title>dbForge Schema Compare for SQL Server Professional (Trial)</title>
+        <description>dbForge Schema Compare for SQL Server is a reliable tool that saves your time and effort when comparing and synchronizing databases on SQL Server. The tool allows working with live SQL Server databases, snapshots, and backups. You can quickly compare your SQL Server databases, analyze differences and perform error-free schema synchronization using generated SQL scripts.</description>
+        <authors>Devart</authors>
+        <summary>dbForge Schema Compare for SQL Server</summary>
+        <projectUrl>https://www.devart.com/dbforge/sql/schemacompare/</projectUrl>
+        <iconUrl>https://cdn.rawgit.com/DevartSoftware/devart-chocolatey/3e4995f9/ProductsPng/sql-sc.png</iconUrl>
+        <licenseUrl>https://www.devart.com/dbforge/eula.html</licenseUrl>
+        <releaseNotes>https://www.devart.com/dbforge/sql/schemacompare/revision_history.html</releaseNotes>
+        <tags>DataBase Management Studio SQL Tools Schema Compare</tags>
+        <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-sc-pro</packageSourceUrl>
+        <docsUrl>https://www.devart.com/dbforge/sql/schemacompare/SchemaCompareSQLServer.chm</docsUrl>
+        <dependencies>
+            <dependency id="dotnet4.5.2" version="4.5.2.20140902" />
+        </dependencies>
+    </metadata>
+</package>
