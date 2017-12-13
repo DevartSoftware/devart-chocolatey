@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <metadata>
+        <id>dbforge-mysql-dg</id>
+        <version>1.7.12</version>
+        <title>dbForge Data Generator for MySQL (Trial)</title>
+        <description>dbForge Data Generator for MySQL is a powerful GUI tool for creating massive volumes of realistic test data. The tool includes a large collection of predefined data generators with customizable configuration options that allow populating MySQL database tables with random data. You don't have to create your test data manually anymore - dbForge Data Generator for MySQL makes the data generation process easy and fast.</description>
+        <authors>Devart</authors>
+        <summary>dbForge Data Generator for MySQL Server</summary>
+        <projectUrl>https://www.devart.com/dbforge/mysql/data-generator/</projectUrl>
+        <iconUrl>https://cdn.rawgit.com/DevartSoftware/devart-chocolatey/15d7e698/ProductsPng/mysql-dg.png</iconUrl>
+        <licenseUrl>https://www.devart.com/dbforge/eula.html</licenseUrl>
+        <releaseNotes>https://www.devart.com/dbforge/mysql/data-generator/revision_history.html</releaseNotes>
+        <tags>DataBase Management Studio MySQL Tools Data Generation </tags>
+        <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-mysql-dg</packageSourceUrl>
+        <docsUrl>https://www.devart.com/dbforge/mysql/data-generator/DataGeneratorMySQL.chm</docsUrl>
+        <dependencies>
+            <dependency id="dotnet4.5.2" version="4.5.2.20140902" />
+        </dependencies>
+    </metadata>
+</package>

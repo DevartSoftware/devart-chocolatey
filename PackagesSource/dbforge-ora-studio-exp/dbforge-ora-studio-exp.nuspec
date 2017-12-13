@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <metadata>
+        <id>dbforge-ora-studio-exp</id>
+        <version>3.10.12</version>
+        <title>dbForge Studio for Oracle Express</title>
+        <description>dbForge Studio for Oracle is a powerful integrated development environment (IDE) which helps Oracle SQL developers to increase PL/SQL coding speed, provides versatile data editing tools for managing in-database and external data. This tool allows synchronizing data between different Oracle servers and automating schema change management process during development. This Oracle database manager has lots of features wrapped into a smooth management Oracle GUI consistent with Microsoft Visual Studio.</description>
+        <authors>Devart</authors>
+        <summary>dbForge Studio for Oracle</summary>
+        <projectUrl>https://www.devart.com/dbforge/oracle/studio/</projectUrl>
+        <iconUrl>https://cdn.rawgit.com/DevartSoftware/devart-chocolatey/15d7e698/ProductsPng/ora-studio.png</iconUrl>
+        <licenseUrl>https://www.devart.com/dbforge/eula.html</licenseUrl>
+        <releaseNotes>https://www.devart.com/dbforge/oracle/studio/revision_history.html</releaseNotes>
+        <tags>DataBase Management Studio SQL Tools Oracle</tags>
+        <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-ora-studio-exp</packageSourceUrl>
+        <docsUrl>https://www.devart.com/dbforge/oracle/studio/dbForgeStudioOracle.chm</docsUrl>
+        <dependencies>
+            <dependency id="dotnet4.5.2" version="4.5.2.20140902" />
+        </dependencies>
+    </metadata>
+</package>

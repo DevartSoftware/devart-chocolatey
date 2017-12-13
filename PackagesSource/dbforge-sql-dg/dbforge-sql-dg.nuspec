@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <metadata>
+        <id>dbforge-sql-dg</id>
+        <version>4.0.74</version>
+        <title>dbForge Data Generator for SQL Server (Trial)</title>
+        <description>dbForge Data Generator for SQL Server is a powerful GUI tool for a fast generation of meaningful test data for databases. dbForge dummy data generation tool includes 200+ predefined data generators with sensible configuration options, that allow to emulate column-intelligent random data. The tool also allows generating demo data for databases already filled with data and create your own custom test data generators. dbForge Data Generator for SQL Server can save your time and effort spent on demo data generation by populating SQL Server tables with millions of rows of sample data that looks just like real data.</description>
+        <authors>Devart</authors>
+        <summary>dbForge Data Generator for SQL Server</summary>
+        <projectUrl>https://www.devart.com/dbforge/sql/data-generator/</projectUrl>
+        <iconUrl>https://cdn.rawgit.com/DevartSoftware/devart-chocolatey/3e4995f9/ProductsPng/sql-dg.png</iconUrl>
+        <licenseUrl>https://www.devart.com/dbforge/eula.html</licenseUrl>
+        <releaseNotes>https://www.devart.com/dbforge/sql/data-generator/revision_history.html</releaseNotes>
+        <tags>DataBase Management Studio SQL Tools Data Generation </tags>
+        <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-dg</packageSourceUrl>
+        <docsUrl>https://www.devart.com/dbforge/sql/data-generator/DataGeneratorSQLServer.chm</docsUrl>
+        <dependencies>
+            <dependency id="dotnet4.5.2" version="4.5.2.20140902" />
+        </dependencies>
+    </metadata>
+</package>

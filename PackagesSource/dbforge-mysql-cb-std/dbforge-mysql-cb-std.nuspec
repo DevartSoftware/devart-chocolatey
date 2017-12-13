@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <metadata>
+        <id>dbforge-mysql-cb-std</id>
+        <version>1.0</version>
+        <title>dbForge Compare Bundle for MySQL Standart (Trial)</title>
+        <description>Grab the full power to handle changes in your MySQL and MariaDB databases with dbForge Compare Bundle for MySQL. It will save you hours of work comparing and deploying MySQL and MariaDB databases.
+MySQL Compare Bundle contains two separate tools, dbForge Schema Compare for MySQL and dbForge Data Compare for MySQL, and offers a significant discount if compared with purchasing each tool separately.</description>
+        <authors>Devart</authors>
+        <summary>dbForge Compare Bundle for MySQL</summary>
+        <projectUrl>https://www.devart.com/dbforge/mysql/compare-bundle/</projectUrl>
+        <iconUrl>https://cdn.rawgit.com/DevartSoftware/devart-chocolatey/15d7e698/ProductsPng/mysql-cb.png</iconUrl>
+        <licenseUrl>https://www.devart.com/dbforge/eula.htm</licenseUrl>
+        <releaseNotes />
+        <tags>DataBase Management Studio MySQL Tools Compare Bundle</tags>
+        <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-mysql-cb-std</packageSourceUrl>
+        <docsUrl>https://www.devart.com/dbforge/mysql/compare-bundle/</docsUrl>
+        <dependencies>
+            <dependency id="dotnet4.5.2" version="4.5.2.20140902" />
+        </dependencies>
+    </metadata>
+</package>

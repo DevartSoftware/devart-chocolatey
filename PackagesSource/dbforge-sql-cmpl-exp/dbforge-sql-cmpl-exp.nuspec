@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <metadata>
+        <id>dbforge-sql-cmpl-exp</id>
+        <version>5.7.210</version>
+        <title>dbForge SQL Complete Express</title>
+        <description>SSMS is packed with features to manage and control SQL Server databases, as well as to develop, format and refactor T-SQL code, build queries and scripts.
+However, there are a lot of productivity features missing in SSMS that can improve your performance while accomplishing repetitive tasks every day.
+dbForge SQL Complete is an add-in for SQL Server Management Studio and Visual Studio with fully-featured tools that speed up SQL code writing, offer context-based smart suggestions, perform automatic formatting and refactoring, improve code readability, increase productivity, lower costs, and much more, thus allowing you to save time and efforts in the database and code development process with several clicks.</description>
+        <authors>Devart</authors>
+        <summary>dbForge SQL Complete for SQL Server SSMS Visual Studio</summary>
+        <projectUrl>https://www.devart.com/dbforge/sql/sqlcomplete/</projectUrl>
+        <iconUrl>https://cdn.rawgit.com/DevartSoftware/devart-chocolatey/b6494cce/ProductsPng/sql-cmpl.png</iconUrl>
+        <licenseUrl>https://www.devart.com/dbforge/eula.html</licenseUrl>
+        <releaseNotes>https://www.devart.com/dbforge/sql/sqlcomplete/revision_history.html</releaseNotes>
+        <tags>DataBase Management Studio SQL Tools Complete SSMS Visual Studio</tags>
+        <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-cmpl-exp</packageSourceUrl>
+        <docsUrl>https://www.devart.com/dbforge/sql/sqlcomplete/SQLComplete.chm</docsUrl>
+        <dependencies>
+            <dependency id="dotnet4.5.2" version="4.5.2.20140902" />
+        </dependencies>
+    </metadata>
+</package>
