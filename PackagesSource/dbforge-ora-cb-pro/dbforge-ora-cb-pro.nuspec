@@ -13,7 +13,7 @@ Oracle Compare Bundle contains two separate tools, dbForge Schema Compare for Or
         <licenseUrl>https://www.devart.com/dbforge/eula.html</licenseUrl>
         <releaseNotes />
         <tags>DataBase Management Studio Oracle Tools Compare Bundle</tags>
-        <packageSourceUrl>https://github.com/svoyak/chocopackages/tree/master/dbforgesqlstudioexp</packageSourceUrl>
+        <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-ora-cb-pro</packageSourceUrl>
         <docsUrl>https://www.devart.com/dbforge/oracle/compare-bundle/</docsUrl>
         <dependencies>
             <dependency id="dotnet4.5.2" version="4.5.2.20140902" />
