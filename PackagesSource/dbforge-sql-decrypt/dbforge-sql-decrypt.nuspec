@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <metadata>
+        <id>dbforge-sql-decrypt</id>
+        <version>3.1.24</version>
+        <title>dbForge SQL Decryptor</title>
+        <description>Decrypt SQL Server Procedures, Functions, Triggers, and Views
+It is not uncommon when database developers need a quick way to decrypt an encrypted stored procedure in a customer database. dbForge SQL Decryptor decrypts encrypted stored-procedures, views, triggers, and functions for FREE! 
+The tool provides you with the highly responsive UI, syntax highlighting, unicode support, batch mode, decryption caching and much more.</description>
+        <authors>Devart</authors>
+        <summary>dbForge SQL Decryptor</summary>
+        <projectUrl>https://www.devart.com/dbforge/sql/sqldecryptor/</projectUrl>
+        <iconUrl>https://cdn.rawgit.com/DevartSoftware/devart-chocolatey/3e4995f9/ProductsPng/sql-decrypt.png</iconUrl>
+        <licenseUrl>https://www.devart.com/dbforge/eula.html</licenseUrl>
+        <releaseNotes>https://www.devart.com/dbforge/sql/sqldecryptor/revision_history.html</releaseNotes>
+        <tags>DataBase Management Studio SQL Tools Decryptor</tags>
+        <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-decrypt</packageSourceUrl>
+        <docsUrl>https://www.devart.com/dbforge/sql/sqldecryptor/</docsUrl>
+        <dependencies>
+            <dependency id="dotnet4.5.2" version="4.5.2.20140902" />
+        </dependencies>
+    </metadata>
+</package>
