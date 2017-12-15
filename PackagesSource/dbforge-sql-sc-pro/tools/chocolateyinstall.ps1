@@ -8,10 +8,10 @@ $packageArgs = @{
   fileType      = 'exe' 
   url           = $url
   url64bit      = $url64
-  softwareName  = 'dbforge-sql-sc-pro' 
+  softwareName  = 'dbForge Schema Compare for SQL Server, v4.4.66 Professional Edition' 
   checksum      = '2F90C8AFA759180EB1E7D9FEC1C37DBEC80F7E1DEDEEB6837C69BAB7045AA276'
   checksumType  = 'sha256' 
-  silentArgs    = "/VERYSILENT"
+  silentArgs    = '/VERYSILENT'
   validExitCodes= @(0, 3010, 1641)
 }
 Install-ChocolateyPackage @packageArgs 

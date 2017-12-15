@@ -11,7 +11,7 @@
         <iconUrl>https://cdn.rawgit.com/DevartSoftware/devart-chocolatey/3e4995f9/ProductsPng/sql-doc.png</iconUrl>
         <licenseUrl>https://www.devart.com/dbforge/eula.html</licenseUrl>
         <releaseNotes>https://www.devart.com/dbforge/sql/documenter/revision_history.html</releaseNotes>
-        <tags>DataBase Management Studio SQL Tools Documentation </tags>
+        <tags>DataBase Management Studio SQL Tools Documentation</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-doc</packageSourceUrl>
         <docsUrl>https://www.devart.com/dbforge/sql/documenter/DocumenterSQLServer.chm</docsUrl>
         <dependencies>

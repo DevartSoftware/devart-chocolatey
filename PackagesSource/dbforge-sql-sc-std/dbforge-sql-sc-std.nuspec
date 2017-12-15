@@ -3,7 +3,7 @@
     <metadata>
         <id>dbforge-sql-sc-std</id>
         <version>4.4.66</version>
-        <title>dbForge Schema Compare for SQL Server Standart (Trial)</title>
+        <title>dbForge Schema Compare for SQL Server Standard (Trial)</title>
         <description>dbForge Schema Compare for SQL Server is a reliable tool that saves your time and effort when comparing and synchronizing databases on SQL Server. The tool allows working with live SQL Server databases, snapshots, and backups. You can quickly compare your SQL Server databases, analyze differences and perform error-free schema synchronization using generated SQL scripts.</description>
         <authors>Devart</authors>
         <summary>dbForge Schema Compare for SQL Server</summary>

@@ -8,10 +8,10 @@ $packageArgs = @{
   fileType      = 'exe' 
   url           = $url
   url64bit      = $url64
-  softwareName  = 'dbforge-pg-dc' 
+  softwareName  = 'dbForge Data Compare for PostgreSQL, v3.0.24 Standard Edition' 
   checksum      = '1971A40B48DDA4AEE6737C82DFCC303857DECF2C8611E07BA52B3D8A9725AAEC'
   checksumType  = 'sha256' 
-  silentArgs    = "/VERYSILENT"
+  silentArgs    = '/VERYSILENT'
   validExitCodes= @(0, 3010, 1641)
 }
 Install-ChocolateyPackage @packageArgs 

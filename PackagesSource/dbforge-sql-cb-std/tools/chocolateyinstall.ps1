@@ -8,10 +8,10 @@ $packageArgs = @{
   fileType      = 'exe' 
   url           = $url
   url64bit      = $url64
-  softwareName  = 'dbforge-sql-cb-std' 
+  softwareName  = 'Compare Bundle for SQL Server Standard' 
   checksum      = '1E0490CFDB753DAD1D78CAF780F85C0C1751A77D9A5DC70987758B32FF14C2E4'
   checksumType  = 'sha256' 
-  silentArgs    = "/VERYSILENT"
+  silentArgs    = '/VERYSILENT'
   validExitCodes= @(0, 3010, 1641)
 }
 Install-ChocolateyPackage @packageArgs 

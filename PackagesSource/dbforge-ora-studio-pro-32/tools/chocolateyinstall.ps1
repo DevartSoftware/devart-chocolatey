@@ -8,10 +8,10 @@ $packageArgs = @{
   fileType      = 'exe' 
   url           = $url
   url64bit      = $url64
-  softwareName  = 'dbforge-ora-studio-pro-32' 
+  softwareName  = 'Devart dbForge Studio for Oracle, v3.10 Trial Edition 32-bit' 
   checksum      = 'A7AABA2F4BEB9E0746E25EE9D7A81A6E80DAFD3182BB8EDD96C1E5E683FAEE4D'
   checksumType  = 'sha256' 
-  silentArgs    = "/VERYSILENT"
+  silentArgs    = '/VERYSILENT'
   validExitCodes= @(0, 3010, 1641)
 }
 Install-ChocolateyPackage @packageArgs 

@@ -8,10 +8,10 @@ $packageArgs = @{
   fileType      = 'exe' 
   url           = $url
   url64bit      = $url64
-  softwareName  = 'dbforge-mysql-dg' 
+  softwareName  = 'Devart dbForge Data Generator for MySQL, v1.7 Trial Edition' 
   checksum      = 'E616F55692AA90B5E8E77AC5863BCE95BF910B78B469448869277B08811324C2'
   checksumType  = 'sha256' 
-  silentArgs    = "/VERYSILENT"
+  silentArgs    = '/VERYSILENT'
   validExitCodes= @(0, 3010, 1641)
 }
 Install-ChocolateyPackage @packageArgs 

@@ -16,8 +16,6 @@ The tool provides you with the highly responsive UI, syntax highlighting, unicod
         <tags>DataBase Management Studio SQL Tools Decryptor</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-decrypt</packageSourceUrl>
         <docsUrl>https://www.devart.com/dbforge/sql/sqldecryptor/</docsUrl>
-        <dependencies>
-            <dependency id="dotnet4.5.2" version="4.5.2.20140902" />
-        </dependencies>
+        <dependencies />
     </metadata>
 </package>

@@ -8,10 +8,10 @@ $packageArgs = @{
   fileType      = 'exe' 
   url           = $url
   url64bit      = $url64
-  softwareName  = 'dbforge-sql-cmpl-std' 
+  softwareName  = 'dbForge SQL Complete, v5.7.210 Standard Edition' 
   checksum      = 'BA84E0DCB5D04899714CF122FB732D7255F52105EDA152CA1E3D0B3E2CD84C3C'
   checksumType  = 'sha256' 
-  silentArgs    = "/VERYSILENT"
+  silentArgs    = '/VERYSILENT'
   validExitCodes= @(0, 3010, 1641)
 }
 Install-ChocolateyPackage @packageArgs 

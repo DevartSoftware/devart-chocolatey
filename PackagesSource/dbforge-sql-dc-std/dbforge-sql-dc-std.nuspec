@@ -3,10 +3,10 @@
     <metadata>
         <id>dbforge-sql-dc-std</id>
         <version>4.3.85</version>
-        <title>dbForge Data Compare for SQL Server Standart (Trial)</title>
+        <title>dbForge Data Compare for SQL Server Standard (Trial)</title>
         <description>dbForge Data Compare for SQL Server is a powerful SQL comparison tool capable of working with big data and using native SQL Server backups as metadata source. With dbForge Data Compare you can tune your SQL database comparison, quickly analyze data differences, compare static data from local scripts folder against a database of source control project in a well-designed user interface, as well as effortlessly synchronize data via a convenient wizard.</description>
         <authors>Devart</authors>
-        <summary>dbForge Data Compare for SQL Server Standart</summary>
+        <summary>dbForge Data Compare for SQL Server Standard</summary>
         <projectUrl>https://www.devart.com/dbforge/sql/datacompare/</projectUrl>
         <iconUrl>https://cdn.rawgit.com/DevartSoftware/devart-chocolatey/3e4995f9/ProductsPng/sql-dc.png</iconUrl>
         <licenseUrl>https://www.devart.com/dbforge/eula.html</licenseUrl>
