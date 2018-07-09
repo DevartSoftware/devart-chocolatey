@@ -2,14 +2,14 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-mysql-qb</id>
-        <version>4.1.13</version>
+        <version>4.3.16</version>
         <title>dbForge Query Builder for MySQL (Trial)</title>
         <description>dbForge Query Builder for MySQL is a visual tool that allows to create any sort of MySQL queries, from simple lookups to complex JOINs. The tool enables extended data management in MySQL, MariaDB, and Percona server databases. Create and edit complex MySQL queries in just a few clicks. You don't need to type any code at all - just "draw" your query on a diagram. When you need to type some SQL code manually, comprehensive suggestions will simplify the task.</description>
         <authors>Devart</authors>
         <summary>dbForge Query Builder for MySQL Server</summary>
         <projectUrl>https://www.devart.com/dbforge/mysql/querybuilder/</projectUrl>
-        <iconUrl>https://cdn.rawgit.com/DevartSoftware/devart-chocolatey/15d7e698/ProductsPng/mysql-qb.png</iconUrl>
-        <licenseUrl>https://www.devart.com/dbforge/eula.html</licenseUrl>
+        <iconUrl>https://cdn.rawgit.com/DevartSoftware/devart-chocolatey/d441b1c1/ProductsPng/mysql-qb.png</iconUrl>
+        <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
         <releaseNotes>https://www.devart.com/dbforge/mysql/querybuilder/revision_history.html</releaseNotes>
         <tags>DataBase Management Studio MySQL Tools Query Builder</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-mysql-qb</packageSourceUrl>

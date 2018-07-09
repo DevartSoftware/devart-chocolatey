@@ -9,8 +9,8 @@ MySQL Compare Bundle contains two separate tools, dbForge Schema Compare for MyS
         <authors>Devart</authors>
         <summary>dbForge Compare Bundle for MySQL</summary>
         <projectUrl>https://www.devart.com/dbforge/mysql/compare-bundle/</projectUrl>
-        <iconUrl>https://cdn.rawgit.com/DevartSoftware/devart-chocolatey/15d7e698/ProductsPng/mysql-cb.png</iconUrl>
-        <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
+        <iconUrl>https://cdn.rawgit.com/DevartSoftware/devart-chocolatey/d441b1c1/ProductsPng/mysql-cb.png</iconUrl>
+        <licenseUrl>https://www.devart.com/dbforge/eula.htm</licenseUrl>
         <releaseNotes />
         <tags>DataBase Management Studio MySQL Tools Compare Bundle</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-mysql-cb-std</packageSourceUrl>
