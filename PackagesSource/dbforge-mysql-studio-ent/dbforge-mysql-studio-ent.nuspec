@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-mysql-studio-ent</id>
-        <version>7.3.131</version>
+        <version>7.3.137</version>
         <title>dbForge Studio for MySQL Enterprise (Trial)</title>
         <description>dbForge Studio for MySQL is a universal GUI tool for MySQL and MariaDB database administration, development, and management. The IDE allows to create and execute queries, develop and debug stored routines, automate database object management, analyze table data via an intuitive interface. The MySQL client delivers data and schema comparison and synchronization tools, database reporting tools, backup options with scheduling, and much more.
 Over 15,000 users rely on our MySQL front-end tool for managing, maintaining, and monitoring MySQL and MariaDB databases.</description>

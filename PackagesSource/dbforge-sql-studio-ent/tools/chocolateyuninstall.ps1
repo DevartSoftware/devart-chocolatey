@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop';
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  softwareName  = 'dbForge Studio for SQL Server, v5.5.311 Enterprise Edition'
+  softwareName  = 'dbForge Studio for SQL Server, v5.5.327 Enterprise Edition'
   fileType      = 'exe'
 
   silentArgs    = '/VERYSILENT'

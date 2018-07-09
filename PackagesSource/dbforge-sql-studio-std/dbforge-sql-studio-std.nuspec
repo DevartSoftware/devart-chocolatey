@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-sql-studio-std</id>
-        <version>5.5.311</version>
+        <version>5.5.327</version>
         <title>dbForge Studio for Sql Server Standard (Trial)</title>
         <description>dbForge Studio for SQL Server is a powerful IDE for SQL Server management, administration, development, data reporting and analysis. Trial version.</description>
         <authors>Devart</authors>

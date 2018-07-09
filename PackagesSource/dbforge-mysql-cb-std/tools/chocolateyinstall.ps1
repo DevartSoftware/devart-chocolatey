@@ -1,6 +1,6 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://www.devart.com/dbforge/mysql/compare-bundle/comparebundlemysqltrial.exe' 
+$url        = 'https://www.devart.com/dbforge/mysql/compare-bundle/comparebundlemysqlstd.exe' 
 $url64      = '' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -9,7 +9,7 @@ $packageArgs = @{
   url           = $url
   url64bit      = $url64
   softwareName  = 'Compare Bundle for MySQL Trial' 
-  checksum      = 'FA2262D9C0A5869682E2D7E3856662E2817848D7C28C502CFE189F8C6D2AE74F'
+  checksum      = '17D1E43876FC3F4C5ED8634B9902CD9086EB68BAC37048656E95CADB27C5C650'
   checksumType  = 'sha256' 
   silentArgs    = '/VERYSILENT'
   validExitCodes= @(0, 3010, 1641)
