@@ -1,13 +1,11 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url        = 'https://www.devart.com/dbforge/mysql/documenter/documentermysql11std.exe' 
-$url64      = '' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
-  url           = $url
-  url64bit      = $url64
+  url           = $url 
   softwareName  = 'dbForge Documenter for MySQL Server, v1.1.10 Standard Edition' 
   checksum      = 'B7F2C2D28C0FE03AF82D46F956E249C6138F525DB85C84454A7AF656EAFA7C6D'
   checksumType  = 'sha256' 
