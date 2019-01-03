@@ -2,18 +2,18 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-pg-dc</id>
-        <version>3.0.24</version>
+        <version>3.1.7.1</version>
         <title>dbForge Data Compare for PostgreSQL (Trial)</title>
         <description>dbForge Data Compare for PostgreSQL is a tool for table data comparison and synchronization. When using our PostgreSQL data compare tool you can detect data differences in compared PostgreSQL tables. You can also generate data synchronization script and execute it to eliminate all these differences.</description>
         <authors>Devart</authors>
         <summary>dbForge Data Compare for PostgreSQL</summary>
         <projectUrl>https://www.devart.com/dbforge/postgresql/datacompare/</projectUrl>
         <iconUrl>https://cdn.rawgit.com/DevartSoftware/devart-chocolatey/3e4995f9/ProductsPng/pg-dc.png</iconUrl>
-        <licenseUrl>https://www.devart.com/dbforge/eula.html</licenseUrl>
+        <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
         <releaseNotes>https://www.devart.com/dbforge/postgresql/datacompare/revision_history.html</releaseNotes>
         <tags>DataBase Management Studio Postgre SQL Tools Data Compare </tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-pg-dc</packageSourceUrl>
-        <docsUrl>https://www.devart.com/dbforge/postgresql/datacompare/DataComparePostgreSql.chm</docsUrl>
+        <docsUrl>https://docs.devart.com/data-compare-for-postgresql/</docsUrl>
         <dependencies>
             <dependency id="dotnet4.5.2" version="4.5.2.20140902" />
         </dependencies>

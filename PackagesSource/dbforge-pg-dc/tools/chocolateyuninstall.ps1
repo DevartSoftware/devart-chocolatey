@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop';
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  softwareName  = 'dbForge Data Compare for PostgreSQL, v3.0.24 Standard Edition'
+  softwareName  = 'dbForge Data Compare for PostgreSQL, v3.1.7 Standard Edition'
   fileType      = 'exe'
 
   silentArgs    = '/VERYSILENT'
