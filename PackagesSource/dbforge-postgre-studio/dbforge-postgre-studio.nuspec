@@ -2,8 +2,8 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-postgre-studio</id>
-        <version>2.0.111</version>
-        <title>dbForge Studio for PostgreSQL</title>
+        <version>2.1</version>
+        <title>dbForge Studio for PostgreSQL (Trial)</title>
         <description>dbForge Studio for PostgreSQL is a GUI tool for managing and developing databases and objects. The IDE for PostgreSQL allows users to create, develop, and execute queries, edit and adjust the code to your requirements in a convenient and user-friendly interface. The tool provides a data editing tool to customize your queries and property window so that users can view all the required information of PostgreSQL database objects they are interested in.</description>
         <authors>Devart</authors>
         <summary>dbForge Studio for Postgre</summary>
