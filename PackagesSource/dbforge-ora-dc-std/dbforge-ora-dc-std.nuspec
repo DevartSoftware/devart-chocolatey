@@ -2,18 +2,18 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-ora-dc-std</id>
-        <version>4.0.29</version>
+        <version>5.1.25</version>
         <title>dbForge Data Compare for Oracle Standart (Trial)</title>
         <description>dbForge Data Compare for Oracle is a powerful, fast, and easy-to-use tool for Oracle database comparison and synchronization. It helps you quickly compare data in two or more tables, find the differences at a glance, and generate a script to effortlessly synchronize data. All this is done in a clear graphical interface.</description>
         <authors>Devart</authors>
         <summary>dbForge Data Compare for Oracle</summary>
         <projectUrl>https://www.devart.com/dbforge/oracle/datacompare/</projectUrl>
-        <iconUrl>https://cdn.rawgit.com/DevartSoftware/devart-chocolatey/3e4995f9/ProductsPng/ora-dc.png</iconUrl>
-        <licenseUrl>https://www.devart.com/dbforge/eula.html</licenseUrl>
+        <iconUrl>https://rawcdn.githack.com/DevartSoftware/devart-chocolatey/e3fdf5c60876bb06e87a57554254ffd6a1628327/ProductsPng/dbforge_data_compare_for_oracle.png</iconUrl>
+        <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
         <releaseNotes>https://www.devart.com/dbforge/oracle/datacompare/revision_history.html</releaseNotes>
         <tags>DataBase Management Studio Oracle Tools Data Compare</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-ora-dc-std</packageSourceUrl>
-        <docsUrl>https://www.devart.com/dbforge/oracle/datacompare/DataCompareOracle.chm</docsUrl>
+        <docsUrl>https://docs.devart.com/data-compare-for-oracle/getting-started/installing.html</docsUrl>
         <dependencies>
             <dependency id="dotnet4.5.2" version="4.5.2.20140902" />
         </dependencies>
