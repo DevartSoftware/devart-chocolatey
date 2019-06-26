@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop';
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  softwareName  = 'Devart dbForge Studio for Oracle, v4.0.237 Enterprise Edition'
+  softwareName  = 'Devart dbForge Studio for Oracle, v4.1.48 Enterprise Edition'
   fileType      = 'exe'
 
   silentArgs    = '/VERYSILENT'
