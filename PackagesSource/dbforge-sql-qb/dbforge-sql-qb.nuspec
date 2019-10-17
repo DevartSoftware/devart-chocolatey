@@ -2,14 +2,14 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-sql-qb</id>
-        <version>3.12.39</version>
+        <version>3.15</version>
         <title>dbForge Query Builder for SQL Server (Trial)</title>
         <description>dbForge Query Builder for SQL Server allows users to build quickly and easily complex SQL queries via an intuitive visual interface without manual code writing. Our visual SQL query tool is designed to simplify development of SQL queries for SQL Server. Visual features and graphical SQL query designer for interactive query building will be most appreciated by users who often create databases queries.</description>
         <authors>Devart</authors>
         <summary>dbForge Query Builder for SQL Server</summary>
         <projectUrl>https://www.devart.com/dbforge/sql/querybuilder/</projectUrl>
         <iconUrl>https://cdn.rawgit.com/DevartSoftware/devart-chocolatey/3e4995f9/ProductsPng/sql-qb.png</iconUrl>
-        <licenseUrl>https://www.devart.com/dbforge/eula.html</licenseUrl>
+        <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
         <releaseNotes>https://www.devart.com/dbforge/sql/querybuilder/revision_history.html</releaseNotes>
         <tags>DataBase Management Studio SQL Tools Query Builder</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-qb</packageSourceUrl>
