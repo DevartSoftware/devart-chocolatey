@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-ora-doc-std</id>
-        <version>1.0.57</version>
+        <version>1.1.24</version>
         <title>dbForge Documenter for Oracle Standard (Trial)</title>
         <description>dbForge Documenter for Oracle is a handy visual tool for documenting Oracle databases. This Oracle documentation tool automatically generates documentation of an entire Oracle database in HTML, PDF, and MARKDOWN file formats. The tool includes a wide range of options to set up, customize and fine-tune the generated documentation and allows automating Oracle database documenting with the command-line interface.</description>
         <authors>Devart</authors>
@@ -13,7 +13,7 @@
         <releaseNotes>https://www.devart.com/dbforge/oracle/documenter/revision_history.html</releaseNotes>
         <tags>oracle database documentation, database documentation tool, oracle database documentation generator, oracle documentation tool, document oracle database</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-ora-doc-std</packageSourceUrl>
-        <docsUrl>http://docs.devart.com/documenter-for-oracle/getting-started/installing.html</docsUrl>
+        <docsUrl>https://docs.devart.com/documenter-for-oracle/getting-started/installing.html</docsUrl>
         <dependencies>
             <dependency id="dotnet4.5.2" version="4.5.2.20140902" />
         </dependencies>
