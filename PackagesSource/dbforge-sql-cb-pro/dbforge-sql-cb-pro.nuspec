@@ -2,14 +2,14 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-sql-cb-pro</id>
-        <version>1.5.5</version>
+        <version>5.8</version>
         <title>dbForge Compare Bundle for SQL Server Professional (Trial)</title>
         <description>Grab the full power to handle changes in your databases with dbForge Compare Bundle for SQL Server. It will save you hours of work comparing and deploying SQL Server databases. SQL Compare Bundle contains two separate tools, dbForge Schema Compare for SQL Server and dbForge Data Compare for SQL Server, and offers a significant discount if compared with purchasing each tool separately.</description>
         <authors>Devart</authors>
-        <summary>dbForge Compare Bundle for SQL Server Professional</summary>
+        <summary>dbForge Compare Bundle for SQL Server Professional (Trial)</summary>
         <projectUrl>https://www.devart.com/dbforge/sql/compare-bundle/</projectUrl>
-        <iconUrl>https://cdn.rawgit.com/DevartSoftware/devart-chocolatey/3e4995f9/ProductsPng/sql-cb.png</iconUrl>
-        <licenseUrl>https://www.devart.com/dbforge/eula.html</licenseUrl>
+        <iconUrl>https://rawcdn.githack.com/DevartSoftware/devart-chocolatey/fff24863e0cc645c88f14256371e7e19b3b8655b/ProductsPng/sql-cb.png</iconUrl>
+        <licenseUrl>https://www.devart.com/using-website/eula.htm</licenseUrl>
         <releaseNotes />
         <tags>DataBase Management Studio SQL Tools Compare Bundle</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-cb-pro</packageSourceUrl>
