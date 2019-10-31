@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-sql-cmpl-std</id>
-        <version>6.2</version>
+        <version>6.2.37</version>
         <title>dbForge SQL Complete Standard (Trial)</title>
         <description>dbForge SQL Complete is an intellisense add-in for SQL Server Management Studio, designed to provide the fastest T-SQL query typing ever possible. Main features: context-sensitive code completion, parameter infomation, SQL formatting, quick info about database objects. Trial version.</description>
         <authors>Devart</authors>
