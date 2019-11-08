@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <metadata>
+        <id>dbforge-ora-fus</id>
+        <version>3.9.12</version>
+        <title>dbForge Fusion for Oracle (Trial)</title>
+        <description>dbForge Fusion for Oracle (formerly known as OraDeveloper Tools) is a useful Visual Studio plugin designed to enhance productivity of Oracle database development and simplify data management process. Full integration with Microsoft Visual Studio dbForge Fusion for Oracle allows developers to explore and maintain existing databases, design compound SQL statements and queries, and manipulate data in different ways.</description>
+        <authors>Devart</authors>
+        <summary>dbForge Fusion for Oracle</summary>
+        <projectUrl>https://www.devart.com/dbforge/oracle/fusion/</projectUrl>
+        <iconUrl>https://rawcdn.githack.com/DevartSoftware/devart-chocolatey/afa650dcdc39ef4c61f9444d3dac29715c6723ff/ProductsPng/dbforge_fusion_for_oracle.png</iconUrl>
+        <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
+        <releaseNotes>https://www.devart.com/dbforge/oracle/fusion/revision_history.html</releaseNotes>
+        <tags>DataBase Development Fusion Oracle Tools Query Debugger</tags>
+        <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-ora-fus</packageSourceUrl>
+        <docsUrl>http://docs.devart.com/fusion-for-oracle/</docsUrl>
+        <dependencies>
+            <dependency id="dotnet4.5.2" version="4.5.2.20140902" />
+        </dependencies>
+    </metadata>
+</package>
