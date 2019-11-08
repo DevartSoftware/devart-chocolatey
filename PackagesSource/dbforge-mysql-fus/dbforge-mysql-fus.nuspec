@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <metadata>
+        <id>dbforge-mysql-fus</id>
+        <version>6.5.15</version>
+        <title>dbForge Fusion for MySQL (Trial)</title>
+        <description>dbForge Fusion for MySQL is a powerful Visual Studio plugin designed to simplify MySQL database development and enhance data management capabilities. When you integrate dbForge Fusion for MySQL into Microsoft Visual Studio, all database development and administration tasks become available from your IDE. It provides an easier way to explore and maintain existing databases, design compound SQL statements and queries, and manipulate data in different ways.</description>
+        <authors>Devart</authors>
+        <summary>dbForge Fusion for MySQL</summary>
+        <projectUrl>https://www.devart.com/dbforge/mysql/fusion/</projectUrl>
+        <iconUrl>https://rawcdn.githack.com/DevartSoftware/devart-chocolatey/3ee94920c7da42598bbebe90ced5d18b1ad01d51/ProductsPng/dbforge_fusion_for_mysql.png</iconUrl>
+        <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
+        <releaseNotes>https://www.devart.com/dbforge/mysql/fusion/revision_history.html</releaseNotes>
+        <tags>DataBase Development Fusion MySQL Tools Delphi Debugger</tags>
+        <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-mysql-fus</packageSourceUrl>
+        <docsUrl>http://docs.devart.com/fusion-for-mysql/</docsUrl>
+        <dependencies>
+            <dependency id="dotnet4.5.2" version="4.5.2.20140902" />
+        </dependencies>
+    </metadata>
+</package>
