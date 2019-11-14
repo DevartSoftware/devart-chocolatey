@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <metadata>
+        <id>dbforge-sql-sc</id>
+        <version>2.0</version>
+        <title>dbForge Source Control for SQL Server (Trial)</title>
+        <description>dbForge Source Control for SQL Server is a powerful SSMS add-in for managing SQL Server database changes in source control. The tool can link your databases to all popular source control systems, and delivers smooth and clear workflow in a familiar interface.</description>
+        <authors>Devart</authors>
+        <summary>dbForge Source Control for SQL Server</summary>
+        <projectUrl>https://www.devart.com/dbforge/sql/source-control/</projectUrl>
+        <iconUrl>https://rawcdn.githack.com/DevartSoftware/devart-chocolatey/bb7ab8354c9e3564eb43875b91cbbceac5612b94/ProductsPng/dbforge_source_control_for_sql_server.png</iconUrl>
+        <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
+        <releaseNotes>https://www.devart.com/dbforge/sql/source-control/revision_history.html</releaseNotes>
+        <tags>DataBase source version control  SQL Tools Trial</tags>
+        <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-sc</packageSourceUrl>
+        <docsUrl>http://docs.devart.com/source-control/</docsUrl>
+        <dependencies>
+            <dependency id="dotnet4.5.2" version="4.5.2.20140902" />
+        </dependencies>
+    </metadata>
+</package>
