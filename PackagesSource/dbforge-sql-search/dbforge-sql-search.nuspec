@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <metadata>
+        <id>dbforge-sql-search</id>
+        <version>2.4</version>
+        <title>dbForge Search for SQL Server</title>
+        <description>dbForge Search for SQL Server is a FREE add-in for Microsoft SQL Server Management Studio that allows you to quickly locate SQL objects, data, and text in your databases. With dbForge Search for SQL Server, you no longer need to look through the entire SSMS Object Explorer to locate a required column name, or text in a stored procedure.</description>
+        <authors>Devart</authors>
+        <summary>dbForge Search for SQL Server</summary>
+        <projectUrl>https://www.devart.com/dbforge/sql/search/</projectUrl>
+        <iconUrl>https://rawcdn.githack.com/DevartSoftware/devart-chocolatey/e9093aafaae364f967bc9cf6d581124d8770679f/ProductsPng/dbforge_search_for_sql_server.png</iconUrl>
+        <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
+        <releaseNotes>https://www.devart.com/dbforge/sql/search/revision_history.html</releaseNotes>
+        <tags>DataBase SQL Search Tools find Free</tags>
+        <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-search</packageSourceUrl>
+        <docsUrl>http://docs.devart.com/search/</docsUrl>
+        <dependencies>
+            <dependency id="dotnet4.5.2" version="4.5.2.20140902" />
+        </dependencies>
+    </metadata>
+</package>
