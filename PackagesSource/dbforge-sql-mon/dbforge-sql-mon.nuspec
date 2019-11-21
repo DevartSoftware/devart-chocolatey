@@ -15,7 +15,7 @@
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-mon</packageSourceUrl>
         <docsUrl>http://docs.devart.com/monitor/</docsUrl>
         <dependencies>
-            <dependency id="dotnet4.5.2" version="4.5.2.20140902" />
+            <dependency id="dotnet4.7.2" version="4.7.2.20180712" />
         </dependencies>
     </metadata>
 </package>
