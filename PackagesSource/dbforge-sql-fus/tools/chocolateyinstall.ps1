@@ -1,13 +1,13 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://www.devart.com/dbforge/sql/fusion/dbforgesqlvs10.exe' 
+$url        = 'https://www.devart.com/dbforge/sql/fusion/dbforgesql111vs17.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
   softwareName  = 'Devart dbForge Fusion for SQL Server, v1.11.10 Trial Edition' 
-  checksum      = 'AE9A095A80C071D41823955C23459174C4BE7888FE5C97AC32B86F943AE00DEE'
+  checksum      = 'F44F5E389528F20E417141E60AAB4E38B7A895A9FE8B071B4843D638B7DA2C89'
   checksumType  = 'sha256' 
   silentArgs    = '/VERYSILENT'
   validExitCodes= @(0, 3010, 1641)
