@@ -15,7 +15,7 @@
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-sc</packageSourceUrl>
         <docsUrl>http://docs.devart.com/source-control/</docsUrl>
         <dependencies>
-            <dependency id="dotnet4.5.2" version="4.5.2.20140902" />
+            <dependency id="dotnet4.7.2" version="4.7.2.20140902" />
         </dependencies>
     </metadata>
 </package>
