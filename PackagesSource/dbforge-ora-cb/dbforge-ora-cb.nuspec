@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <metadata>
+        <id>dbforge-ora-cb</id>
+        <version>4.1.30</version>
+        <title>dbForge Compare Bundle for Oracle Professional (Trial)</title>
+        <description>Grab the full power to handle changes in your databases with dbForge Compare Bundle for Oracle. It will save you hours of work comparing and deploying Oracle databases.
+Oracle Compare Bundle contains two separate tools, dbForge Schema Compare for Oracle and dbForge Data Compare for Oracle, and offers a significant discount if compared with purchasing each tool separately.</description>
+        <authors>Devart</authors>
+        <summary>dbForge Compare Bundle for Oracle Professional</summary>
+        <projectUrl>https://www.devart.com/dbforge/oracle/compare-bundle/</projectUrl>
+        <iconUrl>https://rawcdn.githack.com/DevartSoftware/devart-chocolatey/8bf7fcb1e3a289537e4fa7d53dc436c198f6dea1/ProductsPng/dbforge_compare_bundle_for_oracle.png</iconUrl>
+        <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
+        <releaseNotes>https://www.devart.com/dbforge/oracle/schemacompare/revision_history.html</releaseNotes>
+        <tags>DataBase Management Studio Oracle Tools Compare Bundle</tags>
+        <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-ora-cb</packageSourceUrl>
+        <docsUrl>https://www.devart.com/dbforge/oracle/compare-bundle/</docsUrl>
+        <dependencies>
+            <dependency id="dotnetfx" version="4.8.0.20190930" />
+        </dependencies>
+    </metadata>
+</package>
