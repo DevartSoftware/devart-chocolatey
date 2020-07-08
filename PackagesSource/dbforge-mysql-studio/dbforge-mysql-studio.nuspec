@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <metadata>
+        <id>dbforge-mysql-studio</id>
+        <version>9.0.304.20200707</version>
+        <title>dbForge Studio for MySQL</title>
+        <description>dbForge Studio for MySQL is a universal GUI tool for MySQL and MariaDB database administration, development, and management. The IDE allows to create and execute queries, develop and debug stored routines, automate database object management, analyze table data via an intuitive interface. The MySQL client delivers data and schema comparison and synchronization tools, database reporting tools, backup options with scheduling, and much more.
+Over 15,000 users rely on our MySQL front-end tool for managing, maintaining, and monitoring MySQL and MariaDB databases.</description>
+        <authors>Devart</authors>
+        <summary>dbForge Studio for MySQL</summary>
+        <projectUrl>https://www.devart.com/dbforge/mysql/studio/</projectUrl>
+        <iconUrl>https://cdn.rawgit.com/DevartSoftware/devart-chocolatey/3e4995f9/ProductsPng/mysql-studio.png</iconUrl>
+        <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
+        <releaseNotes>http://choco.devart.com/s/156F7D1309AA7691EAD9DBF0D02F01D84D92285362B6DBFCD26D5D0B189AEE26/revision_history.html</releaseNotes>
+        <tags>DataBase Management Studio MySQL Tools</tags>
+        <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-mysql-studio</packageSourceUrl>
+        <docsUrl>https://docs.devart.com/studio-for-mysql/</docsUrl>
+        <dependencies>
+            <dependency id="dotnetfx" version="4.8.0.20190930" />
+        </dependencies>
+    </metadata>
+</package>
