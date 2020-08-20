@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-sql-studio-pro</id>
-        <version>5.8</version>
+        <version>5.8.107</version>
         <title>dbForge Studio for Sql Server Professional (Trial)</title>
         <description>dbForge Studio for SQL Server is a powerful IDE for SQL Server management, administration, development, data reporting and analysis. Trial version.</description>
         <authors>Devart</authors>
@@ -15,7 +15,7 @@
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-studio-pro</packageSourceUrl>
         <docsUrl>http://docs.devart.com/studio-for-sql-server/</docsUrl>
         <dependencies>
-            <dependency id="dotnet4.5.2" version="4.5.2.20140902" />
+            <dependency id="dotnetfx" version="4.7.2" />
         </dependencies>
     </metadata>
 </package>
