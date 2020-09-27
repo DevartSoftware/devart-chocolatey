@@ -6,10 +6,10 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Studio for SQL Server, v5.8 Express Edition' 
-  checksum      = 'C0AF0F13D12FE8EAE05D8DFF06717440C3EEE909D073236FB1171A4B34629348'
+  softwareName  = 'dbForge Studio for SQL Server, v5.8.107 Express Edition' 
+  checksum      = '9F2BD9D05CDF64C982280537337B7277D267DD022DF520A9DFA4A13F5CAF3CB2'
   checksumType  = 'sha256' 
-  silentArgs    = '/VERYSILENT'
+  silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1641)
 }
 Install-ChocolateyPackage @packageArgs 
