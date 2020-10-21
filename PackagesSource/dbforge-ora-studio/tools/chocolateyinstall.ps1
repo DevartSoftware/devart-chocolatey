@@ -6,7 +6,7 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'Devart dbForge Studio for Oracle, v4.2.20' 
+  softwareName  = 'dbForge Studio 2020 for Oracle, v4.2.20' 
   checksum      = '9FCD6AB9BD99CBE420A714555D5BC414A88EAD8BA3656CDA8963DBE967B80D5B'
   checksumType  = 'sha256' 
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
