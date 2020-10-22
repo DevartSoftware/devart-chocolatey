@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-ora-dc</id>
-        <version>5.2.8</version>
+        <version>5.2.8.20201022</version>
         <title>dbForge Data Compare for Oracle (Trial)</title>
         <description>dbForge Data Compare for Oracle is a powerful, fast, and easy-to-use tool for Oracle database comparison and synchronization. It helps you quickly compare data in two or more tables, find the differences at a glance, and generate a script to effortlessly synchronize data. All this is done in a clear graphical interface.</description>
         <authors>Devart</authors>
