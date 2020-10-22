@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-ora-doc-std</id>
-        <version>1.1.24</version>
+        <version>1.2.12.20201022</version>
         <title>dbForge Documenter for Oracle Standard (Trial)</title>
         <description>dbForge Documenter for Oracle is a handy visual tool for documenting Oracle databases. This Oracle documentation tool automatically generates documentation of an entire Oracle database in HTML, PDF, and MARKDOWN file formats. The tool includes a wide range of options to set up, customize and fine-tune the generated documentation and allows automating Oracle database documenting with the command-line interface.</description>
         <authors>Devart</authors>
@@ -10,12 +10,12 @@
         <projectUrl>https://www.devart.com/dbforge/oracle/documenter/</projectUrl>
         <iconUrl>https://cdn.rawgit.com/DevartSoftware/devart-chocolatey/96900030/ProductsPng/ora-doc.png</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://www.devart.com/dbforge/oracle/documenter/revision_history.html</releaseNotes>
-        <tags>oracle database documentation, database documentation tool, oracle database documentation generator, oracle documentation tool, document oracle database</tags>
+        <releaseNotes>http://choco.devart.com/s/AF1DB2CA86BF8836A9C986E92357117617B2AB7DBEB1FA0D33D7B07D8E18B1E5/revision_history.html</releaseNotes>
+        <tags>Oracle database documentation tool generator</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-ora-doc-std</packageSourceUrl>
-        <docsUrl>https://docs.devart.com/documenter-for-oracle/getting-started/installing.html</docsUrl>
+        <docsUrl>http://docs.devart.com/documenter-for-oracle/</docsUrl>
         <dependencies>
-            <dependency id="dotnet4.5.2" version="4.5.2.20140902" />
+            <dependency id="dotnetfx" version="4.7.2" />
         </dependencies>
     </metadata>
 </package>
