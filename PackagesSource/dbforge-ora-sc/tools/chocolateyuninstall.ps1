@@ -1,10 +1,10 @@
 $ErrorActionPreference = 'Stop';
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  softwareName  = 'Devart dbForge Schema Compare for Oracle,v4.1 Trial Edition'
+  softwareName  = 'dbForge Schema Compare for Oracle, v4.2.12'
   fileType      = 'exe'
 
-  silentArgs    = '/VERYSILENT'
+  silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
 }
 
