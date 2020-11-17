@@ -1,15 +1,15 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://www.devart.com/dbforge/oracle/compare-bundle/comparebundleoracle.exe' 
+$url        = 'http://choco.devart.com/s/1EE320B326B94AFA7D2C920DFFB3F15738374408F26ED33AACA00CCBCF16F05D/schemacompareoracle42.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'Devart dbForge Schema Compare for Oracle,v4.1 Trial Edition' 
-  checksum      = '5735DF24DE02BCD7335526B95D48E7C3CF83595CDE8FC14395DD3A1A1E4F1E6C'
+  softwareName  = 'dbForge Schema Compare for Oracle, v4.2.12' 
+  checksum      = '1EE320B326B94AFA7D2C920DFFB3F15738374408F26ED33AACA00CCBCF16F05D'
   checksumType  = 'sha256' 
-  silentArgs    = '/VERYSILENT'
+  silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1641)
 }
 Install-ChocolateyPackage @packageArgs 
