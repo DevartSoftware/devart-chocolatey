@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <metadata>
+        <id>dbforge-sql-studio</id>
+        <version>6.0.303.20210323</version>
+        <title>dbForge Studio for Sql Server Professional (Trial)</title>
+        <description>dbForge Studio for SQL Server is a powerful IDE for SQL Server management, administration, development, data reporting and analysis. Trial version.</description>
+        <authors>Devart</authors>
+        <summary>dbForge Studio for SQL Server Professional (Trial)</summary>
+        <projectUrl>https://www.devart.com/dbforge/sql/studio</projectUrl>
+        <iconUrl>https://cdn.rawgit.com/DevartSoftware/devart-chocolatey/3e4995f9/ProductsPng/sql-studio.png</iconUrl>
+        <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
+        <releaseNotes>https://www.devart.com/dbforge/sql/studio/revision_history.html</releaseNotes>
+        <tags>DataBase Management Studio SQL Tools</tags>
+        <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-studio</packageSourceUrl>
+        <docsUrl>http://docs.devart.com/studio-for-sql-server/</docsUrl>
+        <dependencies>
+            <dependency id="dotnetfx" version="4.7.2" />
+        </dependencies>
+    </metadata>
+</package>
