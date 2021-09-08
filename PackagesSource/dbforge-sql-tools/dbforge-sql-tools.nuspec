@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-sql-tools</id>
-        <version>5.8.24</version>
+        <version>6.0.2.20210906</version>
         <title>dbForge SQL Tools Professional (Trial)</title>
         <description>SQL Tools is a tool pack that provides many essential features for any Microsoft SQL Server developer and is designed not only to boost productivity but also to reduce expenses while performing routine tasks, and automate database development and deployment with dbForge DevOps Automation.</description>
         <authors>Devart</authors>
@@ -16,7 +16,6 @@
         <docsUrl>https://www.devart.com/dbforge/sql/sql-tools/</docsUrl>
         <dependencies>
             <dependency id="dotnetfx" version="4.8.0.20190930" />
-            <dependency id="sql-server-management-studio" version="15.0.18206.0" />
         </dependencies>
     </metadata>
 </package>
