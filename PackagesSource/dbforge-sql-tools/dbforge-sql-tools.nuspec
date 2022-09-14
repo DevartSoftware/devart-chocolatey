@@ -2,16 +2,21 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-sql-tools</id>
-        <version>6.2.3.20220830</version>
+        <version>6.3.1.20220912</version>
         <title>dbForge SQL Tools Professional</title>
-        <description>dbForge SQL Tools
-A set of SSMS enhancements for complete performance  
-dbForge SQL Tools is a set of 15 solutions integrated with SSMS to enhance its functionality and make it a complete solution. With these add-ons, users can get all the functionality that the SSMS IDE lacks in a habitual interface. It improves the existing capacities of TSQL code writing and refactoring, handling database objects, documenting the databases, implementing DevOps, and provides many more options.  
+        <description>## dbForge SQL Tools
+
+A set of SSMS enhancements for complete performance 
+
+dbForge SQL Tools is a set of 15 solutions integrated with SSMS to enhance its functionality and make it a complete solution. With these add-ons, users can get all the functionality that the SSMS IDE lacks in a habitual interface. It improves the existing capacities of TSQL code writing and refactoring, handling database objects, documenting the databases, implementing DevOps, and provides many more options. 
+
 Key benefits of dbForge SQL Tools: 
-Set up CI procedures with all required steps covered. Prepare and perform T-SQL unit tests, and automate the database deployment. 
-Write, format, proofread and refactor the TSQL codes of any complexity. Such additional options as a visual query builder, auto-completion, code snippets, and formatting profiles let the users produce high-quality code for any database-related purpose much faster than before. 
-Search for database objects and decrypt them. Users can search for objects, data, and text. The tools also allow viewing and decrypting the SQL Server functions, triggers, views, and stored procedures, in a neat and accurate interface. 
-Document the databases. A separate mini-tool scans and documents the entire SQL Server database. The documentation files are available in several formats, with convenient navigation and search options. 
+
+* Set up CI procedures with all required steps covered. Prepare and perform T-SQL unit tests, and automate the database deployment. 
+* Write, format, proofread and refactor the TSQL codes of any complexity. Such additional options as a visual query builder, auto-completion, code snippets, and formatting profiles let the users produce high-quality code for any database-related purpose much faster than before. 
+* Search for database objects and decrypt them. Users can search for objects, data, and text. The tools also allow viewing and decrypting the SQL Server functions, triggers, views, and stored procedures, in a neat and accurate interface. 
+* Document the databases. A separate mini-tool scans and documents the entire SQL Server database. The documentation files are available in several formats, with convenient navigation and search options. 
+
 By applying the dbForge SQL Tools package to SSMS, you are extending the default functionality of that Microsoft's IDE. Perform all tasks with one system. There is no need for searching any additional plug-ins for SSMS, as SQL Tools cover all the necessary enhancements in one set. 
 </description>
         <authors>Devart</authors>
