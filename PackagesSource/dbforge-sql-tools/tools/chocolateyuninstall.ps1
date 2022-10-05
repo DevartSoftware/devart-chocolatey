@@ -42,8 +42,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge SQL Complete, v6.12.6'
-  softwareName  = 'dbForge SQL Complete, v6.12.6'
+  packageName   = 'dbForge SQL Complete, v6.12.8'
+  softwareName  = 'dbForge SQL Complete, v6.12.8'
   fileType      = 'exe'
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  

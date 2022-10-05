@@ -31,15 +31,15 @@ $packageArgs = @{
 }
 Install-ChocolateyPackage @packageArgs 
 #SQLComplete
-$url        = 'https://choco.devart.com/s/18E93FCF52F94F70617351570BB12D2A0766EE3EEC88EC8FAC2D8EF0C296C289/sqlcompletesql612.exe' 
+$url        = 'https://choco.devart.com/s/20B19658DDA42D08FACFA7750CEFADEC9CEF36B989B17EDE87C9EA3B3B7C64E8/sqlcompletesql612.exe' 
 $packageArgs = @{
 #  packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge SQL Complete, v6.12.6' 
-  packageName   = 'dbForge SQL Complete, v6.12.6'
-  checksum      = '18E93FCF52F94F70617351570BB12D2A0766EE3EEC88EC8FAC2D8EF0C296C289'
+  softwareName  = 'dbForge SQL Complete, v6.12.8' 
+  packageName   = 'dbForge SQL Complete, v6.12.8'
+  checksum      = '20B19658DDA42D08FACFA7750CEFADEC9CEF36B989B17EDE87C9EA3B3B7C64E8'
   checksumType  = 'sha256' 
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(1, 0, 3010, 1641)
