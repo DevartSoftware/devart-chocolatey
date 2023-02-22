@@ -46,15 +46,15 @@ $packageArgs = @{
 }
 Install-ChocolateyPackage @packageArgs 
 #SourceControl
-$url        = 'https://choco.devart.com/s/7E545177E47BFCA9F8E6DAA867A6CFD28DD0BD041FAFF0F4AD8A2748E1E2D64B/sourcecontrolsql25.exe' 
+$url        = 'https://choco.devart.com/s/B5CFE9A4C776B7C4C4E079C8FC37E1998487340B1AC9F399C57903DAB99CF832/sourcecontrolsql25.exe' 
 $packageArgs = @{
 #  packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
-  url           = $url 
-  softwareName  = 'dbForge Source Control for SQL Server, v2.5.27' 
-  packageName   = 'dbForge Source Control for SQL Server, v2.5.27'
-  checksum      = '7E545177E47BFCA9F8E6DAA867A6CFD28DD0BD041FAFF0F4AD8A2748E1E2D64B'
+  url           = $url
+  softwareName  = 'dbForge Source Control for SQL Server, v2.5.28' 
+  packageName   = 'dbForge Source Control for SQL Server, v2.5.28'
+  checksum      = 'B5CFE9A4C776B7C4C4E079C8FC37E1998487340B1AC9F399C57903DAB99CF832'
   checksumType  = 'sha256' 
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(1, 0, 3010, 1641)

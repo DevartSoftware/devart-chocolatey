@@ -52,8 +52,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Source Control for SQL Server, v2.5.27'
-  softwareName  = 'dbForge Source Control for SQL Server, v2.5.27'
+  packageName   = 'dbForge Source Control for SQL Server, v2.5.28'
+  softwareName  = 'dbForge Source Control for SQL Server, v2.5.28'
   fileType      = 'exe'
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
