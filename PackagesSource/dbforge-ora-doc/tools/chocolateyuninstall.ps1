@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop';
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  softwareName  = 'dbForge Documenter for Oracle, v1.2.12'
+  softwareName  = 'dbForge Documenter for Oracle, v1.5.15'
   fileType      = 'exe'
 
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
