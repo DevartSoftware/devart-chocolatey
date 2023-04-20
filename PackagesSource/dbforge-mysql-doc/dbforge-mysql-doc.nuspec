@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <metadata>
+        <id>dbforge-mysql-doc</id>
+        <version>2.2.4</version>
+        <title>dbForge Documenter for MySQL</title>
+        <description>A powerful solution for documenting databases 
+
+dbForge Documenter for MySQL is a software tool that creates precise and comprehensive documentation for MySQL and MariaDB databases. Such file formats as PDF, HTML, and Markdown are available. The accurate navigation makes the documents even more user-friendly. 
+
+The Documentation tool works automatically, thus saving users a lot of time. The resulting documentation covers all the objects with their properties and dependencies, and DDL codes. Robust customization options let you set the layout of all documents and apply different visual themes to match the users’ preferences and make the information better readable. 
+
+The Documenter is a part of the whole database management dbForge Studio for MySQL, and also it can be a stand-alone tool. You can use the fully-functional Trial to evaluate the software properly.
+</description>
+        <authors>Devart</authors>
+        <summary>A powerful solution for documenting databases</summary>
+        <projectUrl>https://www.devart.com/dbforge/mysql/documenter/</projectUrl>
+        <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-mysql-documenter.svg</iconUrl>
+        <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
+        <releaseNotes>https://choco.devart.com/s/2B83AA821E4557560A674C4DE62976A927B938056E300CDCD174576CE50C9FE6/revision_history.html</releaseNotes>
+        <tags>mysql mariadb database Development Tool rdbms Ide Windows Sql  Data Export Import</tags>
+        <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-mysql-doc</packageSourceUrl>
+        <docsUrl>https://docs.devart.com/documenter-for-mysql/</docsUrl>
+        <dependencies>
+            <dependency id="dotnet4.7.2" version="4.7.2.20140902" />
+        </dependencies>
+    </metadata>
+</package>
