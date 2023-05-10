@@ -1,1 +1,1 @@
-# test devart-chocolatey
+# devart-chocolatey
