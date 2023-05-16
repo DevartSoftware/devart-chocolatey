@@ -2,20 +2,27 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-sql-ep</id>
-        <version>1.5</version>
+        <version>1.8.18</version>
         <title>dbForge Event Profiler for SQL Server</title>
-        <description>dbForge Event Profiler for SQL Server is a FREE tool that allows you to capture and analyze SQL Server events. The events and data columns are stored in a physical trace file for later examination. You can use this information to identify and troubleshoot many SQL Server-related problems.</description>
+        <description>Professional solution for collecting and analyzing trace data 
+
+dbForge Event Profiler for SQL Server is a free add-in for SSMS designed to trace and analyze events in SQL Server. The purpose of this mini-tool is to detect problems related to SQL Server and identify their causes. Event Profiler can track all sessions on servers and queries executed there, and define all bottlenecks. 
+
+Users can identify which queries affect the server performance most, and inspect them in-depth. Also, it is possible to track the users’ activities and their impact on the SQL Server resources. As proper audit is essential for proper database management, Event Profiler helps in this aspect significantly. 
+
+The tool is also a part of the dbForge Studio for SQL Server – a powerful IDE that is more functional than SSMS.</description>
         <authors>Devart</authors>
-        <summary>dbForge Event Profiler for SQL Server</summary>
+        <owners>Devart</owners>
+        <summary>Professional solution for collecting and analyzing trace data</summary>
         <projectUrl>https://www.devart.com/dbforge/sql/event-profiler/</projectUrl>
-        <iconUrl>https://cdn.rawgit.com/DevartSoftware/devart-chocolatey/3e4995f9/ProductsPng/sql-ep.png</iconUrl>
+        <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-event-profiler.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://www.devart.com/dbforge/sql/event-profiler/revision_history.html</releaseNotes>
-        <tags>DataBase Management Studio SQL Tools Event Profiler</tags>
+        <releaseNotes>https://choco.devart.com/s/7E28CFD8611BA3B841B898640678E83078F34A865648BB87DA9DA97BC36CA2C4/revision_history.html</releaseNotes>
+        <tags>MSSQL Database SQL Tools SQLServer Event Profiler Trace</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-ep</packageSourceUrl>
-        <docsUrl>https://www.devart.com/dbforge/sql/event-profiler/EventProfilerSQLServer.chm</docsUrl>
+        <docsUrl>https://www.devart.com/dbforge/sql/event-profiler/</docsUrl>
         <dependencies>
-            <dependency id="dotnet4.5.2" version="4.5.2.20140902" />
+            <dependency id="dotnetfx" version="4.7.2" />
         </dependencies>
     </metadata>
 </package>
