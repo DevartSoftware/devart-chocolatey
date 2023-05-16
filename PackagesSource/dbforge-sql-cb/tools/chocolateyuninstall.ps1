@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop';
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  softwareName  = 'Compare Bundle for SQL Server, v6.4.1'
+  softwareName  = 'Compare Bundle for SQL Server, v6.4.2'
   fileType      = 'exe'
 
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'

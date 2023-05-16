@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-sql-cb</id>
-        <version>6.4.1.20230426</version>
+        <version>6.4.2</version>
         <title>dbForge Compare Bundle for SQL Server</title>
         <description>Dedicated tools for comparing database schemas and data 
 
@@ -18,7 +18,7 @@ The Bundle comes with a significant discount in comparison with purchasing both 
         <projectUrl>https://www.devart.com/dbforge/sql/compare-bundle/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-compare-bundle.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/898404F7C4BFAA08C1BF49C497403728244E87557E66EDDB80A28AA92F6C9DCB/revision_history.html</releaseNotes>
+        <releaseNotes>https://choco.devart.com/s/53A276B30D3C047BEBCDAE94E853176EDDB493A4AFCF3AE0D02CD171EE1CB820/revision_history.html</releaseNotes>
         <tags>MSSQL Database SQL Tools SQLServer Admin DBA Schema Data Compare Comparison Diff Sync</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-cb</packageSourceUrl>
         <docsUrl>https://www.devart.com/dbforge/sql/compare-bundle/</docsUrl>
