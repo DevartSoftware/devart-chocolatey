@@ -2,18 +2,25 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-sql-dc</id>
-        <version>5.1.61.20210905</version>
-        <title>dbForge Data Compare for SQL Server (Trial)</title>
-        <description>dbForge Data Compare for SQL Server is a powerful SQL comparison tool capable of working with big data and using native SQL Server backups as metadata source. With dbForge Data Compare you can tune your SQL database comparison, quickly analyze data differences, compare static data from local scripts folder against a database of source control project in a well-designed user interface, as well as effortlessly synchronize data via a convenient wizard.</description>
+        <version>5.3.25</version>
+        <title>dbForge Data Compare for SQL Server</title>
+        <description>Cutting-edge tool for comparing and synchronizing the database data
+
+dbForge Data Compare for SQL Server is a dedicated software tool that compares SQL data in databases. It is equally efficient working with databases, backups, and script folders. This tool allows you to compare the data of tables and review all discrepancies (export reports into several file formats if needed). After that, it can synchronize the databases with precise configuration. 
+
+After comparing the data, it is possible to restore missing/corrupted data from backups up to one row. The data synchronization tasks are automated – the tool generates the deployment scripts users can apply at once or use in the scheduled processes. Data Compare can deploy data to SQL Server, SQL Server on Amazon RDS, and SQL Azure. 
+
+dbForge Data Compare for SQL Server is a part of the database management Studio for SQL Server. It is also a mini-tool for SSMS that enhances the standard functionality. 	   </description>
         <authors>Devart</authors>
-        <summary>dbForge Data Compare for SQL Server</summary>
+        <owners>Devart</owners>
+        <summary>Cutting-edge tool for comparing and synchronizing the database data</summary>
         <projectUrl>https://www.devart.com/dbforge/sql/datacompare/</projectUrl>
-        <iconUrl>https://cdn.rawgit.com/DevartSoftware/devart-chocolatey/3e4995f9/ProductsPng/sql-dc.png</iconUrl>
+        <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-datacompare.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://www.devart.com/dbforge/sql/datacompare/revision_history.html</releaseNotes>
-        <tags>DataBase Management Studio SQL Tools Data Compare</tags>
+        <releaseNotes>https://choco.devart.com/s/98DC4A7F459B024369BA2EA075AD1438AF02534A1E8F06010A8C8FD5012AAEB3/revision_history.html</releaseNotes>
+        <tags>MSSQL Database SQL Tools SQLServer Admin DBA Data Compare Comparison Diff Sync</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-dc</packageSourceUrl>
-        <docsUrl>http://docs.devart.com/data-compare-for-sql-server/</docsUrl>
+        <docsUrl>https://docs.devart.com/data-compare-for-sql-server/</docsUrl>
         <dependencies>
             <dependency id="dotnetfx" version="4.7.2" />
         </dependencies>
