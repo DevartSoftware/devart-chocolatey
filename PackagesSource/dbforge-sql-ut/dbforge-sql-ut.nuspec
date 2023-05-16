@@ -2,20 +2,27 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-sql-ut</id>
-        <version>1.5</version>
-        <title>dbForge Unit Test for SQL Server (Trial)</title>
-        <description>GUI for implementing automated unit testing in SQL Server Management Studio. The tool is based on the open-source tSQLt framework, so SQL developers can now benefit from writing unit tests in regular T-SQL. dbForge Unit Test for SQL Server functionality allows you to develop stable and reliable code that can be properly regression tested at the unit level.</description>
+        <version>1.8.21</version>
+        <title>dbForge Unit Test for SQL Server</title>
+        <description>A tool for writing SQL unit tests with SSMS 
+
+dbForge Unit Test for SQL Server is a GUI integrated with SSMS that helps the SQL Server developers compose accurate and stable code and regression-test it accordingly. The tool uses the tSQLt framework, thus allowing for writing unit tests in T-SQL. Such tests don’t influence the databases in any way.
+
+With this mini-tool, users can execute multiple unit tests simultaneously and automate this process using the command-line interface. Predefined unit test examples help the database developers compose their tests correctly and efficiently. All the functionality becomes available in the favored environment of SSMS, so there is no need for leaving it and launching any other system to write and execute unit tests. 
+
+This tool is a part of the SQL Tools package, and a separate solution for SSMS is also available with a free trial for properly evaluating the functionality.</description>
         <authors>Devart</authors>
-        <summary>dbForge Unit Test for SQL Server</summary>
+        <owners>Devart</owners>
+        <summary>A tool for writing SQL unit tests with SSMS</summary>
         <projectUrl>https://www.devart.com/dbforge/sql/unit-test/</projectUrl>
-        <iconUrl>https://rawcdn.githack.com/DevartSoftware/devart-chocolatey/4889e71d8ccd43b91c2db240caf0296116a8103c/ProductsPng/dbforge_unit_test_for_sql_server.png</iconUrl>
+        <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-unit-test.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://www.devart.com/dbforge/sql/unit-test/revision_history.html</releaseNotes>
-        <tags>DataBase Unit Test SQL Tools Trial</tags>
+        <releaseNotes>https://choco.devart.com/s/D4872EE1F8BCCA33822BC6A68573EC98C72820143E92B4D32250A9F57C6B5E24/revision_history.html</releaseNotes>
+        <tags>MSSQL Database SQL Tools SQLServer Unit Testing Test TSQL</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-ut</packageSourceUrl>
-        <docsUrl>http://docs.devart.com/unit-test/</docsUrl>
+        <docsUrl>https://docs.devart.com/unit-test/</docsUrl>
         <dependencies>
-            <dependency id="dotnet4.7.2" version="4.7.2.20180712" />
+            <dependency id="dotnetfx" version="4.7.2" />
         </dependencies>
     </metadata>
 </package>
