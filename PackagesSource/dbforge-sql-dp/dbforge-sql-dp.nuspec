@@ -2,20 +2,27 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-sql-dp</id>
-        <version>1.5</version>
-        <title>dbForge Data Pump for SQL Server (Trial)</title>
-        <description>dbForge Data Pump is an SQL Server Management Studio add-in for filling SQL databases with external source data and migrating data between systems. The tool supports import and export from 10+ widely used data formats (Excel, CSV, XML, JSON, Text, MS Access, etc.) and includes a number of advanced options and templates for recurring scenarios.</description>
+        <version>1.8.21</version>
+        <title>dbForge Data Pump for SQL Server</title>
+        <description>The solution for migrating data between systems 
+
+dbForge Data Pump for SQL Server is an add-in for SSMS that serves to fill SQL Server databases with data from external sources. Also, it handles other tasks of migrating database data. 
+
+The Data Pump tool supports all popular data formats for both import and export, including Excel, TXT, XML, CSV, JSON, MS Access, and others – more than 10 formats. Predefined and customizable templates help the users configure data import and data export routines easily. Routines can be automated through the CLI and run on schedule. 
+
+This tool is a part of the full set of SQL tools or a feature of dbForge Studio for SQL Server. Users can also get this solution separately to implement into SSMS and get this advanced functionality in the familiar interface. </description>
         <authors>Devart</authors>
-        <summary>dbForge Data Pump for SQL Server</summary>
+        <owners>Devart</owners>
+        <summary>The solution for migrating data between systems</summary>
         <projectUrl>https://www.devart.com/dbforge/sql/data-pump/</projectUrl>
-        <iconUrl>https://rawcdn.githack.com/DevartSoftware/devart-chocolatey/ff944d18b22fbec3c2c8ec9e1d6035ecc60558a8/ProductsPng/dbforge_data_pump_for_sql_server.png</iconUrl>
+        <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-data-pump.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://www.devart.com/dbforge/sql/data-pump/revision_history.html</releaseNotes>
-        <tags>DataBase export import data SQL Tools Trial</tags>
+        <releaseNotes>https://choco.devart.com/s/4099F45B8A02F8A1FBF0DB678C07A0B793FCA9B78B324C146BB4E2B4564240DD/revision_history.html</releaseNotes>
+        <tags>MSSQL Database SQL Tools SQLServer Export Table Data Import</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-dp</packageSourceUrl>
-        <docsUrl>http://docs.devart.com/data-pump/</docsUrl>
+        <docsUrl>https://docs.devart.com/data-pump/</docsUrl>
         <dependencies>
-            <dependency id="dotnet4.7.2" version="4.7.2.20180712" />
+            <dependency id="dotnetfx" version="4.7.2" />
         </dependencies>
     </metadata>
 </package>
