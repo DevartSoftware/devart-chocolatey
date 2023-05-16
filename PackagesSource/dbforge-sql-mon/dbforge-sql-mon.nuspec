@@ -2,20 +2,28 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-sql-mon</id>
-        <version>1.2</version>
+        <version>1.5.17</version>
         <title>dbForge Monitor for SQL Server</title>
-        <description>dbForge Monitor is a FREE add-in for Microsoft SQL Server Management Studio that allows you to track and analyse SQL server performance. The tool includes a variety tools for SQL Server diagnostics, including a bunch of SQL performance metrics allowing to see the comprehensive and clear picture of all processes taking place on the server, detect most expensive queries, waiting tasks, and performance bottlenecks.</description>
+        <description>The monitoring tool for tracking SQL Server performance
+
+dbForge Monitor for SQL Server is a free enhancement for SSMS that helps you track the performance of SQL Server in real-time, analyze it, and identify any problems and their causes. This add-in can monitor the status of all servers and databases and provide you with detailed stats data, including the memory and CPU utilization. 
+
+Users can review the overall SQL Server performance and dive deeper to diagnose some issues at once. Slow TSQL queries and other issues get noticed at once, and it takes several seconds to identify and resolve them. The tracking and analyzing processes are automated. No problem passes unnoticed. 
+
+The Monitoring tool is one of the most helpful SQL tools. You can get it free of charge to improve the functionality of your SSMS and your DBA routines.
+</description>
         <authors>Devart</authors>
-        <summary>dbForge Monitor for SQL Server</summary>
+        <owners>Devart</owners>
+        <summary>The monitoring tool for tracking SQL Server performance</summary>
         <projectUrl>https://www.devart.com/dbforge/sql/monitor/</projectUrl>
-        <iconUrl>https://rawcdn.githack.com/DevartSoftware/devart-chocolatey/228d382fa1d269eb06233bf56033815ddaf4ebe1/ProductsPng/dbforge_monitor_for_sql_server.png</iconUrl>
+        <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-monitor.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://www.devart.com/dbforge/sql/monitor/revision_history.html</releaseNotes>
-        <tags>DataBase tsql Automated Monitoring SQL Tools Free</tags>
+        <releaseNotes>https://choco.devart.com/s/D7BF71E986AAE641D65C8BC9D3E340B2BCEBBC382C640F72BE32CED0AA6AEC01/revision_history.html</releaseNotes>
+        <tags>MSSQL Database SQL Tools SQLServer Monitor Performance Activity Monitoring Diagnostic</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-mon</packageSourceUrl>
-        <docsUrl>http://docs.devart.com/monitor/</docsUrl>
+        <docsUrl>https://docs.devart.com/monitor/</docsUrl>
         <dependencies>
-            <dependency id="dotnet4.7.2" version="4.7.2.20180712" />
+            <dependency id="dotnetfx" version="4.7.2" />
         </dependencies>
     </metadata>
 </package>
