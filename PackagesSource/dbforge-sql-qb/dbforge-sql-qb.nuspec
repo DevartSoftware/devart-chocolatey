@@ -2,20 +2,27 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-sql-qb</id>
-        <version>3.15</version>
-        <title>dbForge Query Builder for SQL Server (Trial)</title>
-        <description>dbForge Query Builder for SQL Server allows users to build quickly and easily complex SQL queries via an intuitive visual interface without manual code writing. Our visual SQL query tool is designed to simplify development of SQL queries for SQL Server. Visual features and graphical SQL query designer for interactive query building will be most appreciated by users who often create databases queries.</description>
+        <version>4.2.25</version>
+        <title>dbForge Query Builder for SQL Server</title>
+        <description>A tool for fast and accurate building any SQL queries 
+
+dbForge Query Builder for SQL Server is one of the most popular SQL Tools. Its purpose is to provide all functionality for creating SQL queries to perform different database management tasks. A graphical interface of the Builder lets the users compose even the most sophisticated queries quickly and easily, compiling them from visual blocks. 
+
+Such additional options as word suggestions, auto joins, sorting and filtering of the data, and drag-and-drop functionality simplify the query building routines. Also, the tool allows for reverse engineering of ready queries by turning them into a visual format. By using the Query Builder, you can avoid the process of coding manually at all, thus performing all the necessary database management jobs faster and safer. 
+
+dbForge Query Builder for SQL Server is a separate mini-tool. Also, it is a part of the fully-functional Studio for SQL Server that can be a more powerful replacement for SSMS. </description>
         <authors>Devart</authors>
-        <summary>dbForge Query Builder for SQL Server</summary>
+        <owners>Devart</owners>
+        <summary>A tool for fast and accurate building any SQL queries</summary>
         <projectUrl>https://www.devart.com/dbforge/sql/querybuilder/</projectUrl>
-        <iconUrl>https://cdn.rawgit.com/DevartSoftware/devart-chocolatey/3e4995f9/ProductsPng/sql-qb.png</iconUrl>
+        <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-querybuilder.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://www.devart.com/dbforge/sql/querybuilder/revision_history.html</releaseNotes>
-        <tags>DataBase Management Studio SQL Tools Query Builder</tags>
+        <releaseNotes>https://choco.devart.com/s/0C49457174E94377FE599539BE2E6A120AAB4DE947ACFE47B5B698AA2624E6CD/revision_history.html</releaseNotes>
+        <tags>MSSQL Database SQL Tools SQLServer Visual Query Builder Generator Designer</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-qb</packageSourceUrl>
-        <docsUrl>https://www.devart.com/dbforge/sql/querybuilder/QueryBuilderSQLServer.chm</docsUrl>
+        <docsUrl>https://docs.devart.com/querybuilder-for-sql-server/</docsUrl>
         <dependencies>
-            <dependency id="dotnet4.5.2" version="4.5.2.20140902" />
+            <dependency id="dotnetfx" version="4.7.2" />
         </dependencies>
     </metadata>
 </package>
