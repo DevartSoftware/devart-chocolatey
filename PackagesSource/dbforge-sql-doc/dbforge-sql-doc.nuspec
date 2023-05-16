@@ -2,20 +2,27 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-sql-doc</id>
-        <version>1.2.72</version>
-        <title>dbForge Documenter for SQL Server (Trial)</title>
-        <description>Why waste time documenting databases by hand? dbForge Documenter for SQL Server is a big time saver when it comes to documentation of SQL Server databases. This database documentation tool automatically generates documentation of an entire SQL Server database in a few clicks. The tool includes a wide range of options to customize the generated documentation to meet your specific requirements.</description>
+        <version>1.7.22</version>
+        <title>dbForge Documenter for SQL Server</title>
+        <description>A tool for automated creation of the database documentation 
+
+dbForge Documenter for SQL Server is a solution that can create and customize the database documentation automatically. It examines the entire database comprehensively, checking the schemas, objects, and their interrelations to generate detailed documentation for database management routines and other cases when it is necessary.  The Documenter is one of the most popular SQL tools. 
+
+Users can adjust the layout of the documents using the ready templates and export the results in PDF, HTML, and Markdown file formats. The documentation generation tasks can be run on a schedule using the command-line interface. This way, you can make sure to have the freshest version of documentation covering all the latest changes in object descriptions. 
+
+The Documenter for SQL Server is available as a separate solution or as a part of the SQL Tools package or the dbForge Studio for SQL Server. You can test the functionality of the tool free of charge – the free trial is available for all products. </description>
         <authors>Devart</authors>
-        <summary>dbForge Documenter for SQL Server</summary>
+        <owners>Devart</owners>
+        <summary>A tool for automated creation of the database documentation</summary>
         <projectUrl>https://www.devart.com/dbforge/sql/documenter/</projectUrl>
-        <iconUrl>https://cdn.rawgit.com/DevartSoftware/devart-chocolatey/3e4995f9/ProductsPng/sql-doc.png</iconUrl>
-        <licenseUrl>https://www.devart.com/dbforge/eula.html</licenseUrl>
-        <releaseNotes>https://www.devart.com/dbforge/sql/documenter/revision_history.html</releaseNotes>
-        <tags>DataBase Management Studio SQL Tools Documentation</tags>
+        <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-documenter.svg</iconUrl>
+        <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
+        <releaseNotes>https://choco.devart.com/s/2802C689EA2CE353F45A0C8337495A4373F2457B6F2D1737F0CC9AB36D760089/revision_history.html</releaseNotes>
+        <tags>MSSQL Database SQL Tools SQLServer Document Documentation</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-doc</packageSourceUrl>
-        <docsUrl>https://www.devart.com/dbforge/sql/documenter/DocumenterSQLServer.chm</docsUrl>
+        <docsUrl>https://docs.devart.com/documenter-for-sql-server/</docsUrl>
         <dependencies>
-            <dependency id="dotnet4.5.2" version="4.5.2.20140902" />
+            <dependency id="dotnetfx" version="4.7.2" />
         </dependencies>
     </metadata>
 </package>
