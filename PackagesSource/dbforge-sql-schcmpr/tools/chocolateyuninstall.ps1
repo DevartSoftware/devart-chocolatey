@@ -1,10 +1,10 @@
 $ErrorActionPreference = 'Stop';
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  softwareName  = 'dbForge Schema Compare for SQL Server, v5.0 Professional Edition'
+  softwareName  = 'dbForge Schema Compare for SQL Server, v5.3.38'
   fileType      = 'exe'
 
-  silentArgs    = '/VERYSILENT'
+  silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
 }
 
