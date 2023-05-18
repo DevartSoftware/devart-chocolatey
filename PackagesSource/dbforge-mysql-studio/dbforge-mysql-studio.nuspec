@@ -2,17 +2,30 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-mysql-studio</id>
-        <version>9.0.304.20200707</version>
+        <version>9.2.34</version>
         <title>dbForge Studio for MySQL</title>
-        <description>dbForge Studio for MySQL is a universal GUI tool for MySQL and MariaDB database administration, development, and management. The IDE allows to create and execute queries, develop and debug stored routines, automate database object management, analyze table data via an intuitive interface. The MySQL client delivers data and schema comparison and synchronization tools, database reporting tools, backup options with scheduling, and much more.
-Over 15,000 users rely on our MySQL front-end tool for managing, maintaining, and monitoring MySQL and MariaDB databases.</description>
+        <description>A powerful IDE for MySQL handling all kinds of database-related jobs
+
+dbForge Studio for MySQL is a complete IDE solution designed for MySQL and MariaDB. This Database Management Studio has all the functionality necessary to create, manage, and administer databases. An intuitive and comprehensive GUI allows all users to make the most of the software even without in-depth programming skills.
+
+The automation opportunities allow the users to get rid of manual routines, thus eliminating the risks of errors due to the human factor. It is an excellent solution for all database developers, DBAs, and analysts who work with MySQL and MariaDB.
+
+Key benefits of dbForge Studio for MySQL: 
+
+* Create queries of any complexity with the help of the Code Editor. Auto-completion, code formatting, syntax check, and code snippets help you produce high-quality, accurate code. Edit, execute, profile, and debug queries.  
+* Create and edit database diagrams with all relations and objects in a visual mode. Use the Data Compare and Schema Compare tools to identify discrepancies and synchronize them both manually and automatedly. 
+* Manage user accounts and monitor their activities, determine permissions for users. Import and export data and configure and execute backing up and restoring routines.
+* Make use of the detailed reports that present information in charts and graphs, and many more. 
+
+dbForge Studio for MySQL is one of the most functional alternatives to MySQL Workbench, favored by many thousands of users.</description>
         <authors>Devart</authors>
-        <summary>dbForge Studio for MySQL</summary>
+        <owners>Devart</owners>
+        <summary>A powerful IDE for MySQL handling all kinds of database-related jobs</summary>
         <projectUrl>https://www.devart.com/dbforge/mysql/studio/</projectUrl>
-        <iconUrl>https://cdn.rawgit.com/DevartSoftware/devart-chocolatey/3e4995f9/ProductsPng/mysql-studio.png</iconUrl>
+        <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-mysql-studio.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>http://choco.devart.com/s/156F7D1309AA7691EAD9DBF0D02F01D84D92285362B6DBFCD26D5D0B189AEE26/revision_history.html</releaseNotes>
-        <tags>DataBase Management Studio MySQL Tools</tags>
+        <releaseNotes>https://choco.devart.com/s/54B71560BB8E948B46E0CA62A58D880E1EE1F73B253AE90283F47B053C064A45/revision_history.html</releaseNotes>
+        <tags>mysql mariadb database database-management Development Tool administration admin dba rdbms Ide Windows Sql management csv json xls excel Report Export Import ER Diagram Data performance debug restore editor</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-mysql-studio</packageSourceUrl>
         <docsUrl>https://docs.devart.com/studio-for-mysql/</docsUrl>
         <dependencies>

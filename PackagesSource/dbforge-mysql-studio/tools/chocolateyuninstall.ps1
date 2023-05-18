@@ -1,10 +1,10 @@
 $ErrorActionPreference = 'Stop';
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  softwareName  = 'dbForge Studio 2020 for MySQL, v9.0.304'
+  softwareName  = 'dbForge Studio 2022 for MySQL, v9.2.34'
   fileType      = 'exe'
 
-  silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS'
+  silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
 }
 
