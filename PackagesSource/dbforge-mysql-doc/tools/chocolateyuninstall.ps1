@@ -1,10 +1,10 @@
 $ErrorActionPreference = 'Stop';
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  softwareName  = 'dbForge Documenter for MySQL, v2.2.4'
+  softwareName  = 'dbForge Documenter for MySQL, v2.2.27'
   fileType      = 'exe'
 
-  silentArgs    = '/VERYSILENT'
+  silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
 }
 
