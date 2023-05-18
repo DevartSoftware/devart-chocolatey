@@ -1,17 +1,15 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://www.devart.com/dbforge/mysql/querybuilder/querybuildermysql43std.exe' 
-$url64      = '' 
+$url        = 'https://choco.devart.com/s/F84EC08247DC1CDC3F44EA1BA5528CF29FB3A4297A664BBE0D49890238FD7E81/querybuildermysql.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
-  url           = $url
-  url64bit      = $url64
-  softwareName  = 'Devart dbForge Query Builder for MySQL, v4.3 Trial Edition' 
-  checksum      = 'F3E5A3B850819E143BEB13AA0FC94FBF38409F7283ABFE0E890261CD2FC76A7E'
+  url           = $url 
+  softwareName  = 'dbForge Query Builder for MySQL, v5.2.27' 
+  checksum      = 'F84EC08247DC1CDC3F44EA1BA5528CF29FB3A4297A664BBE0D49890238FD7E81'
   checksumType  = 'sha256' 
-  silentArgs    = '/VERYSILENT'
+  silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1641)
 }
 Install-ChocolateyPackage @packageArgs 

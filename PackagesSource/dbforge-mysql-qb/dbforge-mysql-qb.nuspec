@@ -2,20 +2,28 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-mysql-qb</id>
-        <version>4.3.16</version>
-        <title>dbForge Query Builder for MySQL (Trial)</title>
-        <description>dbForge Query Builder for MySQL is a visual tool that allows to create any sort of MySQL queries, from simple lookups to complex JOINs. The tool enables extended data management in MySQL, MariaDB, and Percona server databases. Create and edit complex MySQL queries in just a few clicks. You don't need to type any code at all - just "draw" your query on a diagram. When you need to type some SQL code manually, comprehensive suggestions will simplify the task.</description>
+        <version>5.2.27</version>
+        <title>dbForge Query Builder for MySQL</title>
+        <description>A visual tool for easy composing any complicated queries 
+
+dbForge Query Builder for MySQL is a tool that allows users to compose and edit queries of any complexity in a visual mode. Instead of writing complex codes with many lines, users can build queries on a diagram. The Data Editor is a functional part of the Query Builder tool that lets the users retrieve the data and view it in the grid with many filters for precise analysis. The created queries can be executed directly from within the tool. 
+
+With the help of the Query Builder tool, users can manage their databases efficiently at any level. It also allows for in-depth analysis by identifying important trends from loads of data. Analytical jobs can also be automated. Overall, applying Query Builder for MySQL saves a lot of time while handling the MySQL and MariaDB databases and eliminates the risk of errors. 
+
+The tool is a part of the Studio for MySQL package and can be a separate database management tool. 
+</description>
         <authors>Devart</authors>
-        <summary>dbForge Query Builder for MySQL Server</summary>
+        <owners>Devart</owners>
+        <summary>A visual tool for easy composing any complicated queries </summary>
         <projectUrl>https://www.devart.com/dbforge/mysql/querybuilder/</projectUrl>
-        <iconUrl>https://cdn.rawgit.com/DevartSoftware/devart-chocolatey/d441b1c1/ProductsPng/mysql-qb.png</iconUrl>
+        <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-mysql-querybuilder.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://www.devart.com/dbforge/mysql/querybuilder/revision_history.html</releaseNotes>
-        <tags>DataBase Management Studio MySQL Tools Query Builder</tags>
+        <releaseNotes>https://choco.devart.com/s/F84EC08247DC1CDC3F44EA1BA5528CF29FB3A4297A664BBE0D49890238FD7E81/revision_history.html</releaseNotes>
+        <tags>mysql mariadb database Development Tool rdbms Ide Windows Sql  Export Import ER Diagram</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-mysql-qb</packageSourceUrl>
-        <docsUrl>https://www.devart.com/dbforge/mysql/querybuilder/QueryBuilderMySQL.chm</docsUrl>
+        <docsUrl>https://docs.devart.com/querybuilder-for-mysql/</docsUrl>
         <dependencies>
-            <dependency id="dotnet4.5.2" version="4.5.2.20140902" />
+            <dependency id="dotnetfx" version="4.7.2" />
         </dependencies>
     </metadata>
 </package>
