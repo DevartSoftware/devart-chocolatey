@@ -2,17 +2,28 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-mysql-cb</id>
-        <version>9.0.13.20200927</version>
-        <title>dbForge Compare Bundle for MySQL Standard (Trial)</title>
-        <description>Grab the full power to handle changes in your MySQL and MariaDB databases with dbForge Compare Bundle for MySQL. It will save you hours of work comparing and deploying MySQL and MariaDB databases.
-MySQL Compare Bundle contains two separate tools, dbForge Schema Compare for MySQL and dbForge Data Compare for MySQL, and offers a significant discount if compared with purchasing each tool separately.</description>
+        <version>9.2.2</version>
+        <title>dbForge Compare Bundle for MySQL </title>
+        <description>Two powerful tools for comparing schema and data
+
+dbForge Compare Bundle for MySQL consists of two dedicated tools – dbForge Schema Compare and dbForge Data Compare. This Bundle focuses on changes in the database data and schema in MySQL and MariaDB databases. It identifies and reports the discrepancies between the two database versions and synchronizes them, partially, or in full. 
+
+Key benefits of the Compare Bundle:
+
+* Speeding up the data and schema comparison routines 
+* Removes the risk of human mistakes
+* Synchronizes the data and schema from development to staging/production
+* Automates comparison and syncing tasks on schedule 
+
+The Compare Bundle for MySQL is a part of the Database Management Studio for MySQL, but it can be purchased separately to perform these specific tasks.</description>
         <authors>Devart</authors>
-        <summary>dbForge Compare Bundle for MySQL</summary>
+        <owners>Devart</owners>
+        <summary>Two powerful tools for comparing schema and data in MySQL and MariaDB</summary>
         <projectUrl>https://www.devart.com/dbforge/mysql/compare-bundle/</projectUrl>
-        <iconUrl>https://cdn.rawgit.com/DevartSoftware/devart-chocolatey/d441b1c1/ProductsPng/mysql-cb.png</iconUrl>
-        <licenseUrl>https://www.devart.com/using-website/eula.htm</licenseUrl>
-        <releaseNotes>http://choco.devart.com/s/017D4A5FEF0AFBEE6F9A5EE4FF1116F051C9F9FD5D1DE3FC96908BB55700660F/revision_history.html</releaseNotes>
-        <tags>DataBase Management Studio MySQL Tools Compare Bundle</tags>
+        <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-mysql-compare-bundle.svg</iconUrl>
+        <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
+        <releaseNotes>https://choco.devart.com/s/6DC2CA05D0E9F321187139866149B6055A598B478CC14973C67AB6BB498EC878/revision_history.html</releaseNotes>
+        <tags>mysql mariadb database database-management Development Tool transfer migrate synchronize</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-mysql-cb</packageSourceUrl>
         <docsUrl>https://www.devart.com/dbforge/mysql/compare-bundle/</docsUrl>
         <dependencies>
