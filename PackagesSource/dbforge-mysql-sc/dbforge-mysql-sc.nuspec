@@ -2,20 +2,28 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-mysql-sc</id>
-        <version>4.3.11</version>
-        <title>dbForge Schema Compare for MySQL (Trial)</title>
-        <description>dbForge Schema Compare for MySQL is a tool that allows users to compare the structure of two MySQL databases. dbForge Schema Compare for MySQL supports MariaDB database servers as well as Percona servers, and you can easily manage MariaDB users and their privileges. The tool gives a comprehensive view of all differences between MySQL database schemas, generates clear and accurate SQL synchronization script that can be used to update database schema. Compare tasks for MySQL schemas can be scheduled using command line interface.</description>
+        <version>5.2.29</version>
+        <title>dbForge Schema Compare for MySQL</title>
+        <description>Professional solution for comparing and syncing database schemas
+
+Schema Compare for MySQL is a dedicated tool that focuses on performing the comparison and synchronization jobs on the database schema versions, such as development and staging/production databases. 
+
+This tool quickly identifies all mismatches between the schema and displays them in a neat interface with all details. It lets the users sync the database schemas automatically or manually – the Schema Compare tool produces the synchronization scripts to apply to the current schema versions or/and to save for the future. All tasks can be automated and run on schedule. 
+
+dbForge Schema Compare for MySQL can be purchased as a separate tool, but it also is a part of the complete Database Management Studio for MySQL that includes all tools for any kind of database-related jobs. 
+</description>
         <authors>Devart</authors>
-        <summary>dbForge Schema Compare for MySQL Server</summary>
+        <owners>Devart</owners>
+        <summary>Professional solution for comparing and syncing MySQL database schemas</summary>
         <projectUrl>https://www.devart.com/dbforge/mysql/schemacompare/</projectUrl>
-        <iconUrl>https://cdn.rawgit.com/DevartSoftware/devart-chocolatey/47fc0a57/ProductsPng/mysql-sc.png</iconUrl>
+        <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-mysql-schemacompare.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://www.devart.com/dbforge/mysql/schemacompare/revision_history.html</releaseNotes>
-        <tags>DataBase Management Studio MySQL Tools Schema Compare</tags>
+        <releaseNotes>https://choco.devart.com/s/2B9F59482765F923A21A4418C785C88A3F885F2EA158A568514585145A65E3A3/revision_history.html</releaseNotes>
+        <tags>mysql mariadb database database-management Development Tool transfer migrate synchronize</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-mysql-sc</packageSourceUrl>
-        <docsUrl>https://www.devart.com/dbforge/mysql/schemacompare/SchemaCompareMySQL.chm</docsUrl>
+        <docsUrl>https://docs.devart.com/schema-compare-for-mysql/</docsUrl>
         <dependencies>
-            <dependency id="dotnet4.5.2" version="4.5.2.20140902" />
+            <dependency id="dotnetfx" version="4.7.2" />
         </dependencies>
     </metadata>
 </package>
