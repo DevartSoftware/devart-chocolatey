@@ -1,6 +1,6 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = ' http://choco.devart.com/s/4099F45B8A02F8A1FBF0DB678C07A0B793FCA9B78B324C146BB4E2B4564240DD/datapumpsql18.exe' 
+$url        = 'https://choco.devart.com/s/4099F45B8A02F8A1FBF0DB678C07A0B793FCA9B78B324C146BB4E2B4564240DD/datapumpsql18.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
