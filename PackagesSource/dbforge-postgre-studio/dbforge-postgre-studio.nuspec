@@ -2,20 +2,32 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-postgre-studio</id>
-        <version>2.2.197</version>
-        <title>dbForge Studio for PostgreSQL (Trial)</title>
-        <description>dbForge Studio for PostgreSQL is a GUI tool for managing and developing databases and objects. The IDE for PostgreSQL allows users to create, develop, and execute queries, edit and adjust the code to your requirements in a convenient and user-friendly interface. The tool provides a data editing tool to customize your queries and property window so that users can view all the required information of PostgreSQL database objects they are interested in.</description>
+        <version>3.1.618</version>
+        <title>dbForge Studio for PostgreSQL </title>
+        <description>A multi-featured GUI solution for PostgreSQL database tasks 
+
+dbForge Studio for PostgreSQL is a powerful GUI tool for the database developers, managers, and administrators who work with PostgreSQL. You can compose, edit, optimize, and execute queries, writing high-quality, accurate code. Also, the Studio includes features for working with database schemas and data, importing and exporting data, in-depth analysis of the database performance, and robust reporting functionality. 
+
+Key benefits of dbForge Studio for PostgreSQL: 
+
+* A set of helpful options for improving the speed and quality of coding. It includes the auto-completion feature that exceeds the default means in functionality. The syntax check and code formatting features help you make sure to produce the most accurate code for PostgreSQL databases. 
+* The Query Profiler visual tool analyzes your queries to define slow performance and other problems. It displays the detailed statistics on the query with the diagrams of execution and the execution plan. Also, it presents the list of top operations on the server to define which of them are the most resource-consuming. 
+* The Database Explorer tool lets you search and locate and PostgreSQL object and view its information. 
+* Data import and export will allow the users to perform all tasks on data migration and fill the database with data from other sources. The Studio works with over 10 popular data formats and allows for precise adjustment of the data importing/exporting task for the specific case. There are predefined task templates to configure the process quickly and accurately. 
+
+A fully-functional free trial of dbForge Studio for PostgreSQL is available for the users to evaluate the product and its capacities. </description>
         <authors>Devart</authors>
-        <summary>dbForge Studio for Postgre</summary>
+        <owners>Devart</owners>
+        <summary>A multi-featured GUI solution for PostgreSQL database tasks </summary>
         <projectUrl>https://www.devart.com/dbforge/postgresql/studio/</projectUrl>
-        <iconUrl>https://cdn.jsdelivr.net/gh/JordanS22/devart-chocolatey/ProductsPng/pg-studio.png</iconUrl>
+        <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-postgresql-studio.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://www.devart.com/dbforge/postgresql/studio/revision_history.html</releaseNotes>
-        <tags>DataBase Management Studio Postgre Tools</tags>
+        <releaseNotes>https://choco.devart.com/s/5426B358CD3F76F35BC785CCC198FE3FABE3D0317EB645029644AA91E3DC83FB/revision_history.html</releaseNotes>
+        <tags>PostgreSQL Amazon-redshift database database-management Development Tool rdbms Ide Windows management csv json xls excel Report Export Import ER Diagram Data performance debug restore editor</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-postgre-studio</packageSourceUrl>
         <docsUrl>https://docs.devart.com/studio-for-postgresql/</docsUrl>
         <dependencies>
-            <dependency id="dotnet4.5.2" version="4.5.2.20140902" />
+            <dependency id="dbforge-pg-studio" />
         </dependencies>
     </metadata>
 </package>

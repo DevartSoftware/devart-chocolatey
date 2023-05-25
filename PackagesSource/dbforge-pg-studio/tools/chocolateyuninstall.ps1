@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop';
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  softwareName  = 'dbForge Studio for PostgreSQL, v3.0.472'
+  softwareName  = 'dbForge Studio 2020 for PostgreSQL, v3.1.618'
   fileType      = 'exe'
 
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'

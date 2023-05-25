@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
-        <id>dbforge-postgre-studio</id>
-        <version>3.0.472.20230426</version>
+        <id>dbforge-pg-studio</id>
+        <version>3.1.618</version>
         <title>dbForge Studio for PostgreSQL</title>
         <description>A multi-featured GUI solution for PostgreSQL database tasks 
 
@@ -17,13 +17,14 @@ Key benefits of dbForge Studio for PostgreSQL:
 
 A fully-functional free trial of dbForge Studio for PostgreSQL is available for the users to evaluate the product and its capacities. </description>
         <authors>Devart</authors>
-        <summary>A multi-featured GUI solution for PostgreSQL database tasks </summary>
+        <owners>Devart</owners>
+        <summary>A multi-featured GUI solution for PostgreSQL database tasks</summary>
         <projectUrl>https://www.devart.com/dbforge/postgresql/studio/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-postgresql-studio.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/81CFE35B9F5A0146C045840401C806FDA4D82144AC5980EAEC79C1F746E8CCCB/revision_history.html</releaseNotes>
+        <releaseNotes>https://choco.devart.com/s/5426B358CD3F76F35BC785CCC198FE3FABE3D0317EB645029644AA91E3DC83FB/revision_history.html</releaseNotes>
         <tags>PostgreSQL Amazon-redshift database database-management Development Tool rdbms Ide Windows management csv json xls excel Report Export Import ER Diagram Data performance debug restore editor</tags>
-        <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-postgre-studio</packageSourceUrl>
+        <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-pg-studio</packageSourceUrl>
         <docsUrl>https://docs.devart.com/studio-for-postgresql/</docsUrl>
         <dependencies>
             <dependency id="dotnetfx" version="4.7.2" />
