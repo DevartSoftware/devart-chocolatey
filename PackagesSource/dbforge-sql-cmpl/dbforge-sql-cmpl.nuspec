@@ -2,28 +2,28 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-sql-cmpl</id>
-        <version>6.14.18</version>
+        <version>6.14.26</version>
         <title>dbForge SQL Complete</title>
         <description>A comprehensive solution for flawless SQL code writing
 
-dbForge SQL Complete is an all-around software tool for improving the speed and quality of code writing. It is excellent for database developers, managers, and admins. The solution integrates with SSMS and Visual Studio and provides enhanced code writing, editing, and refactoring options that aren't present in the default systems. 
+dbForge SQL Complete is an all-around software tool for improving the speed and quality of code writing. It is excellent for database developers, managers, and admins. The solution integrates with SSMS and Visual Studio and provides enhanced code writing, editing, and refactoring options that aren't present in the default systems.
 
-The code auto-completion functionality exceeds the standard IntelliSense capacities of SSMS and Visual Studio. In-built SQL Formatter and T-SQL Debugger allow for improving the overall code quality and matching the code standards. Applying code snippets and reusing past code modules let the users accelerate the speed of writing significantly. 
+The code auto-completion functionality exceeds the standard IntelliSense capacities of SSMS and Visual Studio. In-built SQL Formatter and T-SQL Debugger allow for improving the overall code quality and matching the code standards. Applying code snippets and reusing past code modules let the users accelerate the speed of writing significantly.
 
-SQL Complete is a tool that helps to speed the coding routines at least twice for even the most complicated scripts and ensure producing the best-quality, error-free code. Such additional options as renaming, searching and finding invalid code/objects, troubleshooting T-SQL codes of any type, formatting profiles, etc. serve to bring accurate results effortlessly. 
+SQL Complete is a tool that helps to speed the coding routines at least twice for even the most complicated scripts and ensure producing the best-quality, error-free code. Such additional options as renaming, searching and finding invalid code/objects, troubleshooting T-SQL codes of any type, formatting profiles, etc. serve to bring accurate results effortlessly.
 
 Another great feature is the possibility to search and visualize the data in the SSMS Results Grid. It lets you search for the required data across the Results grid, and you won’t need to type queries. You can also generate the scripts from that grid directly. A helpful option of data aggregation helps you calculate sums and average values faster and easier than in spreadsheets.
 
-A helpful option is the possibility to restore previous sessions. It lets you restore the document sessions and the last closed documents, which can be vital if your SSMS crashes or you closed the document accidentally and did not save the changes. This way, you can minimize or avoid losses. The option of the execution warning helps you avoid the object or data deletion accidentally. Transaction reminders inform you about uncommitted transactions. It guarantees to preserve your work. 
+A helpful option is the possibility to restore previous sessions. It lets you restore the document sessions and the last closed documents, which can be vital if your SSMS crashes or you closed the document accidentally and did not save the changes. This way, you can minimize or avoid losses. The option of the execution warning helps you avoid the object or data deletion accidentally. Transaction reminders inform you about uncommitted transactions. It guarantees to preserve your work.
 
-dbForge SQL Complete is one of the most favored tools for all database specialists. </description>
+dbForge SQL Complete is one of the most favored tools for all database specialists.</description>
         <authors>Devart</authors>
         <owners>Devart</owners>
         <summary>A comprehensive solution for flawless SQL code writing</summary>
         <projectUrl>https://www.devart.com/dbforge/sql/sqlcomplete/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-sqlcomplete.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/231C4D3B543E91F22AAB87B7C4079E24B4A1D4F71B2F724EC526991718902754/revision_history.html</releaseNotes>
+        <releaseNotes>https://choco.devart.com/s/17D1C3AA2C3751829DA8520CBD98933AF4EF40C6B6EBABD39BDE7FF2E0578A46/revision_history.html</releaseNotes>
         <tags>MSSQL Database SQL Tools SQLServer TSQL Autocompletion IntelliSense Formatter Debugger Refactoring Productivity SSMS VisualStudio</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-cmpl</packageSourceUrl>
         <docsUrl>https://docs.devart.com/sqlcomplete/</docsUrl>
