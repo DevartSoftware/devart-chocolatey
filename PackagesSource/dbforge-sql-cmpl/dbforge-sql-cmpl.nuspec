@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-sql-cmpl</id>
-        <version>6.15.5.20230724</version>
+        <version>6.15.5.20230726</version>
         <title>dbForge SQL Complete</title>
         <description>A comprehensive solution for flawless SQL code writing
 
