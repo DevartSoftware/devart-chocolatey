@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-sql-sc</id>
-        <version>2.5.35</version>
+        <version>2.6.4</version>
         <title>dbForge Source Control for SQL Server</title>
         <description>Solution for version-controlling the database schemas and data 
 

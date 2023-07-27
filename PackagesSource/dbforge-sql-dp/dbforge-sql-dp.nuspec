@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-sql-dp</id>
-        <version>1.8.21.20230523</version>
+        <version>1.8.27</version>
         <title>dbForge Data Pump for SQL Server</title>
         <description>The solution for migrating data between systems 
 

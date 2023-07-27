@@ -42,8 +42,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Unit Test for SQL Server, v1.8.21'
-  softwareName  = 'dbForge Unit Test for SQL Server, v1.8.21'
+  packageName   = 'dbForge Unit Test for SQL Server, v1.8.24'
+  softwareName  = 'dbForge Unit Test for SQL Server, v1.8.24'
   fileType      = 'exe'
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Uninstall.log`""
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -52,8 +52,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge SQL Complete, v6.14.26'
-  softwareName  = 'dbForge SQL Complete, v6.14.26'
+  packageName   = 'dbForge SQL Complete, v6.15.5'
+  softwareName  = 'dbForge SQL Complete, v6.15.5'
   fileType      = 'exe'
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Uninstall.log`""
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -62,8 +62,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Source Control for SQL Server, v2.5.35'
-  softwareName  = 'dbForge Source Control for SQL Server, v2.5.35'
+  packageName   = 'dbForge Source Control for SQL Server, v2.6.4'
+  softwareName  = 'dbForge Source Control for SQL Server, v2.6.4'
   fileType      = 'exe'
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Uninstall.log`""
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -72,8 +72,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Search for SQL Server, v2.7.18'
-  softwareName  = 'dbForge Search for SQL Server, v2.7.18'
+  packageName   = 'dbForge Search for SQL Server, v2.7.23'
+  softwareName  = 'dbForge Search for SQL Server, v2.7.23'
   fileType      = 'exe'
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Uninstall.log`""
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -82,8 +82,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Monitor for SQL Server, v1.5.17'
-  softwareName  = 'dbForge Monitor for SQL Server, v1.5.17'
+  packageName   = 'dbForge Monitor for SQL Server, v1.5.21'
+  softwareName  = 'dbForge Monitor for SQL Server, v1.5.21'
   fileType      = 'exe'
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Uninstall.log`""
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -92,8 +92,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Index Manager for SQL Server, v1.13.17'
-  softwareName  = 'dbForge Index Manager for SQL Server, v1.13.17'
+  packageName   = 'dbForge Index Manager for SQL Server, v1.13.20'
+  softwareName  = 'dbForge Index Manager for SQL Server, v1.13.20'
   fileType      = 'exe'
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Uninstall.log`""
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -102,8 +102,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Data Pump for SQL Server, v1.8.21'
-  softwareName  = 'dbForge Data Pump for SQL Server, v1.8.21'
+  packageName   = 'dbForge Data Pump for SQL Server, v1.8.27'
+  softwareName  = 'dbForge Data Pump for SQL Server, v1.8.27'
   fileType      = 'exe'
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Uninstall.log`""
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -112,8 +112,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Schema Compare for SQL Server, v5.3.38'
-  softwareName  = 'dbForge Schema Compare for SQL Server, v5.3.38'
+  packageName   = 'dbForge Schema Compare for SQL Server, v5.4.5'
+  softwareName  = 'dbForge Schema Compare for SQL Server, v5.4.5'
   fileType      = 'exe'
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Uninstall.log`""
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -122,8 +122,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Query Builder for SQL Server, v4.2.25'
-  softwareName  = 'dbForge Query Builder for SQL Server, v4.2.25'
+  packageName   = 'dbForge Query Builder for SQL Server, v4.2.29'
+  softwareName  = 'dbForge Query Builder for SQL Server, v4.2.29'
   fileType      = 'exe'
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Uninstall.log`""
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -142,8 +142,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Event Profiler for SQL Server, v1.8.18'
-  softwareName  = 'dbForge Event Profiler for SQL Server, v1.8.18'
+  packageName   = 'dbForge Event Profiler for SQL Server, v1.8.21'
+  softwareName  = 'dbForge Event Profiler for SQL Server, v1.8.21'
   fileType      = 'exe'
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Uninstall.log`""
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -152,8 +152,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Documenter for SQL Server, v1.7.22'
-  softwareName  = 'dbForge Documenter for SQL Server, v1.7.22'
+  packageName   = 'dbForge Documenter for SQL Server, v1.7.26'
+  softwareName  = 'dbForge Documenter for SQL Server, v1.7.26'
   fileType      = 'exe'
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Uninstall.log`""
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -162,8 +162,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Data Generator for SQL Server, v4.5.22'
-  softwareName  = 'dbForge Data Generator for SQL Server, v4.5.22'
+  packageName   = 'dbForge Data Generator for SQL Server, v4.5.26'
+  softwareName  = 'dbForge Data Generator for SQL Server, v4.5.26'
   fileType      = 'exe'
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Uninstall.log`""
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -172,8 +172,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Data Compare for SQL Server, v5.3.25'
-  softwareName  = 'dbForge Data Compare for SQL Server, v5.3.25'
+  packageName   = 'dbForge Data Compare for SQL Server, v5.4.4'
+  softwareName  = 'dbForge Data Compare for SQL Server, v5.4.4'
   fileType      = 'exe'
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Uninstall.log`""
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  

@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-sql-cb</id>
-        <version>6.4.2</version>
+        <version>6.5.1</version>
         <title>dbForge Compare Bundle for SQL Server</title>
         <description>Dedicated tools for comparing database schemas and data 
 

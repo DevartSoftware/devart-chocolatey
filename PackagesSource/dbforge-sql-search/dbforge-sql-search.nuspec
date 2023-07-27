@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-sql-search</id>
-        <version>2.7.18</version>
+        <version>2.7.23</version>
         <title>dbForge Search for SQL Server</title>
         <description>Quick and convenient searching for SQL objects and data
 

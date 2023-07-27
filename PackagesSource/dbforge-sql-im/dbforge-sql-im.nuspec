@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-sql-im</id>
-        <version>1.13.17</version>
+        <version>1.13.20</version>
         <title>dbForge Index Manager for SQL Server</title>
         <description>The tool for detecting and analyzing index fragmentation issues
 

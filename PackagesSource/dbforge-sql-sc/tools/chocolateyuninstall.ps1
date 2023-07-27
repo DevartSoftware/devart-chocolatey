@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop';
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  softwareName  = 'dbForge Source Control for SQL Server, v2.5.35'
+  softwareName  = 'dbForge Source Control for SQL Server, v2.6.4'
   fileType      = 'exe'
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Uninstall.log`""
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  

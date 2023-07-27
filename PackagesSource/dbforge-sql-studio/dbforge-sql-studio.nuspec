@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-sql-studio</id>
-        <version>6.5.16</version>
+        <version>6.5.16.20230726</version>
         <title>dbForge Studio for SQL Server</title>
         <description>A complete IDE for handling all tasks related to SQL Server databases
 
