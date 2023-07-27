@@ -2,16 +2,24 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-ora-dg</id>
-        <version>2.2.9.20201022</version>
-        <title>dbForge Data Generator for Oracle (Trial)</title>
-        <description>dbForge Data Generator for Oracle is a small but mighty GUI tool for populating Oracle schemas with tons of realistic test data. With extensive collection of basic and meaningful generators for various data types, flexible customization options, templates for creating your own generators, the tool delivers flawless data generation (including random number generation) in a well-designed user interface.</description>
+        <version>2.5.101</version>
+        <title>dbForge Data Generator for Oracle</title>
+        <description>Proficient generator of meaningful test data for Oracle
+
+dbForge Data Generator for Oracle is a GUI tool that allows the users to populate the database tables with realistic test data. The data is produced by more than 200 powerful data generators that can create any amount. Also, the tool allows for adding custom generators and sharing them across the team.  
+
+The created meaningful test data are high-quality. They ensure correct inter-column dependencies and the demanded data types. The generation tasks can be set on schedule through the command line. Predefined and customizable task templates help the users configure the data generation tasks precisely. With the help of this data generation tool, Oracle database specialists can perform lots of database management operations safely. 
+
+The Data Generator is available as a separate solution or as a part of the dbForge Studio for Oracle functionality. The fully-functional free trials are available for all dbForge Oracle tools. 
+</description>
         <authors>Devart</authors>
-        <summary>dbForge Data Generator for Oracle</summary>
+        <owners>Devart</owners>
+        <summary>Proficient generator of meaningful test data for Oracle</summary>
         <projectUrl>https://www.devart.com/dbforge/oracle/data-generator/</projectUrl>
-        <iconUrl>https://rawcdn.githack.com/DevartSoftware/devart-chocolatey/30e5bad9a69f1faab7dd0c6a836b6479cd1e9637/ProductsPng/dbforge_data_generator_for_oracle.png</iconUrl>
+        <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-oracle-data-generator.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>http://choco.devart.com/s/E13C2C6F726B2877D31A1538F384C64931EA236A3857BACA208216F27C1318D6/revision_history.html</releaseNotes>
-        <tags>DataBase Management Studio Oracle Tools Data Generation </tags>
+        <releaseNotes>https://choco.devart.com/s/ED44E7F2C25E544A74F312104B3F810091E183BE4378D2E64DCD378CFDD81E8E/revision_history.html</releaseNotes>
+        <tags>Oracle database Development Tool rdbms Ide Windows Export Import Data</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-ora-dg</packageSourceUrl>
         <docsUrl>https://docs.devart.com/data-generator-for-oracle/</docsUrl>
         <dependencies>

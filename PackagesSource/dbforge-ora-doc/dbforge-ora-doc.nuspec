@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-ora-doc</id>
-        <version>1.5.15</version>
+        <version>1.5.100</version>
         <title>dbForge Documenter for Oracle</title>
         <description>Professional tool for documenting Oracle databases
 
@@ -13,9 +13,10 @@ The tool lets you customize the appearance of the documents using the predefined
 dbForge Documenter for Oracle can be purchased separately or as a part of the Studio for Oracle from the dbForge product line. 
 </description>
         <authors>Devart</authors>
+        <owners>Devart</owners>
         <summary>Professional tool for documenting Oracle databases</summary>
         <projectUrl>https://www.devart.com/dbforge/oracle/documenter/</projectUrl>
-        <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/ora-doc.png</iconUrl>
+        <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-oracle-documenter.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
         <releaseNotes>https://choco.devart.com/s/52DB1EC96D7E8EE8047B4D4AB8D6AE9E88242A3BA35CF2068D5DF6859ED324BF/revision_history.html</releaseNotes>
         <tags>Oracle database Development Tool rdbms Ide Windows Export Import Report</tags>
