@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-ora-studio</id>
-        <version>4.5.2120230424</version>
+        <version>4.5.117</version>
         <title>dbForge Studio for Oracle</title>
         <description>Multi-featured GUI system for any Oracle database tasks 
 
