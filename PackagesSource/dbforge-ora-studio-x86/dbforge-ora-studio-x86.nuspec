@@ -2,16 +2,28 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-ora-studio-x86</id>
-        <version>4.2.20</version>
-        <title>dbForge Studio for Oracle x86 (Trial)</title>
-        <description>dbForge Studio for Oracle is a powerful integrated development environment (IDE) which helps Oracle SQL developers to increase PL/SQL coding speed, provides versatile data editing tools for managing in-database and external data. This tool allows synchronizing data between different Oracle servers and automating schema change management process during development. This Oracle database manager has lots of features wrapped into a smooth management Oracle GUI consistent with Microsoft Visual Studio.</description>
-        <authors>Компания разработчик</authors>
-        <summary>dbForge Studio for Oracle x86</summary>
+        <version>4.5.117</version>
+        <title>dbForge Studio 2023 for Oracle x86</title>
+        <description>Multi-featured GUI system for any Oracle database tasks 
+
+dbForge Studio for Oracle is a full-featured IDE designed for Oracle database developers. Its complete set of in-built Oracle tools provides robust functionality with a convenient GUI. Specialists can improve their PL/SQL coding in speed and quality, perform other essential jobs on database management, automate routines, and save costs. 
+
+Key benefits of dbForge Studio for Oracle:
+
+* A set of helpful features for PL/SQL coding. It includes a powerful auto-completion feature, code snippets, code formatting, and PL/SQL debugger let the developers produce accurate and high-quality code that will match the standards across your company and accelerate the code writing at least twice. 
+* A visual designer for creating databases and tables. Users can work with database diagrams and edit the database objects in a visual mode. There is also the visual query builder that lets you compose even the most sophisticated queries quickly and easily. 
+* Comparing and synchronizing database schemas and data. This task is essential for implementing proper DevOps approaches in a company. Dedicated tools for comparing schemas and data discrepancies and allow the users to synchronize the databases safely, issuing the sync scripts. 
+* Comprehensive and detailed reports on all tasks. Users can design the reports and customize them for their needs and preferences. The Data report designer with charts and pivot tables allows for the most informative presentation of all results. 
+
+dbForge Studio for Oracle allows for automating tasks and report delivery, thus saving your time and efforts. The fully-functional free trial is available for the Studio. You can test the functionality properly. </description>
+        <authors>Devart</authors>
+        <owners>Devart</owners>
+        <summary>Multi-featured GUI for any Oracle database tasks</summary>
         <projectUrl>https://www.devart.com/dbforge/oracle/studio/</projectUrl>
-        <iconUrl>https://cdn.rawgit.com/JordanS22/devart-chocolatey/fa8be9ee/ProductsPng/ora-studio.png</iconUrl>
+        <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-oracle-studio.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>http://choco.devart.com/s/9033E2D577786F50A60D5D94118678DB71E166B04BFFA9715396EC64C56B8F84/revision_history.html</releaseNotes>
-        <tags>DataBase Management Studio SQL Tools Oracle</tags>
+        <releaseNotes>https://choco.devart.com/s/80BB60E89399825B0398193B8540DE8D68D01C05EBA8B8EE67578A2F1AE1533A/revision_history.html</releaseNotes>
+        <tags>Oracle database database-management Development Tool administration admin dba rdbms Ide Windows management csv json xls excel Report Export Import ER Diagram Data performance debug restore editor</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-ora-studio-x86</packageSourceUrl>
         <docsUrl>https://docs.devart.com/studio-for-oracle/</docsUrl>
         <dependencies>

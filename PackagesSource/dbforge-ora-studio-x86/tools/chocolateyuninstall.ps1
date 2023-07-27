@@ -1,23 +1,11 @@
 $ErrorActionPreference = 'Stop';
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  softwareName  = 'dbForge Studio 2023 for Oracle, v4.2.20 32-bit'
+  softwareName  = 'dbForge Studio 2023 for Oracle, v4.5.117 32-bit'
   fileType      = 'exe'
-
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Uninstall.log`""
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
 }
-
-  Write-Host "The log file will be saved to: $env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Uninstall.log" -ForegroundColor Yellow
-  Write-Host ""
-  Write-Host "If you are experiencing issues with installing our product, we recommend contacting our support team for assistance." -ForegroundColor Green
-  Write-Host "You can reach out to our support team by visiting the following link:" -ForegroundColor Green
-  Write-Host "https://support.devart.com/portal/en/community" -ForegroundColor Magenta
-  Write-Host ""
-  Write-Host "Additionally, you can refer to the resources and documentation provided by Chocolatey for finding possible solutions and support. You can find more information at:" -ForegroundColor Green
-  Write-Host "https://docs.chocolatey.org/en-us/troubleshooting#mainContent" -ForegroundColor Magenta
-  Write-Host ""
-
 [array]$key = Get-UninstallRegistryKey -SoftwareName $packageArgs['softwareName']
 
 
@@ -39,3 +27,13 @@ if ($key.Count -eq 1) {
   Write-Warning "Please alert package maintainer the following keys were matched:"
   $key | % {Write-Warning "- $($_.DisplayName)"}
 }
+
+  Write-Host "The log file will be saved to: $env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Uninstall.log" -ForegroundColor Yellow
+  Write-Host ""
+  Write-Host "If you are experiencing issues with installing our product, we recommend contacting our support team for assistance." -ForegroundColor Green
+  Write-Host "You can reach out to our support team by visiting the following link:" -ForegroundColor Green
+  Write-Host "https://support.devart.com/portal/en/community" -ForegroundColor Magenta
+  Write-Host ""
+  Write-Host "Additionally, you can refer to the resources and documentation provided by Chocolatey for finding possible solutions and support. You can find more information at:" -ForegroundColor Green
+  Write-Host "https://docs.chocolatey.org/en-us/troubleshooting#mainContent" -ForegroundColor Magenta
+  Write-Host ""
