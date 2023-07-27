@@ -169,8 +169,7 @@ $packageArgs = @{
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
 }
 Uninstall_package
-
-
+  
   Write-Host "If you are experiencing issues with installing our product, we recommend contacting our support team for assistance." -ForegroundColor Green
   Write-Host "You can reach out to our support team by visiting the following link:" -ForegroundColor Green
   Write-Host "https://support.devart.com/portal/en/community" -ForegroundColor Magenta
