@@ -1,13 +1,13 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://choco.devart.com/s/5426B358CD3F76F35BC785CCC198FE3FABE3D0317EB645029644AA91E3DC83FB/dbforgepostgresql.exe' 
+$url        = 'https://choco.devart.com/s/6095C2E432010CE8DB42CE6F57CD158E2D829CD1CD40284F3D64AA7EAFCEFE7A/dbforgepostgresql.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Studio 2020 for PostgreSQL, v3.1.618' 
-  checksum      = '5426B358CD3F76F35BC785CCC198FE3FABE3D0317EB645029644AA91E3DC83FB'
+  softwareName  = 'dbForge Studio 2020 for PostgreSQL, v3.1.696' 
+  checksum      = '6095C2E432010CE8DB42CE6F57CD158E2D829CD1CD40284F3D64AA7EAFCEFE7A'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
   validExitCodes= @(0, 3010, 1641)
