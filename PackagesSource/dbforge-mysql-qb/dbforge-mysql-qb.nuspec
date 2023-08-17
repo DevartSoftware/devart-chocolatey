@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-mysql-qb</id>
-        <version>5.2.27</version>
+        <version>5.2.84</version>
         <title>dbForge Query Builder for MySQL</title>
         <description>A visual tool for easy composing any complicated queries 
 
