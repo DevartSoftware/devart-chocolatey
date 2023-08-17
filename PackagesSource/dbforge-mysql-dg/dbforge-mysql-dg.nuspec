@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-mysql-dg</id>
-        <version>2.6.27</version>
+        <version>2.6.86</version>
         <title>dbForge Data Generator for MySQL</title>
         <description>A powerful tool for generating any amount of test data 
 
