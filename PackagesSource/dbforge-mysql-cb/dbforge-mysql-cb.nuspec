@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<package>
     <metadata>
         <id>dbforge-mysql-cb</id>
         <version>9.2.3</version>
         <title>dbForge Compare Bundle for MySQL </title>
         <description>Two powerful tools for comparing schema and data
 
-dbForge Compare Bundle for MySQL consists of two dedicated tools – dbForge Schema Compare and dbForge Data Compare. This Bundle focuses on changes in the database data and schema in MySQL and MariaDB databases. It identifies and reports the discrepancies between the two database versions and synchronizes them, partially, or in full. 
+dbForge Compare Bundle for MySQL consists of two dedicated tools &#8211; dbForge Schema Compare and dbForge Data Compare. This Bundle focuses on changes in the database data and schema in MySQL and MariaDB databases. It identifies and reports the discrepancies between the two database versions and synchronizes them, partially, or in full. 
 
 Key benefits of the Compare Bundle:
 
