@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-pg-studio</id>
-        <version>3.1.696</version>
+        <version>3.1.701</version>
         <title>dbForge Studio for PostgreSQL</title>
         <description>A multi-featured GUI solution for PostgreSQL database tasks 
 
