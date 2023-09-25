@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<package>
     <metadata>
         <id>dbforge-mysql-studio</id>
-        <version>9.2.105</version>
+        <version>9.2.128</version>
         <title>dbForge Studio for MySQL</title>
         <description>A powerful IDE for MySQL handling all kinds of database-related jobs
 
