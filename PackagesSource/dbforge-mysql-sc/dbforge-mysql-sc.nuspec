@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<package>
     <metadata>
         <id>dbforge-mysql-sc</id>
-        <version>5.2.88</version>
+        <version>5.2.109</version>
         <title>dbForge Schema Compare for MySQL</title>
         <description>Professional solution for comparing and syncing database schemas
 
 Schema Compare for MySQL is a dedicated tool that focuses on performing the comparison and synchronization jobs on the database schema versions, such as development and staging/production databases. 
 
-This tool quickly identifies all mismatches between the schema and displays them in a neat interface with all details. It lets the users sync the database schemas automatically or manually – the Schema Compare tool produces the synchronization scripts to apply to the current schema versions or/and to save for the future. All tasks can be automated and run on schedule. 
+This tool quickly identifies all mismatches between the schema and displays them in a neat interface with all details. It lets the users sync the database schemas automatically or manually &#8211; the Schema Compare tool produces the synchronization scripts to apply to the current schema versions or/and to save for the future. All tasks can be automated and run on schedule. 
 
 dbForge Schema Compare for MySQL can be purchased as a separate tool, but it also is a part of the complete Database Management Studio for MySQL that includes all tools for any kind of database-related jobs. 
 </description>
