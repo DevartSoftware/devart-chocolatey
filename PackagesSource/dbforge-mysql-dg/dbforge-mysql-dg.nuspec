@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<package>
     <metadata>
         <id>dbforge-mysql-dg</id>
-        <version>2.6.86</version>
+        <version>2.6.107</version>
         <title>dbForge Data Generator for MySQL</title>
         <description>A powerful tool for generating any amount of test data 
 
@@ -10,7 +9,7 @@ dbForge Data Generator for MySQL is software that produces high-quality, realist
 
 The Data Generation tool allows its users to save many hours of manual work. The tasks on data generation can be automated and set on schedule. Various column data types are supported, keeping them consistent in all tables. Users can visualize the generated data easily. 
 
-The tool is a separate solution, and also it comes as a part of the dbForge Studio for MySQL – a complete database management studio for all tasks related to the creation and handling of MySQL and MariaDB databases. 
+The tool is a separate solution, and also it comes as a part of the dbForge Studio for MySQL &#8211; a complete database management studio for all tasks related to the creation and handling of MySQL and MariaDB databases. 
 </description>
         <authors>Devart</authors>
         <owners>Devart</owners>
