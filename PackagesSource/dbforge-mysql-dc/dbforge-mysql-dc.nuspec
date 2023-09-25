@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<package>
     <metadata>
         <id>dbforge-mysql-dc</id>
-        <version>5.9.86</version>
+        <version>2.2.2</version>
         <title>dbForge Data Compare for MySQL</title>
         <description>Professional solution for comparing and syncing data in databases 
 
