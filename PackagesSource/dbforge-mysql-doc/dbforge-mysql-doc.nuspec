@@ -1,7 +1,7 @@
 <package>
     <metadata>
         <id>dbforge-mysql-doc</id>
-        <version>2.2.107</version>
+        <version>10.0.46</version>
         <title>dbForge Documenter for MySQL</title>
         <description>A powerful solution for documenting databases 
 
@@ -17,7 +17,7 @@ The Documenter is a part of the whole database management dbForge Studio for MyS
         <projectUrl>https://www.devart.com/dbforge/mysql/documenter/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-mysql-documenter.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/609EC460C39BA27F2E27D25D3A6F1096A0AB67D7C6C29C2E08463D0D7883CB38/revision_history.html</releaseNotes>
+        <releaseNotes>https://choco.devart.com/s/93289C50EA2C61C9C2A6161BE4EADA8F7D9E7D078E46BB4C47DF57E01FB9B1D0/revision_history.html</releaseNotes>
         <tags>mysql mariadb database Development Tool rdbms Ide Windows Sql  Data Export Import</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-mysql-doc</packageSourceUrl>
         <docsUrl>https://docs.devart.com/documenter-for-mysql/</docsUrl>
