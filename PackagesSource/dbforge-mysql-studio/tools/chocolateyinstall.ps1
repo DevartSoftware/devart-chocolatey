@@ -1,13 +1,13 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://choco.devart.com/s/EE544A4962F600A716E3869E11B445F22389A1B4C6FE6E6C2EBA1082AA854559/dbforgemysql.exe' 
+$url        = 'https://choco.devart.com/s/AE862E86D27C62E5BD647B9C24930826DCCA500CDDCE167E58D6D7FB43AF67AB/dbforgemysql.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Studio 2022 for MySQL, v10.0.46' 
-  checksum      = 'EE544A4962F600A716E3869E11B445F22389A1B4C6FE6E6C2EBA1082AA854559'
+  softwareName  = 'dbForge Studio for MySQL, v10.0.60' 
+  checksum      = 'AE862E86D27C62E5BD647B9C24930826DCCA500CDDCE167E58D6D7FB43AF67AB'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
   validExitCodes= @(0, 3010, 1641)
