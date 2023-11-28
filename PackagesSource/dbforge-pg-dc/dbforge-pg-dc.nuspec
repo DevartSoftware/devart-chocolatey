@@ -1,7 +1,7 @@
 <package>
     <metadata>
         <id>dbforge-pg-dc</id>
-        <version>4.1.789</version>
+        <version>4.1.788</version>
         <title>dbForge Data Compare for PostgreSQL</title>
         <description>Professional solution for comparing and syncing database data
 
