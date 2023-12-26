@@ -1,7 +1,7 @@
 <package>
     <metadata>
         <id>dbforge-mysql-studio</id>
-        <version>10.0.46</version>
+        <version>10.0.60</version>
         <title>dbForge Studio for MySQL</title>
         <description>A powerful IDE for MySQL handling all kinds of database-related jobs
 
