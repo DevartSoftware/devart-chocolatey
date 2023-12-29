@@ -11,7 +11,7 @@ The code auto-completion functionality exceeds the standard IntelliSense capacit
 
 SQL Complete is a tool that helps to speed the coding routines at least twice for even the most complicated scripts and ensure producing the best-quality, error-free code. Such additional options as renaming, searching and finding invalid code/objects, troubleshooting T-SQL codes of any type, formatting profiles, etc. serve to bring accurate results effortlessly.
 
-Another great feature is the possibility to search and visualize the data in the SSMS Results Grid. It lets you search for the required data across the Results grid, and you won&#8217;t need to type queries. You can also generate the scripts from that grid directly. A helpful option of data aggregation helps you calculate sums and average values faster and easier than in spreadsheets.
+Another great feature is the possibility to search and visualize the data in the SSMS Results Grid. It lets you search for the required data across the Results grid, and you won't need to type queries. You can also generate the scripts from that grid directly. A helpful option of data aggregation helps you calculate sums and average values faster and easier than in spreadsheets.
 
 A helpful option is the possibility to restore previous sessions. It lets you restore the document sessions and the last closed documents, which can be vital if your SSMS crashes or you closed the document accidentally and did not save the changes. This way, you can minimize or avoid losses. The option of the execution warning helps you avoid the object or data deletion accidentally. Transaction reminders inform you about uncommitted transactions. It guarantees to preserve your work.
 
