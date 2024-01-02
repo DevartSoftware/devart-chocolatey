@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<package>
     <metadata>
         <id>dbforge-sql-search</id>
-        <version>2.7.23</version>
+        <version>2.7.25</version>
         <title>dbForge Search for SQL Server</title>
         <description>Quick and convenient searching for SQL objects and data
 
@@ -17,7 +16,7 @@ SQL Search is a small but helpful tool that eases routine database management ta
         <projectUrl>https://www.devart.com/dbforge/sql/search/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-search.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/39F9D20DDA4C48E8510B8D83D6A17CC54FCC1079A71A3CB3E5059956EB149EA3/revision_history.html</releaseNotes>
+        <releaseNotes>https://choco.devart.com/s/DC4EAEA46D364EDE7E65AC663043EF496CB760A8B3302AD5CB918A06CA5026DC/revision_history.html</releaseNotes>
         <tags>MSSQL Database SQL Tools SQLServer Find Object Text Search</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-search</packageSourceUrl>
         <docsUrl>https://docs.devart.com/search/</docsUrl>
