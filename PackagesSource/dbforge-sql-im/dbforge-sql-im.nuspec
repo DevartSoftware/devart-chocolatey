@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<package>
     <metadata>
         <id>dbforge-sql-im</id>
-        <version>1.13.20</version>
+        <version>1.13.22</version>
         <title>dbForge Index Manager for SQL Server</title>
         <description>The tool for detecting and analyzing index fragmentation issues
 
@@ -17,7 +16,7 @@ The tool is a part of the SQL Tools package, and it is also available as a separ
         <projectUrl>https://www.devart.com/dbforge/sql/index-manager/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-index-manager.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/35EB8CA0AE22C86896AC4A4CBAFD5FD4158AF2437CAC4D135F7AAA291C3282DA/revision_history.html</releaseNotes>
+        <releaseNotes>https://choco.devart.com/s/37A1F73F0BC295ADC9C7D6D32587E539668700243B778940DE8AE28B0A49DA1A/revision_history.html</releaseNotes>
         <tags>MSSQL Database SQL Tools SQLServer Rebuild Index Frangmentation Defrag</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-im</packageSourceUrl>
         <docsUrl>https://docs.devart.com/index-manager/</docsUrl>
