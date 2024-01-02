@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<package>
     <metadata>
         <id>dbforge-sql-ut</id>
-        <version>1.8.24</version>
+        <version>1.8.26</version>
         <title>dbForge Unit Test for SQL Server</title>
         <description>A tool for writing SQL unit tests with SSMS 
 
-dbForge Unit Test for SQL Server is a GUI integrated with SSMS that helps the SQL Server developers compose accurate and stable code and regression-test it accordingly. The tool uses the tSQLt framework, thus allowing for writing unit tests in T-SQL. Such tests don’t influence the databases in any way.
+dbForge Unit Test for SQL Server is a GUI integrated with SSMS that helps the SQL Server developers compose accurate and stable code and regression-test it accordingly. The tool uses the tSQLt framework, thus allowing for writing unit tests in T-SQL. Such tests don&#8217;t influence the databases in any way.
 
 With this mini-tool, users can execute multiple unit tests simultaneously and automate this process using the command-line interface. Predefined unit test examples help the database developers compose their tests correctly and efficiently. All the functionality becomes available in the favored environment of SSMS, so there is no need for leaving it and launching any other system to write and execute unit tests. 
 
@@ -17,7 +16,7 @@ This tool is a part of the SQL Tools package, and a separate solution for SSMS i
         <projectUrl>https://www.devart.com/dbforge/sql/unit-test/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-unit-test.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/D4872EE1F8BCCA33822BC6A68573EC98C72820143E92B4D32250A9F57C6B5E24/revision_history.html</releaseNotes>
+        <releaseNotes>https://choco.devart.com/s/9C4DE7C3CDD98E310AD9F2ACBEF77FB15FF30D2E4DFF76461179E035C3128769/revision_history.html</releaseNotes>
         <tags>MSSQL Database SQL Tools SQLServer Unit Testing Test TSQL</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-ut</packageSourceUrl>
         <docsUrl>https://docs.devart.com/unit-test/</docsUrl>
