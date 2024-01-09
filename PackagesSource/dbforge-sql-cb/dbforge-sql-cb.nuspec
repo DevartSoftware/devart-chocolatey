@@ -1,15 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<package>
     <metadata>
         <id>dbforge-sql-cb</id>
-        <version>6.5.1</version>
+        <version>6.5.2</version>
         <title>dbForge Compare Bundle for SQL Server</title>
         <description>Dedicated tools for comparing database schemas and data 
 
-dbForge Compare Bundle for SQL Server consists of two dedicated tools – Schema Compare for SQL Server and Data Compare for SQL Server. These powerful tools are irreplaceable when users need to compare two databases, define the differences in them, and synchronize the databases to deploy changes. 
+dbForge Compare Bundle for SQL Server consists of two dedicated tools &#8211; Schema Compare for SQL Server and Data Compare for SQL Server. These powerful tools are irreplaceable when users need to compare two databases, define the differences in them, and synchronize the databases to deploy changes. 
 
 The tools compare the database schemas of tables data automatically and present the results, mapping them between the databases for easier analysis. Users can identify all differences and check if there are any troubles caused by them. The tools synchronize the databases in real-time or let the users sync them with the help of dedicated update scripts. All tasks can be scheduled. The Compare Bundle functionality is essential for the CI/CD processes. 
-By applying this Bundle, users can integrate the comparison and syncing functionality into SSMS to improve the database management functionality. Each tool can be purchased separately. They are also a part of the SQL Tools or the dbForge Studio for SQL Server – a complete database management system.
+By applying this Bundle, users can integrate the comparison and syncing functionality into SSMS to improve the database management functionality. Each tool can be purchased separately. They are also a part of the SQL Tools or the dbForge Studio for SQL Server &#8211; a complete database management system.
 
 The Bundle comes with a significant discount in comparison with purchasing both tools separately. </description>
         <authors>Devart</authors>
@@ -18,7 +17,7 @@ The Bundle comes with a significant discount in comparison with purchasing both 
         <projectUrl>https://www.devart.com/dbforge/sql/compare-bundle/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-compare-bundle.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/53A276B30D3C047BEBCDAE94E853176EDDB493A4AFCF3AE0D02CD171EE1CB820/revision_history.html</releaseNotes>
+        <releaseNotes>https://choco.devart.com/s/3AB13F9CAF791931747A9691649312DF9B286354334EDA46DC0AAA3AB88AC34E/revision_history.html</releaseNotes>
         <tags>MSSQL Database SQL Tools SQLServer Admin DBA Schema Data Compare Comparison Diff Sync</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-cb</packageSourceUrl>
         <docsUrl>https://www.devart.com/dbforge/sql/compare-bundle/</docsUrl>

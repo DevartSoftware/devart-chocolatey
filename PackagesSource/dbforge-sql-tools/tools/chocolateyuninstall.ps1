@@ -32,8 +32,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Unit Test for SQL Server, v1.8.24'
-  softwareName  = 'dbForge Unit Test for SQL Server, v1.8.24'
+  packageName   = 'dbForge Unit Test for SQL Server, v1.8.26'
+  softwareName  = 'dbForge Unit Test for SQL Server, v1.8.26'
   fileType      = 'exe'
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -42,8 +42,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge SQL Complete, v6.15.5'
-  softwareName  = 'dbForge SQL Complete, v6.15.5'
+  packageName   = 'dbForge SQL Complete, v6.15.20'
+  softwareName  = 'dbForge SQL Complete, v6.15.20'
   fileType      = 'exe'
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -52,8 +52,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Source Control for SQL Server, v2.6.4'
-  softwareName  = 'dbForge Source Control for SQL Server, v2.6.4'
+  packageName   = 'dbForge Source Control for SQL Server, v2.6.6'
+  softwareName  = 'dbForge Source Control for SQL Server, v2.6.6'
   fileType      = 'exe'
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -62,8 +62,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Search for SQL Server, v2.7.23'
-  softwareName  = 'dbForge Search for SQL Server, v2.7.23'
+  packageName   = 'dbForge Search for SQL Server, v2.7.25'
+  softwareName  = 'dbForge Search for SQL Server, v2.7.25'
   fileType      = 'exe'
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -72,8 +72,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Monitor for SQL Server, v1.5.21'
-  softwareName  = 'dbForge Monitor for SQL Server, v1.5.21'
+  packageName   = 'dbForge Monitor for SQL Server, v1.5.24'
+  softwareName  = 'dbForge Monitor for SQL Server, v1.5.24'
   fileType      = 'exe'
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -82,8 +82,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Index Manager for SQL Server, v1.13.20'
-  softwareName  = 'dbForge Index Manager for SQL Server, v1.13.20'
+  packageName   = 'dbForge Index Manager for SQL Server, v1.13.22'
+  softwareName  = 'dbForge Index Manager for SQL Server, v1.13.22'
   fileType      = 'exe'
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -92,8 +92,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Data Pump for SQL Server, v1.8.27'
-  softwareName  = 'dbForge Data Pump for SQL Server, v1.8.27'
+  packageName   = 'dbForge Data Pump for SQL Server, v1.8.30'
+  softwareName  = 'dbForge Data Pump for SQL Server, v1.8.30'
   fileType      = 'exe'
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -102,8 +102,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Schema Compare for SQL Server, v5.4.5'
-  softwareName  = 'dbForge Schema Compare for SQL Server, v5.4.5'
+  packageName   = 'dbForge Schema Compare for SQL Server, v5.4.8'
+  softwareName  = 'dbForge Schema Compare for SQL Server, v5.4.8'
   fileType      = 'exe'
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -112,8 +112,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Query Builder for SQL Server, v4.2.29'
-  softwareName  = 'dbForge Query Builder for SQL Server, v4.2.29'
+  packageName   = 'dbForge Query Builder for SQL Server, v4.2.33'
+  softwareName  = 'dbForge Query Builder for SQL Server, v4.2.33'
   fileType      = 'exe'
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -132,8 +132,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Event Profiler for SQL Server, v1.8.21'
-  softwareName  = 'dbForge Event Profiler for SQL Server, v1.8.21'
+  packageName   = 'dbForge Event Profiler for SQL Server, v1.8.24'
+  softwareName  = 'dbForge Event Profiler for SQL Server, v1.8.24'
   fileType      = 'exe'
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -142,8 +142,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Documenter for SQL Server, v1.7.26'
-  softwareName  = 'dbForge Documenter for SQL Server, v1.7.26'
+  packageName   = 'dbForge Documenter for SQL Server, v1.7.29'
+  softwareName  = 'dbForge Documenter for SQL Server, v1.7.29'
   fileType      = 'exe'
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -152,8 +152,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Data Generator for SQL Server, v4.5.26'
-  softwareName  = 'dbForge Data Generator for SQL Server, v4.5.26'
+  packageName   = 'dbForge Data Generator for SQL Server, v4.5.28'
+  softwareName  = 'dbForge Data Generator for SQL Server, v4.5.28'
   fileType      = 'exe'
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -162,8 +162,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Data Compare for SQL Server, v5.4.4'
-  softwareName  = 'dbForge Data Compare for SQL Server, v5.4.4'
+  packageName   = 'dbForge Data Compare for SQL Server, v5.4.9'
+  softwareName  = 'dbForge Data Compare for SQL Server, v5.4.9'
   fileType      = 'exe'
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  

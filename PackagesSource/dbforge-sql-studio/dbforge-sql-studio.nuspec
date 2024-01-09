@@ -1,19 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<package>
     <metadata>
         <id>dbforge-sql-studio</id>
-        <version>6.5.16.20230726</version>
+        <version>6.5.140</version>
         <title>dbForge Studio for SQL Server</title>
         <description>A complete IDE for handling all tasks related to SQL Server databases
 
-dbForge Studio for SQL Server is a multi-featured IDE designed to perform all tasks of creating, maintaining, and managing SQL Server databases. All the necessary tools and a user-friendly GUI make this solution one of the best alternatives to SSMS – it is more functional and convenient for any database developer, DBA, or Admin.
+dbForge Studio for SQL Server is a multi-featured IDE designed to perform all tasks of creating, maintaining, and managing SQL Server databases. All the necessary tools and a user-friendly GUI make this solution one of the best alternatives to SSMS &#8211; it is more functional and convenient for any database developer, DBA, or Admin.
 
 Key benefits of dbForge Studio for SQL Server: 
 
 * Write even the most sophisticated TSQL queries in a visual mode or manually, using the code auto-completion, syntax check, and auto-formatting options. Create any database objects and produce dedicated scripts automatically. 
 * Copy databases, compare and sync the data in databases and database schemas (separately, using specialized tools). Review all discrepancies between the schemas and all differences in data, and sync the databases manually or automatically. 
 * Import and export the data, configure the processes of backing up and restoring the data, and generate test data to populate tables and perform the necessary test routines. 
-* Create and configure user accounts and their permissions. Monitor the users’ activities and the entire SQL Server performance in real-time with comprehensive reporting. Identify and fix problems. 
+* Create and configure user accounts and their permissions. Monitor the users&#8217; activities and the entire SQL Server performance in real-time with comprehensive reporting. Identify and fix problems. 
 * Make use of detailed reports in different file formats and Pivot Tables. 
 * Set up the Continuous Integration processes and automate them to release databases fast and safely. Minimize the risks of errors in builds and deployment.
 
@@ -24,7 +23,7 @@ The dbForge database management studio of SQL Server lets the users perform all 
         <projectUrl>https://www.devart.com/dbforge/sql/studio</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-studio.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/D742BCCBD2EA9D8F88CE9DE3B3EA62180891E83AF29EB8092105683562332FBB/revision_history.html</releaseNotes>
+        <releaseNotes>https://choco.devart.com/s/40F61D09DD160C50EBEFC07801810DE4721DA0E05FBFC3C2E12EE74D9C3AD9B8/revision_history.html</releaseNotes>
         <tags>MSSQL Database IDE GUI SQL Tools SQLServer Studio Admin DBA </tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-studio</packageSourceUrl>
         <docsUrl>https://docs.devart.com/studio-for-sql-server/</docsUrl>

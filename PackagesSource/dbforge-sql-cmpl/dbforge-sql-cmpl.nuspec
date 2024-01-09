@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<package>
     <metadata>
         <id>dbforge-sql-cmpl</id>
-        <version>6.15.5.20230726</version>
+        <version>6.15.20</version>
         <title>dbForge SQL Complete</title>
         <description>A comprehensive solution for flawless SQL code writing
 
@@ -12,7 +11,7 @@ The code auto-completion functionality exceeds the standard IntelliSense capacit
 
 SQL Complete is a tool that helps to speed the coding routines at least twice for even the most complicated scripts and ensure producing the best-quality, error-free code. Such additional options as renaming, searching and finding invalid code/objects, troubleshooting T-SQL codes of any type, formatting profiles, etc. serve to bring accurate results effortlessly.
 
-Another great feature is the possibility to search and visualize the data in the SSMS Results Grid. It lets you search for the required data across the Results grid, and you won’t need to type queries. You can also generate the scripts from that grid directly. A helpful option of data aggregation helps you calculate sums and average values faster and easier than in spreadsheets.
+Another great feature is the possibility to search and visualize the data in the SSMS Results Grid. It lets you search for the required data across the Results grid, and you won't need to type queries. You can also generate the scripts from that grid directly. A helpful option of data aggregation helps you calculate sums and average values faster and easier than in spreadsheets.
 
 A helpful option is the possibility to restore previous sessions. It lets you restore the document sessions and the last closed documents, which can be vital if your SSMS crashes or you closed the document accidentally and did not save the changes. This way, you can minimize or avoid losses. The option of the execution warning helps you avoid the object or data deletion accidentally. Transaction reminders inform you about uncommitted transactions. It guarantees to preserve your work.
 
@@ -23,7 +22,7 @@ dbForge SQL Complete is one of the most favored tools for all database specialis
         <projectUrl>https://www.devart.com/dbforge/sql/sqlcomplete/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-sqlcomplete.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/3B2623296DF407077BCFEC08C5B83E9E21C8D3804EE2260DF32A0F96BCD6A6F9/revision_history.html</releaseNotes>
+        <releaseNotes>https://choco.devart.com/s/02B1946EF076ABA4DA27E5B0ED36F0E31FEC324DE7005779EEB870ACA3B50415/revision_history.html</releaseNotes>
         <tags>MSSQL Database SQL Tools SQLServer TSQL Autocompletion IntelliSense Formatter Debugger Refactoring Productivity SSMS VisualStudio</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-cmpl</packageSourceUrl>
         <docsUrl>https://docs.devart.com/sqlcomplete/</docsUrl>
