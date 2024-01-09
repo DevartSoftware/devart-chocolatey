@@ -23,9 +23,7 @@ $packageArgs = @{
   Write-Host "Mandatory system requirements for successful installation:" -ForegroundColor DarkYellow
   Write-Host "1.The tool requires Microsoft SQL Server Management Studio (MS SSMS) 2012 or higher to be installed."
   Write-Host "Download SSMS:https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms" -ForegroundColor Magenta
-  Write-Host "2.The tool requires Visual Studio 2012 or higher to be installed."
-  Write-Host "Download Visual Studio:https://visualstudio.microsoft.com/downloads/" -ForegroundColor Magenta
-  Write-Host "3.Ensure that the programs with which the product interacts are closed prior to installation to avoid conflicts."
+  Write-Host "2.Ensure that the programs with which the product interacts are closed prior to installation to avoid conflicts."
   Write-Host ""
   Write-Host "The log file will be saved to: $env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log" -ForegroundColor Yellow
   Write-Host ""
