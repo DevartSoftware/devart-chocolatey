@@ -6,7 +6,7 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge SQL Complete, v6.15.20' 
+  softwareName  = 'dbForge SQL Complete, v10.0.150' 
   checksum      = '02B1946EF076ABA4DA27E5B0ED36F0E31FEC324DE7005779EEB870ACA3B50415'
   checksumType  = 'sha256' 
     silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
