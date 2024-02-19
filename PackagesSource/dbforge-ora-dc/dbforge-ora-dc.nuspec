@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<package>
     <metadata>
         <id>dbforge-ora-dc</id>
-        <version>5.5.100</version>
+        <version>5.5.172</version>
         <title>dbForge Data Compare for Oracle</title>
         <description>Professional solution for handling data differences in Oracle databases
 
@@ -10,7 +9,7 @@ dbForge Data Compare for Oracle is a robust and user-friendly solution designed 
 
 The tool compares two or more databases, both several versions of one database or different ones. It identifies all discrepancies in data and presents them for the user to view or export as XLS or HTML reports. After comparison, the tool can produce the SQL*Plus scripts for the data synchronization. It allows to replicate the data without errors and update the databases in production/staging with the data from the development stage. 
 
-The Data Compare tool is available as a separate solution or as a part of dbForge Studio for Oracle – a fully-featured IDE for performing all tasks on Oracle database development and management. You can test any product – the free trials are available. 
+The Data Compare tool is available as a separate solution or as a part of dbForge Studio for Oracle &#8211; a fully-featured IDE for performing all tasks on Oracle database development and management. You can test any product &#8211; the free trials are available. 
 </description>
         <authors>Devart</authors>
         <owners>Devart</owners>
@@ -18,7 +17,7 @@ The Data Compare tool is available as a separate solution or as a part of dbForg
         <projectUrl>https://www.devart.com/dbforge/oracle/datacompare/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-oracle-datacompare.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/F6C5DF6E8D0086285A5CC6D1524BA38023683C10737A66ED8902B1972F5D0065/revision_history.html</releaseNotes>
+        <releaseNotes>https://choco.devart.com/s/C9D487C33A6E07277C85B2FC2914486929A989A78CA02713500CA96F9C57CEB1/revision_history.html</releaseNotes>
         <tags>Oracle database database-management Tool rdbms Ide Windows management Report transfer migrate synchronize Data</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-ora-dc</packageSourceUrl>
         <docsUrl>https://docs.devart.com/data-compare-for-oracle/</docsUrl>
