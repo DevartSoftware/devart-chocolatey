@@ -1,13 +1,13 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://choco.devart.com/s/02F9EDF1B45BA452E02A413A61C5EEF2DF9B800776198C161F930497A5D8E046/comparebundleoracle.exe' 
+$url        = 'https://choco.devart.com/s/90EFE548DAFC8E781A622645EFACC55CF78D928DDF7E38FD3C5DBF445E952ACF/comparebundleoracle.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
   softwareName  = 'Compare Bundle for Oracle' 
-  checksum      = '02F9EDF1B45BA452E02A413A61C5EEF2DF9B800776198C161F930497A5D8E046'
+  checksum      = '90EFE548DAFC8E781A622645EFACC55CF78D928DDF7E38FD3C5DBF445E952ACF'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
   validExitCodes= @(0, 3010, 1641)
