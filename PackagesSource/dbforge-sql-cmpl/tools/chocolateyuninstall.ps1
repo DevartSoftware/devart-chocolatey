@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop';
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  softwareName  = 'dbForge SQL Complete, v10.0.150'
+  softwareName  = 'dbForge SQL Complete, v6.15.20'
   fileType      = 'exe'
 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Uninstall.log`""
