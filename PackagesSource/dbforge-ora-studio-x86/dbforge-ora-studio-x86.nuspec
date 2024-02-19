@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<package>
     <metadata>
         <id>dbforge-ora-studio-x86</id>
-        <version>4.5.117</version>
+        <version>4.6.15</version>
         <title>dbForge Studio 2023 for Oracle x86</title>
         <description>Multi-featured GUI system for any Oracle database tasks 
 
@@ -22,7 +21,7 @@ dbForge Studio for Oracle allows for automating tasks and report delivery, thus 
         <projectUrl>https://www.devart.com/dbforge/oracle/studio/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-oracle-studio.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/80BB60E89399825B0398193B8540DE8D68D01C05EBA8B8EE67578A2F1AE1533A/revision_history.html</releaseNotes>
+        <releaseNotes>https://choco.devart.com/s/D1CC07D5A7E2777079922B862F0858BF8FFCDDB885282DEE5B6396F5D31EA2F5/revision_history.html</releaseNotes>
         <tags>Oracle database database-management Development Tool administration admin dba rdbms Ide Windows management csv json xls excel Report Export Import ER Diagram Data performance debug restore editor</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-ora-studio-x86</packageSourceUrl>
         <docsUrl>https://docs.devart.com/studio-for-oracle/</docsUrl>
