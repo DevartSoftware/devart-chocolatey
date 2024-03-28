@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<package>
     <metadata>
         <id>dbforge-ora-cb</id>
-        <version>4.5.2</version>
+        <version>4.6.1</version>
         <title>dbForge Compare Bundle for Oracle</title>
         <description>A tool for handling database discrepancies in Oracle 
 
 dbForge Compare Bundle for Oracle is a powerful solution that compares and synchronizes differences in database data and schemas. This tool is irreplaceable for the DevOps approach and other tasks where you need to analyze the database versions, check if there are any differences, and where, and then sync those versions. 
 
-The Compare Bundle includes two professional tools – Schema Compare and Data Compare. This package lets the users get all the functionality to handle the differences in schemas and data. Such robust options for comparison and synchronizing are helpful for Oracle database management. 
+The Compare Bundle includes two professional tools &#8211; Schema Compare and Data Compare. This package lets the users get all the functionality to handle the differences in schemas and data. Such robust options for comparison and synchronizing are helpful for Oracle database management. 
 
 The tools report all identified discrepancies to analyze them in-depth. After comparing the schemas and data, these tools generate synchronization scripts users can apply or save for the future. Comparison and synchronization tasks can be run on schedule, automating the processes and saving the developers' time. 
 
@@ -20,7 +19,7 @@ One more advantage of the Bundle is that its price is lower than purchasing thes
         <projectUrl>https://www.devart.com/dbforge/oracle/compare-bundle/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-oracle-compare-bundle.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/1E17E43FEE505F23D1F784185DF29AC3BA0390388EA72A2ABE842A39BF28E077/revision_history.html</releaseNotes>
+        <releaseNotes>https://choco.devart.com/s/93432C5F6343977142CBD3990F67B9CE6CF6558DDC48E2F7787E54A114BDA5DF/revision_history.html</releaseNotes>
         <tags>Oracle database database-management Tool rdbms Ide Windows management Report transfer migrate synchronize Data</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-ora-cb</packageSourceUrl>
         <docsUrl>https://www.devart.com/dbforge/oracle/compare-bundle/</docsUrl>

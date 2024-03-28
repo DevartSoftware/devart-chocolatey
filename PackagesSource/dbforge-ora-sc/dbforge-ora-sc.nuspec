@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<package>
     <metadata>
         <id>dbforge-ora-sc</id>
-        <version>4.5.102</version>
+        <version>4.5.226</version>
         <title>dbForge Schema Compare for Oracle</title>
         <description>Professional solution for handling schema differences in Oracle
 
@@ -14,14 +13,14 @@ You can compare schemas in different Oracle databases. Comparison and synchroniz
 
 The tool allows for automating the tasks via the command-line interface to save time and eliminate the risks of errors caused by the human factor. 
 
-Schema Compare is a part of the Studio for Oracle – an IDE for Oracle database developers and administrators. Also, this tool is available as a separate solution.</description>
+Schema Compare is a part of the Studio for Oracle &#8211; an IDE for Oracle database developers and administrators. Also, this tool is available as a separate solution.</description>
         <authors>Devart</authors>
         <owners>Devart</owners>
         <summary>Professional solution for handling schema differences in Oracle</summary>
         <projectUrl>https://www.devart.com/dbforge/oracle/schemacompare/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-oracle-schemacompare.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/6D80E56C14CF3236CF3A37642A93E4ADDC0FAFDCA24F852EBC5F3CE2A8628761/revision_history.html</releaseNotes>
+        <releaseNotes>https://choco.devart.com/s/F34EC578B7BE894236315F61CC9624352935CC4E9D31547CBE0F66A73B259E05/revision_history.html</releaseNotes>
         <tags>Oracle database database-management Tool rdbms Ide Windows management Report transfer migrate synchronize</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-ora-sc</packageSourceUrl>
         <docsUrl>https://docs.devart.com/schema-compare-for-oracle/getting-started/installing.html</docsUrl>
