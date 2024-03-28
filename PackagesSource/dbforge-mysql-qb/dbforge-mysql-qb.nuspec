@@ -1,7 +1,7 @@
 <package>
     <metadata>
         <id>dbforge-mysql-qb</id>
-        <version>10.0.225</version>
+        <version>10.0.150</version>
         <title>dbForge Query Builder for MySQL</title>
         <description>A visual tool for easy composing any complicated queries 
 
