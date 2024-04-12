@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop';
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  softwareName  = 'dbForge Search for SQL Server, v2.7.25'
+  softwareName  = 'dbForge Search for SQL Server, v2.8.2'
   fileType      = 'exe'
 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Uninstall.log`""
