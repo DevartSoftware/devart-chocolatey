@@ -1,7 +1,7 @@
 <package>
     <metadata>
         <id>dbforge-sql-studio</id>
-        <version>6.5.140</version>
+        <version>6.6.5</version>
         <title>dbForge Studio for SQL Server</title>
         <description>A complete IDE for handling all tasks related to SQL Server databases
 
@@ -23,7 +23,7 @@ The dbForge database management studio of SQL Server lets the users perform all 
         <projectUrl>https://www.devart.com/dbforge/sql/studio</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-studio.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/40F61D09DD160C50EBEFC07801810DE4721DA0E05FBFC3C2E12EE74D9C3AD9B8/revision_history.html</releaseNotes>
+        <releaseNotes>https://choco.devart.com/s/FF650D8B35B62A9AFE9070371C95392DDB6AD0B38F5E2B888EAD0D0ECC3EB946/revision_history.html</releaseNotes>
         <tags>MSSQL Database IDE GUI SQL Tools SQLServer Studio Admin DBA </tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-studio</packageSourceUrl>
         <docsUrl>https://docs.devart.com/studio-for-sql-server/</docsUrl>
