@@ -112,8 +112,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Query Builder for SQL Server, v4.2.33'
-  softwareName  = 'dbForge Query Builder for SQL Server, v4.2.33'
+  packageName   = 'dbForge Query Builder for SQL Server, v4.2.35'
+  softwareName  = 'dbForge Query Builder for SQL Server, v4.2.35'
   fileType      = 'exe'
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -132,8 +132,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Event Profiler for SQL Server, v1.8.24'
-  softwareName  = 'dbForge Event Profiler for SQL Server, v1.8.24'
+  packageName   = 'dbForge Event Profiler for SQL Server, v1.8.26'
+  softwareName  = 'dbForge Event Profiler for SQL Server, v1.8.26'
   fileType      = 'exe'
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
