@@ -1,13 +1,13 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://choco.devart.com/s/F34EC578B7BE894236315F61CC9624352935CC4E9D31547CBE0F66A73B259E05/schemacompareoracle45.exe' 
+$url        = 'https://choco.devart.com/s/472B55772E89DED27919DF32E8FBB72DB5CFAA704B395FB9A8647A8E5B6BA35E/schemacompareoracle45.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Schema Compare for Oracle, v4.5.226' 
-  checksum      = 'F34EC578B7BE894236315F61CC9624352935CC4E9D31547CBE0F66A73B259E05'
+  softwareName  = 'dbForge Schema Compare for Oracle, v4.5.236' 
+  checksum      = '472B55772E89DED27919DF32E8FBB72DB5CFAA704B395FB9A8647A8E5B6BA35E'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
   validExitCodes= @(0, 3010, 1641)
