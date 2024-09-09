@@ -7,7 +7,7 @@ $packageArgs = @{
   fileType      = 'exe' 
   url           = $url 
   softwareName  = 'dbForge Schema Compare for SQL Server, v5.0 Professional Edition' 
-  checksum      = '4BDB4891F35040261C894B9125B36425B93F550E44EA8E64D4C401D71459A870'
+  checksum      = '39D10B263B1FA4133C620152B61E984BDB890ECA659E8BE9889E799896EC0414'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
   validExitCodes= @(0, 3010, 1641)

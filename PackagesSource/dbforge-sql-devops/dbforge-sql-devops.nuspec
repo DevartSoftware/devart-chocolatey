@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<package>
     <metadata>
         <id>dbforge-sql-devops</id>
-        <version>1.1</version>
+        <version>1.2.77</version>
         <title>dbForge DevOps Automation for SQL Server</title>
         <description>dbForge DevOps Automation for SQL Server is a cutting-edge solution that takes conventional database development and deployment to a whole new level. This database DevOps tool minimizes deployment risks, energizes quality and update frequency, and makes the overall workflow consistent and safe.</description>
         <authors>Devart</authors>
@@ -10,7 +9,7 @@
         <projectUrl>https://www.devart.com/dbforge/sql/database-devops/</projectUrl>
         <iconUrl>https://rawcdn.githack.com/DevartSoftware/devart-chocolatey/78467a0c2ce50fc50240e6de0b6328cb01e8f6e4/ProductsPng/sql-devops.png</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>http://choco.devart.com/s/40113480AA390DF5024BA79531750CF44B8ECD8490AD010C59177B2B24830517/revision_history.html</releaseNotes>
+        <releaseNotes>http://choco.devart.com/s/39D10B263B1FA4133C620152B61E984BDB890ECA659E8BE9889E799896EC0414/revision_history.html</releaseNotes>
         <tags>DataBase Management Studio SQL Tools Schema Compare</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-devops</packageSourceUrl>
         <docsUrl>https://docs.devart.com/devops-automation-for-sql-server/</docsUrl>
