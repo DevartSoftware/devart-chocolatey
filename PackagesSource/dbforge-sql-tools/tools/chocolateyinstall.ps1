@@ -14,14 +14,14 @@ $packageArgs = @{
 }
 
 Install-ChocolateyPackage @packageArgs
-$url        = 'https://choco.devart.com/s/9C4DE7C3CDD98E310AD9F2ACBEF77FB15FF30D2E4DFF76461179E035C3128769/unittestsql.exe' 
+$url        = 'https://choco.devart.com/s/0E0ED3135800591BD24ABEECE275FAC295F415E93D9A460D3AF884A8D4004BC1/unittestsql.exe' 
 $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
   softwareName  = 'dbForge Unit Test for SQL Server, v7.0.158' 
   packageName   = 'dbForge Unit Test for SQL Server, v7.0.158'
-  checksum      = '9C4DE7C3CDD98E310AD9F2ACBEF77FB15FF30D2E4DFF76461179E035C3128769'
+  checksum      = '0E0ED3135800591BD24ABEECE275FAC295F415E93D9A460D3AF884A8D4004BC1'
   checksumType  = 'sha256' 
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1641)
