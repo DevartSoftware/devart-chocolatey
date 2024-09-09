@@ -1,13 +1,13 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://www.devart.com/dbforge/sql/compare-bundle/comparebundlesqlpro.exe' 
+$url        = 'https://choco.devart.com/s/66F527BBEF566C4A4DCCE03DBED40B9CDCE3C61C2327E2409EEE51101E694047/devopspowershellsql12.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Schema Compare for SQL Server, v5.0 Professional Edition' 
-  checksum      = '4BDB4891F35040261C894B9125B36425B93F550E44EA8E64D4C401D71459A870'
+  softwareName  = 'dbForge DevOps Automation for SQL Server, v1.2.77' 
+  checksum      = 'https://choco.devart.com/s/D1BF0BAD5745CCAF7B2D00E6E4CC497592E00CD3087A55E47B026B69663D7283/devopspowershellsql12.exe'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
   validExitCodes= @(0, 3010, 1641)

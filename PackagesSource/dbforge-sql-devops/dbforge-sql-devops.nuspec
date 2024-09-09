@@ -3,15 +3,24 @@
     <metadata>
         <id>dbforge-sql-devops</id>
         <version>1.1</version>
-        <title>dbForge DevOps Automation for SQL Server</title>
-        <description>dbForge DevOps Automation for SQL Server is a cutting-edge solution that takes conventional database development and deployment to a whole new level. This database DevOps tool minimizes deployment risks, energizes quality and update frequency, and makes the overall workflow consistent and safe.</description>
+        <title>dbForge DevOps Automation for SQL Server, v1.2.77</title>
+        <description>## dbForge DevOps Automation for SQL Server
+
+The modern solution for automating fast database releases 
+
+dbForge DevOps Automation for SQL Server is a multi-functional extension that aims to speed up and automate the processes of database development. It is essential for implementing CI, ensuring the consistency and safety of the database releases, and reducing the overall expenses. 
+
+This solution involves the functionality of the Schema Compare tool to identify all changes and make sure that only the desired and tested changes get into the central repository. The Continuous Integration approach grants testing of each code element after any slightest change to avoid bugs. All database releases get automated at each step, thus speeding up all delivery processes and making the product more attractive to its end-users. 
+
+With the help of DevOps Automation for SQL Server and other SQL Tools features, such as monitoring and reporting, users can be sure to make all tasks related to database management fast, safe, and efficient.
+</description>
         <authors>Devart</authors>
-        <summary>dbForge DevOps Automation PowerShell for SQL Server</summary>
+        <summary>The modern solution for automating fast database releases</summary>
         <projectUrl>https://www.devart.com/dbforge/sql/database-devops/</projectUrl>
-        <iconUrl>https://rawcdn.githack.com/DevartSoftware/devart-chocolatey/78467a0c2ce50fc50240e6de0b6328cb01e8f6e4/ProductsPng/sql-devops.png</iconUrl>
+        <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-database-devops.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>http://choco.devart.com/s/40113480AA390DF5024BA79531750CF44B8ECD8490AD010C59177B2B24830517/revision_history.html</releaseNotes>
-        <tags>DataBase Management Studio SQL Tools Schema Compare</tags>
+        <releaseNotes>https://choco.devart.com/s/66F527BBEF566C4A4DCCE03DBED40B9CDCE3C61C2327E2409EEE51101E694047/revision_history.html</releaseNotes>
+        <tags>MSSQL Database SQL Tools SQLServer DevOps Automation CI CD</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-devops</packageSourceUrl>
         <docsUrl>https://docs.devart.com/devops-automation-for-sql-server/</docsUrl>
         <dependencies>
