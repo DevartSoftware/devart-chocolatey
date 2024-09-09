@@ -7,7 +7,7 @@ $packageArgs = @{
   fileType      = 'exe' 
   url           = $url 
   softwareName  = 'dbForge DevOps Automation for SQL Server, v1.2.77' 
-  checksum      = 'https://choco.devart.com/s/D1BF0BAD5745CCAF7B2D00E6E4CC497592E00CD3087A55E47B026B69663D7283/devopspowershellsql12.exe'
+  checksum      = '66F527BBEF566C4A4DCCE03DBED40B9CDCE3C61C2327E2409EEE51101E694047'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
   validExitCodes= @(0, 3010, 1641)
