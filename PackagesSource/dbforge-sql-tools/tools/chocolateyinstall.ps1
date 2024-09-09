@@ -1,13 +1,13 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://choco.devart.com/s/F7E0D1819E4D9BE70BAB3557562EA69F8D5FB580904A7C18EB3BD100A514D1E4/sqldecryptor.exe' 
+$url        = 'https://choco.devart.com/s/8199426C302278A216D9E0FF046E8E8E798525ACDCDEEE9B0A7780DFE9736F98/sqldecryptor31.exe' 
 $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge SQL Decryptor, v7.0.158' 
-  packageName   = 'dbForge SQL Decryptor, v7.0.158'
-  checksum      = 'F7E0D1819E4D9BE70BAB3557562EA69F8D5FB580904A7C18EB3BD100A514D1E4'
+  softwareName  = 'dbForge SQL Decryptor, v3.1.24' 
+  packageName   = 'dbForge SQL Decryptor, v3.1.24'
+  checksum      = '8199426C302278A216D9E0FF046E8E8E798525ACDCDEEE9B0A7780DFE9736F98'
   checksumType  = 'sha256' 
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1641)

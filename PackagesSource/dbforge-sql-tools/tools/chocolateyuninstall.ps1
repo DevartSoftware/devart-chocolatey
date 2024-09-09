@@ -22,8 +22,8 @@ function Uninstall_package{
 $ErrorActionPreference = 'Stop';
 
 $packageArgs = @{
-  packageName   = 'dbForge SQL Decryptor, v7.0.158'
-  softwareName  = 'dbForge SQL Decryptor, v7.0.158'
+  packageName   = 'dbForge SQL Decryptor, v3.1.24'
+  softwareName  = 'dbForge SQL Decryptor, v3.1.24'
   fileType      = 'exe'
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
