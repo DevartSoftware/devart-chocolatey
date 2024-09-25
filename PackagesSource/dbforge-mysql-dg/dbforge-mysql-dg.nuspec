@@ -1,7 +1,7 @@
 <package>
     <metadata>
         <id>dbforge-mysql-dg</id>
-        <version>10.0.150</version>
+        <version>10.1.24</version>
         <title>dbForge Data Generator for MySQL</title>
         <description>A powerful tool for generating any amount of test data 
 
@@ -17,7 +17,7 @@ The tool is a separate solution, and also it comes as a part of the dbForge Stud
         <projectUrl>https://www.devart.com/dbforge/mysql/data-generator/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-mysql-data-generator.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/0C3ED74C9CE02833922761DDA4A9D7FA5A15B156F894F07A789A398626794D56/revision_history.html</releaseNotes>
+        <releaseNotes>https://choco.devart.com/s/9A108454ECAC3F7EEC8C5562A7F2963BA02D7E7D16931BE6F44157DB85DE12C2/revision_history.html</releaseNotes>
         <tags>mysql mariadb database Development Tool rdbms Ide Windows Sql  Data</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-mysql-dg</packageSourceUrl>
         <docsUrl>https://docs.devart.com/data-generator-for-mysql/</docsUrl>
