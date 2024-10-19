@@ -1,7 +1,7 @@
 <package>
     <metadata>
         <id>dbforge-sql-dc</id>
-        <version>7.0.158</version>
+        <version>7.0.210</version>
         <title>dbForge Data Compare for SQL Server</title>
         <description>Cutting-edge tool for comparing and synchronizing the database data
 
@@ -16,7 +16,7 @@ dbForge Data Compare for SQL Server is a part of the database management Studio 
         <projectUrl>https://www.devart.com/dbforge/sql/datacompare/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-datacompare.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/66F527BBEF566C4A4DCCE03DBED40B9CDCE3C61C2327E2409EEE51101E694047/revision_history.html</releaseNotes>
+        <releaseNotes>https://choco.devart.com/s/451B6D188648FE48E8337D0D2E24EC5C994C6DB82E786FFDDDFD4388903C0A4A/revision_history.html</releaseNotes>
         <tags>MSSQL Database SQL Tools SQLServer Admin DBA Data Compare Comparison Diff Sync</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-dc</packageSourceUrl>
         <docsUrl>https://docs.devart.com/data-compare-for-sql-server/</docsUrl>
