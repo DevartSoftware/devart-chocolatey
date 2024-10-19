@@ -1,13 +1,13 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://choco.devart.com/s/581C159C52F1B40930C8BF9679A51A89E960A6DA1499E61F5DE7C0CA888AEA98/sourcecontrolsql.exe' 
+$url        = 'https://choco.devart.com/s/7278BF08B3A1FC1D394D3EEC778623EF7D1FAF2B12EBECEA43B54FC0F8712874/sourcecontrolsql.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Source Control for SQL Server, v7.0.158' 
-  checksum      = '581C159C52F1B40930C8BF9679A51A89E960A6DA1499E61F5DE7C0CA888AEA98'
+  softwareName  = 'dbForge Source Control for SQL Server, v7.0.210' 
+  checksum      = '7278BF08B3A1FC1D394D3EEC778623EF7D1FAF2B12EBECEA43B54FC0F8712874'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
   validExitCodes= @(0, 3010, 1641)
