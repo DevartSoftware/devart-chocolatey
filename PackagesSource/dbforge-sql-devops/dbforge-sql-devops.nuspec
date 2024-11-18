@@ -1,7 +1,7 @@
 <package>
     <metadata>
         <id>dbforge-sql-devops</id>
-        <version>1.2.78</version>
+        <version>1.2.77.20240909</version>
         <title>dbForge DevOps Automation for SQL Server</title>
         <description>## dbForge DevOps Automation for SQL Server
 
@@ -18,7 +18,7 @@ With the help of DevOps Automation for SQL Server and other SQL Tools features, 
         <projectUrl>https://www.devart.com/dbforge/sql/database-devops/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-database-devops.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/39D10B263B1FA4133C620152B61E984BDB890ECA659E8BE9889E799896EC0414/revision_history.html</releaseNotes>
+        <releaseNotes>https://choco.devart.com/s/4E49D05D97B54F6D2D97E6C22A5C01E4ED3E900C975A2B3A556D75A49F408F2E/revision_history.html</releaseNotes>
         <tags>MSSQL Database SQL Tools SQLServer DevOps Automation CI CD</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-devops</packageSourceUrl>
         <docsUrl>https://docs.devart.com/devops-automation-for-sql-server/</docsUrl>

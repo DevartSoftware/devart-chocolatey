@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop';
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  softwareName  = 'dbForge DevOps Automation for SQL Server, v1.2.78'
+  softwareName  = 'dbForge DevOps Automation for SQL Server, v1.2.77.20240909'
   fileType      = 'exe'
 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Uninstall.log`""
