@@ -21,7 +21,7 @@ $packageArgs = @{
   Write-Host "https://docs.chocolatey.org/en-us/troubleshooting#mainContent" -ForegroundColor Magenta
   Write-Host ""
   Write-Host "Mandatory system requirements for successful installation:" -ForegroundColor DarkYellow
-  Write-Host "1.The tool requires Microsoft SQL Server Management Studio (MS SSMS) 2012 or higher to be installed."
+  Write-Host "1.The tool requires Microsoft SQL Server Management Studio (MS SSMS) 2016 or higher to be installed."
   Write-Host "Download SSMS:https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms" -ForegroundColor Magenta
   Write-Host "2.Ensure that the programs with which the product interacts are closed prior to installation to avoid conflicts."
   Write-Host ""
