@@ -1,7 +1,7 @@
 <package>
     <metadata>
         <id>dbforge-pg-dc</id>
-        <version>4.2.47</version>
+        <version>4.2.126</version>
         <title>dbForge Data Compare for PostgreSQL</title>
         <description>Professional solution for comparing and syncing database data
 
@@ -16,7 +16,7 @@ You can use the fully-functional free trial of the Data Compare tool to evaluate
         <projectUrl>https://www.devart.com/dbforge/postgresql/datacompare/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-postgresql-datacompare.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/74B51A8FC34B006F12688FC46969986B4D045589B8C0A165EA752C70B37A0071/revision_history.html</releaseNotes>
+        <releaseNotes>https://choco.devart.com/s/7A31B9661022B8BC350C9A6DC365BB6BED2B8A40D329CDC52D0F0325175C0DDA/revision_history.html</releaseNotes>
         <tags>PostgreSQL Amazon-redshift database database-management Tool rdbms</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-pg-dc</packageSourceUrl>
         <docsUrl>https://docs.devart.com/data-compare-for-postgresql/</docsUrl>
