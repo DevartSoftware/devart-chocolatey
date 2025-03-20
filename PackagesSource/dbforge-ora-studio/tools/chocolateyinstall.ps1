@@ -6,7 +6,7 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Studio for Oracle, v6.0.85' 
+  softwareName  = 'dbForge Studio for Oracle, v4.6.15' 
   checksum      = '765094FED7568026DEB80F7062DFECD5016925CC4F899A1D70E040EE47B0DC5B'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
