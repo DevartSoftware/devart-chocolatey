@@ -1,13 +1,13 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://choco.devart.com/s/319DBB89DA5697CC542CB256EF9D693AB23D1B48921342AF96CE52ACEB29A29C/comparebundlemysql.exe' 
+$url        = 'https://choco.devart.com/s/CA59B6F1CFD099330203537499C97FC13F25435A47B8632C9B9B76B588A60E41/comparebundlemysql.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
   softwareName  = 'Compare Bundle for MySQL Standard' 
-  checksum      = '319DBB89DA5697CC542CB256EF9D693AB23D1B48921342AF96CE52ACEB29A29C'
+  checksum      = 'CA59B6F1CFD099330203537499C97FC13F25435A47B8632C9B9B76B588A60E41'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
   validExitCodes= @(0, 3010, 1641)
