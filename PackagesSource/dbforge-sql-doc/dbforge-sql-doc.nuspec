@@ -1,7 +1,7 @@
 <package>
     <metadata>
         <id>dbforge-sql-doc</id>
-        <version>7.0.362</version>
+        <version>7.1.37</version>
         <title>dbForge Documenter for SQL Server</title>
         <description>A tool for automated creation of the database documentation 
 
@@ -16,7 +16,7 @@ The Documenter for SQL Server is available as a separate solution or as a part o
         <projectUrl>https://www.devart.com/dbforge/sql/documenter/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-documenter.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/7A4F1AD5EEB1E518C286379A6011294BAC9222233D139EACAC51AFCE9AA33159/revision_history.html</releaseNotes>
+        <releaseNotes>https://choco.devart.com/s/094E255DC122716F9DCA7A296F23E861845FEE182ABA840C4956C3CBA22D7EB5/revision_history.html</releaseNotes>
         <tags>MSSQL Database SQL Tools SQLServer Document Documentation</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-doc</packageSourceUrl>
         <docsUrl>https://docs.devart.com/documenter-for-sql-server/</docsUrl>
