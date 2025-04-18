@@ -1,13 +1,13 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://choco.devart.com/s/094E255DC122716F9DCA7A296F23E861845FEE182ABA840C4956C3CBA22D7EB5/documentersql.exe' 
+$url        = 'https://choco.devart.com/s/CDDD3D69520FC4A9EB0C8D1BC97D23DF1C1FF3432024E295B0DEB2B6DD1520C8/documentersql.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Documenter for SQL Server, v7.1.37' 
-  checksum      = '094E255DC122716F9DCA7A296F23E861845FEE182ABA840C4956C3CBA22D7EB5'
+  softwareName  = 'dbForge Documenter for SQL Server, v7.1.45' 
+  checksum      = 'CDDD3D69520FC4A9EB0C8D1BC97D23DF1C1FF3432024E295B0DEB2B6DD1520C8'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
   validExitCodes= @(0, 3010, 1641)
