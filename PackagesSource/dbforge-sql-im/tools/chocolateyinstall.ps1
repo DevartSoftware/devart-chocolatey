@@ -1,13 +1,13 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://choco.devart.com/s/54FDCB2E00AC4C074D150B20B87238B78FE2C4CDD9F5407BE5FDFF0E7ACDD6DA/indexmanagersql.exe' 
+$url        = 'https://choco.devart.com/s/EEE538AE7ACB9C6C22BF266D88E86837C1DB7154F22C2BA5B355A592DD822097/indexmanagersql.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Index Manager for SQL Server, v7.1.45' 
-  checksum      = '54FDCB2E00AC4C074D150B20B87238B78FE2C4CDD9F5407BE5FDFF0E7ACDD6DA'
+  softwareName  = 'dbForge Index Manager for SQL Server, v7.1.63' 
+  checksum      = 'EEE538AE7ACB9C6C22BF266D88E86837C1DB7154F22C2BA5B355A592DD822097'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
   validExitCodes= @(0, 3010, 1641)
