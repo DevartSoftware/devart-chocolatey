@@ -1,7 +1,7 @@
 <package>
     <metadata>
         <id>dbforge-sql-dg</id>
-        <version>7.1.45</version>
+        <version>7.1.63</version>
         <title>dbForge Data Generator for SQL Server</title>
         <description>A powerful generator of meaningful test data 
 
@@ -18,7 +18,7 @@ The Data Generation tool is a part of the SQL Tools package. Besides, it is one 
         <projectUrl>https://www.devart.com/dbforge/sql/data-generator/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-data-generator.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/3768FD154B93CBB600A81E7F14257C82565844B86676ECAC1CBA68C8F5198C70/revision_history.html</releaseNotes>
+        <releaseNotes>https://choco.devart.com/s/FF19EDA05404E978271DED0269E4C8B60266166FA8347F6B4AEC833795F85AC1/revision_history.html</releaseNotes>
         <tags>MSSQL Database SQL Tools SQLServer Test Data Generator</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-dg</packageSourceUrl>
         <docsUrl>https://docs.devart.com/data-generator-for-sql-server/</docsUrl>
