@@ -1,13 +1,13 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://choco.devart.com/s/75DC2E75D68E4E6F913541D7BD60B92311263426099342FB6B10258F5B10E826/datageneratormysql.exe' 
+$url        = 'https://choco.devart.com/s/EF89F296905E37E25A6C2863FE0EA6AE06AEECFC167D78137FF4802CBDF40A9D/datageneratormysql.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Data Generator for MySQL, v10.1.165' 
-  checksum      = '75DC2E75D68E4E6F913541D7BD60B92311263426099342FB6B10258F5B10E826'
+  softwareName  = 'dbForge Data Generator for MySQL, v2025.1.124' 
+  checksum      = 'EF89F296905E37E25A6C2863FE0EA6AE06AEECFC167D78137FF4802CBDF40A9D'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
   validExitCodes= @(0, 3010, 1641)
