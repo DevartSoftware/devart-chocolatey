@@ -1,13 +1,13 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://choco.devart.com/s/ABE53BAA7AF3F64572524999F43BCD1DD3A7313743207D34DE4B1B879F7FF74C/datageneratororacle.exe' 
+$url        = 'https://choco.devart.com/s/33348F3311C252CEBAF2569743CDA28DEE00D79512AA206A290DA4A3DE37FEF7/datageneratororacle.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Data Generator for Oracle, v6.0.85' 
-  checksum      = 'ABE53BAA7AF3F64572524999F43BCD1DD3A7313743207D34DE4B1B879F7FF74C'
+  softwareName  = 'dbForge Data Generator for Oracle, v2025.1.124' 
+  checksum      = '33348F3311C252CEBAF2569743CDA28DEE00D79512AA206A290DA4A3DE37FEF7'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
   validExitCodes= @(0, 3010, 1641)
