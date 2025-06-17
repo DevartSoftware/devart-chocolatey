@@ -1,7 +1,7 @@
 <package>
     <metadata>
         <id>dbforge-ora-sc</id>
-        <version>6.0.85</version>
+        <version>2025.1.124</version>
         <title>dbForge Schema Compare for Oracle</title>
         <description>Professional solution for handling schema differences in Oracle
 
@@ -20,7 +20,7 @@ Schema Compare is a part of the Studio for Oracle &#8211; an IDE for Oracle data
         <projectUrl>https://www.devart.com/dbforge/oracle/schemacompare/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-oracle-schemacompare.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/7DB9E6AA9B52DB4F9019F05B532CF70882836479A3256D316012718DAA5B5B2F/revision_history.html</releaseNotes>
+        <releaseNotes>https://choco.devart.com/s/5E2438C1402A5B92A76D56E5BE74A87942BFA27BB2233B4AF3F7B2E658002F6F/revision_history.html</releaseNotes>
         <tags>Oracle database database-management Tool rdbms Ide Windows management Report transfer migrate synchronize</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-ora-sc</packageSourceUrl>
         <docsUrl>https://docs.devart.com/schema-compare-for-oracle/getting-started/installing.html</docsUrl>
