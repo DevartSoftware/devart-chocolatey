@@ -1,7 +1,7 @@
 <package>
     <metadata>
         <id>dbforge-sql-schcmpr</id>
-        <version>7.1.63</version>
+        <version>2025.1.124</version>
         <title>dbForge Schema Compare for SQL Server</title>
         <description>Professional solution for comparing and syncing database schemas
 
@@ -16,7 +16,7 @@ The tool is integrated with SSMS to grant advanced functionality for the databas
         <projectUrl>https://www.devart.com/dbforge/sql/schemacompare/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-schemacompare.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/3BD00104D8ED8E23A4719F2AC7424F78A484C646E17F7F9068AECF482619AB39/revision_history.html</releaseNotes>
+        <releaseNotes>https://choco.devart.com/s/6DD5E8C53189CE9DFAA4B40A5A67C292CA121533BC06248298DE0A06B43D5A77/revision_history.html</releaseNotes>
         <tags>MSSQL Database SQL Tools SQLServer Admin DBA Schema Compare Comparison Diff Sync</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-schcmpr</packageSourceUrl>
         <docsUrl>https://docs.devart.com/schema-compare-for-sql-server/</docsUrl>
