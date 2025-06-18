@@ -1,13 +1,13 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://choco.devart.com/s/765094FED7568026DEB80F7062DFECD5016925CC4F899A1D70E040EE47B0DC5B/dbforgeoracle.exe' 
+$url        = 'https://choco.devart.com/s/6EB1EEFFA251AC029DF7C5473652431381C7DE21A0CAEBDD237BE11F27E877FE/dbforgeoracle.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Studio for Oracle, v6.0.85' 
-  checksum      = '765094FED7568026DEB80F7062DFECD5016925CC4F899A1D70E040EE47B0DC5B'
+  softwareName  = 'dbForge Studio for Oracle, v2025.1.124' 
+  checksum      = '6EB1EEFFA251AC029DF7C5473652431381C7DE21A0CAEBDD237BE11F27E877FE'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
   validExitCodes= @(0, 3010, 1641)
