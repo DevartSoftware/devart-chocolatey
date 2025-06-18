@@ -32,8 +32,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Unit Test for SQL Server, v7.1.63'
-  softwareName  = 'dbForge Unit Test for SQL Server, v7.1.63'
+  packageName   = 'dbForge Unit Test for SQL Server, v2025.1.124'
+  softwareName  = 'dbForge Unit Test for SQL Server, v2025.1.124'
   fileType      = 'exe'
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -42,8 +42,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge SQL Complete, v7.1.63'
-  softwareName  = 'dbForge SQL Complete, v7.1.63'
+  packageName   = 'dbForge SQL Complete, v2025.1.124'
+  softwareName  = 'dbForge SQL Complete, v2025.1.124'
   fileType      = 'exe'
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -52,8 +52,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Source Control for SQL Server, v7.1.63'
-  softwareName  = 'dbForge Source Control for SQL Server, v7.1.63'
+  packageName   = 'dbForge Source Control for SQL Server, v2025.1.124'
+  softwareName  = 'dbForge Source Control for SQL Server, v2025.1.124'
   fileType      = 'exe'
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -62,8 +62,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Search for SQL Server, v7.1.63'
-  softwareName  = 'dbForge Search for SQL Server, v7.1.63'
+  packageName   = 'dbForge Search for SQL Server, v2025.1.124'
+  softwareName  = 'dbForge Search for SQL Server, v2025.1.124'
   fileType      = 'exe'
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -72,8 +72,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Monitor for SQL Server, v7.1.63'
-  softwareName  = 'dbForge Monitor for SQL Server, v7.1.63'
+  packageName   = 'dbForge Monitor for SQL Server, v2025.1.124'
+  softwareName  = 'dbForge Monitor for SQL Server, v2025.1.124'
   fileType      = 'exe'
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -82,8 +82,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Index Manager for SQL Server, v7.1.63'
-  softwareName  = 'dbForge Index Manager for SQL Server, v7.1.63'
+  packageName   = 'dbForge Index Manager for SQL Server, v2025.1.124'
+  softwareName  = 'dbForge Index Manager for SQL Server, v2025.1.124'
   fileType      = 'exe'
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -92,8 +92,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Data Pump for SQL Server, v7.1.63'
-  softwareName  = 'dbForge Data Pump for SQL Server, v7.1.63'
+  packageName   = 'dbForge Data Pump for SQL Server, v2025.1.124'
+  softwareName  = 'dbForge Data Pump for SQL Server, v2025.1.124'
   fileType      = 'exe'
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -102,8 +102,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Schema Compare for SQL Server, v7.1.63'
-  softwareName  = 'dbForge Schema Compare for SQL Server, v7.1.63'
+  packageName   = 'dbForge Schema Compare for SQL Server, v2025.1.124'
+  softwareName  = 'dbForge Schema Compare for SQL Server, v2025.1.124'
   fileType      = 'exe'
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -112,8 +112,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Query Builder for SQL Server, v7.1.63'
-  softwareName  = 'dbForge Query Builder for SQL Server, v7.1.63'
+  packageName   = 'dbForge Query Builder for SQL Server, v2025.1.124'
+  softwareName  = 'dbForge Query Builder for SQL Server, v2025.1.124'
   fileType      = 'exe'
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -132,8 +132,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Event Profiler for SQL Server, v7.1.63'
-  softwareName  = 'dbForge Event Profiler for SQL Server, v7.1.63'
+  packageName   = 'dbForge Event Profiler for SQL Server, v2025.1.124'
+  softwareName  = 'dbForge Event Profiler for SQL Server, v2025.1.124'
   fileType      = 'exe'
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -142,8 +142,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Documenter for SQL Server, v7.1.63'
-  softwareName  = 'dbForge Documenter for SQL Server, v7.1.63'
+  packageName   = 'dbForge Documenter for SQL Server, v2025.1.124'
+  softwareName  = 'dbForge Documenter for SQL Server, v2025.1.124'
   fileType      = 'exe'
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -152,8 +152,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Data Generator for SQL Server, v7.1.63'
-  softwareName  = 'dbForge Data Generator for SQL Server, v7.1.63'
+  packageName   = 'dbForge Data Generator for SQL Server, v2025.1.124'
+  softwareName  = 'dbForge Data Generator for SQL Server, v2025.1.124'
   fileType      = 'exe'
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
@@ -162,8 +162,8 @@ $packageArgs = @{
 Uninstall_package
 
 $packageArgs = @{
-  packageName   = 'dbForge Data Compare for SQL Server, v7.1.63'
-  softwareName  = 'dbForge Data Compare for SQL Server, v7.1.63'
+  packageName   = 'dbForge Data Compare for SQL Server, v2025.1.124'
+  softwareName  = 'dbForge Data Compare for SQL Server, v2025.1.124'
   fileType      = 'exe'
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  
