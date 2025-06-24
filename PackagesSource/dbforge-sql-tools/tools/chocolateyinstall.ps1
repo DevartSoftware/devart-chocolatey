@@ -14,118 +14,118 @@ $packageArgs = @{
 }
 
 Install-ChocolateyPackage @packageArgs
-$url        = 'https://choco.devart.com/s/ACDD0D090589EE131C0886656DB73FCFD10502FA1ACCB37A9F0AA39C903D6965/unittestsql.exe' 
+$url        = 'https://choco.devart.com/s/DA5EF016C25D2B5B422317FF0165F1FA2AEB7CC4B56738E19E61A70D98E9EEFF/unittestsql.exe' 
 $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Unit Test for SQL Server, v2025.1.124' 
-  packageName   = 'dbForge Unit Test for SQL Server, v2025.1.124'
-  checksum      = 'ACDD0D090589EE131C0886656DB73FCFD10502FA1ACCB37A9F0AA39C903D6965'
+  softwareName  = 'dbForge Unit Test for SQL Server, v2025.1.134' 
+  packageName   = 'dbForge Unit Test for SQL Server, v2025.1.134'
+  checksum      = 'DA5EF016C25D2B5B422317FF0165F1FA2AEB7CC4B56738E19E61A70D98E9EEFF'
   checksumType  = 'sha256' 
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1641)
 }
 Install-ChocolateyPackage @packageArgs 
-$url        = 'https://choco.devart.com/s/41F3919ECB5B563E80515C11485B2962495518C8191D32FC0DDC74390CD275E3/sqlcompletesql.exe' 
+$url        = 'https://choco.devart.com/s/59A25EB9AD1BB1094B70EA2DDED56105CAEDE82588EA78D4E12A9FAC18DD59E7/sqlcompletesql.exe' 
 $packageArgs = @{
   unzipLocation = $toolsDi
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge SQL Complete, v2025.1.124' 
-  packageName   = 'dbForge SQL Complete, v2025.1.124'
-  checksum      = '41F3919ECB5B563E80515C11485B2962495518C8191D32FC0DDC74390CD275E3'
+  softwareName  = 'dbForge SQL Complete, v2025.1.134' 
+  packageName   = 'dbForge SQL Complete, v2025.1.134'
+  checksum      = '59A25EB9AD1BB1094B70EA2DDED56105CAEDE82588EA78D4E12A9FAC18DD59E7'
   checksumType  = 'sha256' 
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(1, 0, 3010, 1641)
 }
 Install-ChocolateyPackage @packageArgs 
-$url        = 'https://choco.devart.com/s/9AAC5AD2A8974D2BBF3C5A265F9C54F61529757F3E6FB419F8D2881482EC8FC8/sourcecontrolsql.exe' 
+$url        = 'https://choco.devart.com/s/E07B6B604E73985843CC1B50867E2FA0229DDD2D587128DE4FAC61ABC755CE18/sourcecontrolsql.exe' 
 $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url
-  softwareName  = 'dbForge Source Control for SQL Server, v2025.1.124' 
-  packageName   = 'dbForge Source Control for SQL Server, v2025.1.124'
-  checksum      = '9AAC5AD2A8974D2BBF3C5A265F9C54F61529757F3E6FB419F8D2881482EC8FC8'
+  softwareName  = 'dbForge Source Control for SQL Server, v2025.1.134' 
+  packageName   = 'dbForge Source Control for SQL Server, v2025.1.134'
+  checksum      = 'E07B6B604E73985843CC1B50867E2FA0229DDD2D587128DE4FAC61ABC755CE18'
   checksumType  = 'sha256' 
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(1, 0, 3010, 1641)
 }
 Install-ChocolateyPackage @packageArgs 
-$url        = 'https://choco.devart.com/s/023D0592641D20943188F0051E221282FC1C6A235952D0B963D3586446B77430/searchsql.exe' 
+$url        = 'https://choco.devart.com/s/FFC3EAF54D53819A73C05D156AFFFC32A1A410A353383095FB7DC52C5919AFA9/searchsql.exe' 
 $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Search for SQL Server, v2025.1.124' 
-  packageName   = 'dbForge Search for SQL Server, v2025.1.124'
-  checksum      = '023D0592641D20943188F0051E221282FC1C6A235952D0B963D3586446B77430'
+  softwareName  = 'dbForge Search for SQL Server, v2025.1.134' 
+  packageName   = 'dbForge Search for SQL Server, v2025.1.134'
+  checksum      = 'FFC3EAF54D53819A73C05D156AFFFC32A1A410A353383095FB7DC52C5919AFA9'
   checksumType  = 'sha256' 
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(1, 0, 3010, 1641)
 }
 Install-ChocolateyPackage @packageArgs 
-$url        = 'https://choco.devart.com/s/0A9475AC8544E0CEBE62D87999740E741D90C3762E9AE4BC729199EE13A62F51/monitorsql.exe' 
+$url        = 'https://choco.devart.com/s/154474BB1BD121D5F21379C3BEADBE187EAEF6EC79547BED667AE498B79A6557/monitorsql.exe' 
 $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Monitor for SQL Server, v2025.1.124' 
-  packageName   = 'dbForge Monitor for SQL Server, v2025.1.124'
-  checksum      = '0A9475AC8544E0CEBE62D87999740E741D90C3762E9AE4BC729199EE13A62F51'
+  softwareName  = 'dbForge Monitor for SQL Server, v2025.1.134' 
+  packageName   = 'dbForge Monitor for SQL Server, v2025.1.134'
+  checksum      = '154474BB1BD121D5F21379C3BEADBE187EAEF6EC79547BED667AE498B79A6557'
   checksumType  = 'sha256' 
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(1, 0, 3010, 1641)
 }
 Install-ChocolateyPackage @packageArgs 
-$url        = 'https://choco.devart.com/s/92F49501A38318F8DE334F6D5ECB53D00BB2C292A29CA677D8E98D3BAF573ACB/indexmanagersql.exe' 
+$url        = 'https://choco.devart.com/s/98AF4BAF8E130D66341AB707BFDD1A9B12B03EDB4A6A99A50439BF437A87E965/indexmanagersql.exe' 
 $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Index Manager for SQL Server, v2025.1.124' 
-  packageName   = 'dbForge Index Manager for SQL Server, v2025.1.124'
-  checksum      = '92F49501A38318F8DE334F6D5ECB53D00BB2C292A29CA677D8E98D3BAF573ACB'
+  softwareName  = 'dbForge Index Manager for SQL Server, v2025.1.134' 
+  packageName   = 'dbForge Index Manager for SQL Server, v2025.1.134'
+  checksum      = '98AF4BAF8E130D66341AB707BFDD1A9B12B03EDB4A6A99A50439BF437A87E965'
   checksumType  = 'sha256' 
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(1, 0, 3010, 1641)
 }
 Install-ChocolateyPackage @packageArgs 
-$url        = 'https://choco.devart.com/s/6D689187696AEBC4EE5765D232F259F9E3781B3A487D66DDCCC151E1A1836AB2/datapumpsql.exe' 
+$url        = 'https://choco.devart.com/s/6A2940512D3C47FB39F1A98121A260ADF15C0497798D606FFA5ED311A0F400D4/datapumpsql.exe' 
 $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Data Pump for SQL Server, v2025.1.124' 
-  packageName   = 'dbForge Data Pump for SQL Server, v2025.1.124'
-  checksum      = '6D689187696AEBC4EE5765D232F259F9E3781B3A487D66DDCCC151E1A1836AB2'
+  softwareName  = 'dbForge Data Pump for SQL Server, v2025.1.134' 
+  packageName   = 'dbForge Data Pump for SQL Server, v2025.1.134'
+  checksum      = '6A2940512D3C47FB39F1A98121A260ADF15C0497798D606FFA5ED311A0F400D4'
   checksumType  = 'sha256' 
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(1, 0, 3010, 1641)
 }
 Install-ChocolateyPackage @packageArgs 
-$url        = 'https://choco.devart.com/s/6DD5E8C53189CE9DFAA4B40A5A67C292CA121533BC06248298DE0A06B43D5A77/schemacomparesql.exe' 
+$url        = 'https://choco.devart.com/s/02D89BF19AB40192CF406F2FD6A7559100EB7BB296008D6523EB3B1E8528AAF5/schemacomparesql.exe' 
 $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Schema Compare for SQL Server, v2025.1.124'
-  packageName   = 'dbForge Schema Compare for SQL Server, v2025.1.124'
-  checksum      = '6DD5E8C53189CE9DFAA4B40A5A67C292CA121533BC06248298DE0A06B43D5A77'
+  softwareName  = 'dbForge Schema Compare for SQL Server, v2025.1.134'
+  packageName   = 'dbForge Schema Compare for SQL Server, v2025.1.134'
+  checksum      = '02D89BF19AB40192CF406F2FD6A7559100EB7BB296008D6523EB3B1E8528AAF5'
   checksumType  = 'sha256' 
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1641)
 }
 Install-ChocolateyPackage @packageArgs
-$url        = 'https://choco.devart.com/s/D00C7FF503A17525CCD48F4076306B970591ECEAA25DF36E317B52E75345D9D8/qbuildersql.exe' 
+$url        = 'https://choco.devart.com/s/B044392B7C484F82F2B4BEADF72725B1F222936B02B834BA264AEA0FF8CB3CC6/qbuildersql.exe' 
 $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Query Builder for SQL Server, v2025.1.124' 
-  packageName   = 'dbForge Query Builder for SQL Server, v2025.1.124'
-  checksum      = 'D00C7FF503A17525CCD48F4076306B970591ECEAA25DF36E317B52E75345D9D8'
+  softwareName  = 'dbForge Query Builder for SQL Server, v2025.1.134' 
+  packageName   = 'dbForge Query Builder for SQL Server, v2025.1.134'
+  checksum      = 'B044392B7C484F82F2B4BEADF72725B1F222936B02B834BA264AEA0FF8CB3CC6'
   checksumType  = 'sha256' 
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1641)
@@ -144,53 +144,53 @@ $packageArgs = @{
   validExitCodes= @(0, 3010, 1641)
 }
 Install-ChocolateyPackage @packageArgs 
-$url        = 'https://choco.devart.com/s/F8AA6792CC5AFF28896304AABEF7EFF9D51315CE8CFF1C5873415C758BA7D446/eventprofilersql.exe' 
+$url        = 'https://choco.devart.com/s/C8091EB25CB54640D62DB27344912F51EBF1A3B5867634CBB26E723709151AA6/eventprofilersql.exe' 
 $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Event Profiler for SQL Server, v2025.1.124' 
-  packageName   = 'dbForge Event Profiler for SQL Server, v2025.1.124'
-  checksum      = 'F8AA6792CC5AFF28896304AABEF7EFF9D51315CE8CFF1C5873415C758BA7D446'
+  softwareName  = 'dbForge Event Profiler for SQL Server, v2025.1.134' 
+  packageName   = 'dbForge Event Profiler for SQL Server, v2025.1.134'
+  checksum      = 'C8091EB25CB54640D62DB27344912F51EBF1A3B5867634CBB26E723709151AA6'
   checksumType  = 'sha256' 
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1641)
 }
 Install-ChocolateyPackage @packageArgs
-$url        = 'https://choco.devart.com/s/AE0FD47DE8B551D564F3D55E351657AB92F182F3B2AC00669C1F3D2DCBC2C79A/documentersql.exe' 
+$url        = 'https://choco.devart.com/s/8B768B1FCAFFCD1C7D22A02C9A9216183DFB91AFEA4411B32EDE2511EF4A835E/documentersql.exe' 
 $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Documenter for SQL Server, v2025.1.124' 
-  packageName   = 'dbForge Documenter for SQL Server, v2025.1.124'
-  checksum      = 'AE0FD47DE8B551D564F3D55E351657AB92F182F3B2AC00669C1F3D2DCBC2C79A'
+  softwareName  = 'dbForge Documenter for SQL Server, v2025.1.134' 
+  packageName   = 'dbForge Documenter for SQL Server, v2025.1.134'
+  checksum      = '8B768B1FCAFFCD1C7D22A02C9A9216183DFB91AFEA4411B32EDE2511EF4A835E'
   checksumType  = 'sha256' 
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1641)
 }
 Install-ChocolateyPackage @packageArgs
-$url        = 'https://choco.devart.com/s/F870DFD5B9580003DAA3A457D0CC0610DD84AD2C091E1A6AADD2B6973690CD69/datageneratorsql.exe' 
+$url        = 'https://choco.devart.com/s/E46BE98EB3819AFC7C540566E4D6C1330DAA2734079F052AF2B397E35B232CB1/datageneratorsql.exe' 
 $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Data Generator for SQL Server, v2025.1.124' 
-  packageName   = 'dbForge Data Generator for SQL Server, v2025.1.124'
-  checksum      = 'F870DFD5B9580003DAA3A457D0CC0610DD84AD2C091E1A6AADD2B6973690CD69'
+  softwareName  = 'dbForge Data Generator for SQL Server, v2025.1.134' 
+  packageName   = 'dbForge Data Generator for SQL Server, v2025.1.134'
+  checksum      = 'E46BE98EB3819AFC7C540566E4D6C1330DAA2734079F052AF2B397E35B232CB1'
   checksumType  = 'sha256' 
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1641)
 }
 Install-ChocolateyPackage @packageArgs 
-$url        = 'https://choco.devart.com/s/831A4B153635D3550F2C6C83C23E7BBB35D3BDC1AF6221F7D9BF42FA30E3DEE0/datacomparesql.exe' 
+$url        = 'https://choco.devart.com/s/0FCF1C83B3B1CCAE9F311F046A43115697FB04A74A24B80BB41238E3893A114D/datacomparesql.exe' 
 $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Data Compare for SQL Server, v2025.1.124' 
-  packageName   = 'dbForge Data Compare for SQL Server, v2025.1.124'
-  checksum      = '831A4B153635D3550F2C6C83C23E7BBB35D3BDC1AF6221F7D9BF42FA30E3DEE0'
+  softwareName  = 'dbForge Data Compare for SQL Server, v2025.1.134' 
+  packageName   = 'dbForge Data Compare for SQL Server, v2025.1.134'
+  checksum      = '0FCF1C83B3B1CCAE9F311F046A43115697FB04A74A24B80BB41238E3893A114D'
   checksumType  = 'sha256' 
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
   validExitCodes= @(0, 3010, 1641)
