@@ -1,7 +1,7 @@
 <package>
     <metadata>
         <id>dbforge-sql-ep</id>
-        <version>2025.1.124</version>
+        <version>2025.1.134</version>
         <title>dbForge Event Profiler for SQL Server</title>
         <description>Professional solution for collecting and analyzing trace data 
 
@@ -16,7 +16,7 @@ The tool is also a part of the dbForge Studio for SQL Server &#8211; a powerful 
         <projectUrl>https://www.devart.com/dbforge/sql/event-profiler/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-event-profiler.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/F8AA6792CC5AFF28896304AABEF7EFF9D51315CE8CFF1C5873415C758BA7D446/revision_history.html</releaseNotes>
+        <releaseNotes>https://choco.devart.com/s/C8091EB25CB54640D62DB27344912F51EBF1A3B5867634CBB26E723709151AA6/revision_history.html</releaseNotes>
         <tags>MSSQL Database SQL Tools SQLServer Event Profiler Trace</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-ep</packageSourceUrl>
         <docsUrl>https://www.devart.com/dbforge/sql/event-profiler/</docsUrl>
