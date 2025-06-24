@@ -1,7 +1,7 @@
 <package>
     <metadata>
         <id>dbforge-ora-cb</id>
-        <version>2025.1.124</version>
+        <version>2025.1.134</version>
         <title>dbForge Compare Bundle for Oracle</title>
         <description>A tool for handling database discrepancies in Oracle 
 
@@ -19,7 +19,7 @@ One more advantage of the Bundle is that its price is lower than purchasing thes
         <projectUrl>https://www.devart.com/dbforge/oracle/compare-bundle/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-oracle-compare-bundle.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/EC3533236D421F35B44F3BDEEDB0C5EE616BD4473109D45864D5E8B96CB89997/revision_history.html</releaseNotes>
+        <releaseNotes>https://choco.devart.com/s/1857C7EA1EAF99B3452D4FD96D9F361EDA05D8494A8A0DEC4F1BA9C67590C7A6/revision_history.html</releaseNotes>
         <tags>Oracle database database-management Tool rdbms Ide Windows management Report transfer migrate synchronize Data</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-ora-cb</packageSourceUrl>
         <docsUrl>https://www.devart.com/dbforge/oracle/compare-bundle/</docsUrl>
