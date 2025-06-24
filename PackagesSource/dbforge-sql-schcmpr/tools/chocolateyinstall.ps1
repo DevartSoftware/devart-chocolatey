@@ -1,13 +1,13 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://choco.devart.com/s/6DD5E8C53189CE9DFAA4B40A5A67C292CA121533BC06248298DE0A06B43D5A77/schemacomparesql.exe' 
+$url        = 'https://choco.devart.com/s/02D89BF19AB40192CF406F2FD6A7559100EB7BB296008D6523EB3B1E8528AAF5/schemacomparesql.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Schema Compare for SQL Server, v2025.1.124' 
-  checksum      = '6DD5E8C53189CE9DFAA4B40A5A67C292CA121533BC06248298DE0A06B43D5A77'
+  softwareName  = 'dbForge Schema Compare for SQL Server, v2025.1.134' 
+  checksum      = '02D89BF19AB40192CF406F2FD6A7559100EB7BB296008D6523EB3B1E8528AAF5'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
   validExitCodes= @(0, 3010, 1641)
