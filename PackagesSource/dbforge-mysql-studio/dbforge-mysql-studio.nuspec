@@ -1,7 +1,7 @@
 <package>
     <metadata>
         <id>dbforge-mysql-studio</id>
-        <version>2025.1.134</version>
+        <version>2025.1.186</version>
         <title>dbForge Studio for MySQL</title>
         <description>A powerful IDE for MySQL handling all kinds of database-related jobs
 
@@ -23,7 +23,7 @@ dbForge Studio for MySQL is one of the most functional alternatives to MySQL Wor
         <projectUrl>https://www.devart.com/dbforge/mysql/studio/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-mysql-studio.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/99A4301194C42A607DFD599881220422D57196A2F356CB5A217980A6D379A32D/revision_history.html</releaseNotes>
+        <releaseNotes>https://choco.devart.com/s/9133CACFC3CB8FADB17E8DB2A9BCDADDC14601B17F85A24C986603D06687D0B9/revision_history.html</releaseNotes>
         <tags>mysql mariadb database database-management Development Tool administration admin dba rdbms Ide Windows Sql management csv json xls excel Report Export Import ER Diagram Data performance debug restore editor</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-mysql-studio</packageSourceUrl>
         <docsUrl>https://docs.devart.com/studio-for-mysql/</docsUrl>
