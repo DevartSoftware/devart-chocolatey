@@ -1,7 +1,7 @@
 <package>
     <metadata>
         <id>dbforge-pg-studio</id>
-        <version>2025.1.134</version>
+        <version>2025.1.186</version>
         <title>dbForge Studio for PostgreSQL</title>
         <description>A multi-featured GUI solution for PostgreSQL database tasks 
 
@@ -21,7 +21,7 @@ A fully-functional free trial of dbForge Studio for PostgreSQL is available for 
         <projectUrl>https://www.devart.com/dbforge/postgresql/studio/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-postgresql-studio.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/E1EE5167DD03EE0ED4A5BD9320F7EEF515203DF2CE5ABF647B69EDD09466A5A0/revision_history.html</releaseNotes>
+        <releaseNotes>https://choco.devart.com/s/93EBA0F0C7F5A5DE48DD15F474B182128D8F6C6ADE87208616411F9BAD5A7C40/revision_history.html</releaseNotes>
         <tags>PostgreSQL Amazon-redshift database database-management Development Tool rdbms Ide Windows management csv json xls excel Report Export Import ER Diagram Data performance debug restore editor</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-pg-studio</packageSourceUrl>
         <docsUrl>https://docs.devart.com/studio-for-postgresql/</docsUrl>
