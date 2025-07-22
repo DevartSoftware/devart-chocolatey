@@ -1,7 +1,7 @@
 <package>
     <metadata>
         <id>dbforge-sql-cmpl</id>
-        <version>2025.1.134</version>
+        <version>2025.1.186</version>
         <title>dbForge SQL Complete</title>
         <description>A comprehensive solution for flawless SQL code writing
 
@@ -22,7 +22,7 @@ dbForge SQL Complete is one of the most favored tools for all database specialis
         <projectUrl>https://www.devart.com/dbforge/sql/sqlcomplete/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-sqlcomplete.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/59A25EB9AD1BB1094B70EA2DDED56105CAEDE82588EA78D4E12A9FAC18DD59E7/revision_history.html</releaseNotes>
+        <releaseNotes>https://choco.devart.com/s/01C6C44647BD74FFCCE7BAA9DBDA4E91812C5565535FE013AFFCD4FB7FAA7558/revision_history.html</releaseNotes>
         <tags>MSSQL Database SQL Tools SQLServer TSQL Autocompletion IntelliSense Formatter Debugger Refactoring Productivity SSMS VisualStudio</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-cmpl</packageSourceUrl>
         <docsUrl>https://docs.devart.com/sqlcomplete/</docsUrl>
