@@ -1,7 +1,7 @@
 <package>
     <metadata>
         <id>dbforge-mysql-dc</id>
-        <version>2025.1.134</version>
+        <version>2025.1.186</version>
         <title>dbForge Data Compare for MySQL</title>
         <description>Professional solution for comparing and syncing data in databases 
 
@@ -17,7 +17,7 @@ Besides other tasks, it is a crucial part of an efficient DevOps process, and th
         <projectUrl>https://www.devart.com/dbforge/mysql/datacompare/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-mysql-datacompare.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/8202ACBE512B5A052EC887848E1D873C5FD14494DCED526375575EBB5FB11262/revision_history.html</releaseNotes>
+        <releaseNotes>https://choco.devart.com/s/C3B418A739CF7F425C2AD19C20520F94D1B9B09F6F67799364C4F4794F385C3E/revision_history.html</releaseNotes>
         <tags>mysql mariadb database database-management Development Tool transfer migrate synchronize</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-mysql-dc</packageSourceUrl>
         <docsUrl>https://docs.devart.com/data-compare-for-mysql/</docsUrl>
