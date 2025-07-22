@@ -1,7 +1,7 @@
 <package>
     <metadata>
         <id>dbforge-sql-mon</id>
-        <version>2025.1.134</version>
+        <version>2025.1.186</version>
         <title>dbForge Monitor for SQL Server</title>
         <description>The monitoring tool for tracking SQL Server performance
 
@@ -17,7 +17,7 @@ The Monitoring tool is one of the most helpful SQL tools. You can get it free of
         <projectUrl>https://www.devart.com/dbforge/sql/monitor/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-monitor.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/154474BB1BD121D5F21379C3BEADBE187EAEF6EC79547BED667AE498B79A6557/revision_history.html</releaseNotes>
+        <releaseNotes>https://choco.devart.com/s/6A544D1FFFB23BBC4E707CE7F387ABBC44559C10F2FEA708131E9F5A8F369F78/revision_history.html</releaseNotes>
         <tags>MSSQL Database SQL Tools SQLServer Monitor Performance Activity Monitoring Diagnostic</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-mon</packageSourceUrl>
         <docsUrl>https://docs.devart.com/monitor/</docsUrl>
