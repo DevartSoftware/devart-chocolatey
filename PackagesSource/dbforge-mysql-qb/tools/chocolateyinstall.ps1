@@ -1,13 +1,13 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://choco.devart.com/s/237D1F90744F7FCC66DAE7BAE1927EF866D549BF2098DB20D9D3CF4D043F7FC2/querybuildermysql.exe' 
+$url        = 'https://choco.devart.com/s/D82533BCEAE984236F6717FB06DF74238140C8C672259117B75427579F1B7A93/querybuildermysql.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Query Builder for MySQL, v2025.1.186' 
-  checksum      = '237D1F90744F7FCC66DAE7BAE1927EF866D549BF2098DB20D9D3CF4D043F7FC2'
+  softwareName  = 'dbForge Query Builder for MySQL, v2025.1.230' 
+  checksum      = 'D82533BCEAE984236F6717FB06DF74238140C8C672259117B75427579F1B7A93'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
   validExitCodes= @(0, 3010, 1641)
