@@ -1,13 +1,13 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://choco.devart.com/s/A689088AC8A684BCF2C7DB83B512982DDAF8593346C25A244D771E6BCDE2F9DB/unittestsql.exe' 
+$url        = 'https://choco.devart.com/s/35E897D515E3F3AD99D50317A02B5CA231E430F4C0EADCF346C8306A07162489/unittestsql.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Unit Test for SQL Server, v2025.1.230' 
-  checksum      = 'A689088AC8A684BCF2C7DB83B512982DDAF8593346C25A244D771E6BCDE2F9DB'
+  softwareName  = 'dbForge Unit Test for SQL Server, v2025.2.37' 
+  checksum      = '35E897D515E3F3AD99D50317A02B5CA231E430F4C0EADCF346C8306A07162489'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
   validExitCodes= @(0, 3010, 1641)
