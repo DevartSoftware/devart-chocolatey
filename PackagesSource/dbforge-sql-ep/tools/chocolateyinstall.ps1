@@ -1,13 +1,13 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://choco.devart.com/s/0A76BF90A96CE56500083FD110782A1B2CA50DDC4D6BFFC78A0B63683268766C/eventprofilersql.exe' 
+$url        = 'https://choco.devart.com/s/ABA02E15BA861E58E42F944E4DBC4BD5C119DAA24694C8A02C1C6F2F7B1641DE/eventprofilersql.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Event Profiler for SQL Server, v2025.1.230' 
-  checksum      = '0A76BF90A96CE56500083FD110782A1B2CA50DDC4D6BFFC78A0B63683268766C'
+  softwareName  = 'dbForge Event Profiler for SQL Server, v2025.2.37' 
+  checksum      = 'ABA02E15BA861E58E42F944E4DBC4BD5C119DAA24694C8A02C1C6F2F7B1641DE'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
   validExitCodes= @(0, 3010, 1641)
