@@ -1,13 +1,13 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://choco.devart.com/s/97E5BDE660D01FF3DB75B07B2DD72A4D5191547024510276EE8877B8FD429CC3/comparebundlesql.exe' 
+$url        = 'https://choco.devart.com/s/F012CFD4BC2ECBC88B5202C5B5414C890722D381C723BFDFAB0D3DEEBD78E018/comparebundlesql.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'Compare Bundle for SQL Server, v2025.1.230' 
-  checksum      = '97E5BDE660D01FF3DB75B07B2DD72A4D5191547024510276EE8877B8FD429CC3'
+  softwareName  = 'Compare Bundle for SQL Server, v2025.2.37' 
+  checksum      = 'F012CFD4BC2ECBC88B5202C5B5414C890722D381C723BFDFAB0D3DEEBD78E018'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
   validExitCodes= @(0, 3010, 1641)
