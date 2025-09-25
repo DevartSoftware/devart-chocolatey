@@ -1,13 +1,13 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://choco.devart.com/s/E47A5DCF3B19691EFB157991E057D4A240B01A8AB406758CE8CC39CB0758F3A9/sqlcompletesql.exe' 
+$url        = 'https://choco.devart.com/s/D0F2C5032452B90F5ABFE29627BB288A4A1A5062B2B4C8171408C1935C84EB08/sqlcompletesql.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge SQL Complete, v2025.1.230' 
-  checksum      = 'E47A5DCF3B19691EFB157991E057D4A240B01A8AB406758CE8CC39CB0758F3A9'
+  softwareName  = 'dbForge SQL Complete, v2025.2.37' 
+  checksum      = 'D0F2C5032452B90F5ABFE29627BB288A4A1A5062B2B4C8171408C1935C84EB08'
   checksumType  = 'sha256' 
     silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
   validExitCodes= @(0, 3010, 1641)
