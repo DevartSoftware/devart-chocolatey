@@ -1,7 +1,7 @@
 <package>
     <metadata>
         <id>dbforge-sql-dp</id>
-        <version>2025.2.37</version>
+        <version>2025.2.91</version>
         <title>dbForge Data Pump for SQL Server</title>
         <description>The solution for migrating data between systems 
 
@@ -16,7 +16,7 @@ This tool is a part of the full set of SQL tools or a feature of dbForge Studio 
         <projectUrl>https://www.devart.com/dbforge/sql/data-pump/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-data-pump.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/A7E4F9FAB9DFC70667318B8B03B1DBD2A079FED9334FF313F87890736C1E77E1/revision_history.html</releaseNotes>
+        <releaseNotes>https://choco.devart.com/s/4C7EDA81FE21635D43BFCEF0C2707BAB86FBE214760AF6C8328A29394B5377E2/revision_history.html</releaseNotes>
         <tags>MSSQL Database SQL Tools SQLServer Export Table Data Import</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-dp</packageSourceUrl>
         <docsUrl>https://docs.devart.com/data-pump/</docsUrl>
