@@ -1,7 +1,7 @@
 <package>
     <metadata>
         <id>dbforge-sql-sc</id>
-        <version>2025.2.37</version>
+        <version>2025.2.91</version>
         <title>dbForge Source Control for SQL Server</title>
         <description>Solution for version-controlling the database schemas and data 
 
@@ -16,7 +16,7 @@ You can test the functionality of this tool properly, as the free trial is avail
         <projectUrl>https://www.devart.com/dbforge/sql/source-control/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-source-control.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/A27D76954642CF13A1073D7D1C3E7AFC88BAA942F1037D1392ACE2B7C9D4B04E/revision_history.html</releaseNotes>
+        <releaseNotes>https://choco.devart.com/s/C9DD817D3F4363BC0ABF9EA70F0D0AB5A01C4C18919012DA295AC87AEFBAE33B/revision_history.html</releaseNotes>
         <tags>MSSQL Database SQL Tools SQLServer Source Version Control Git SVN TFVC TFS Mercurial Perforce</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-sc</packageSourceUrl>
         <docsUrl>https://docs.devart.com/source-control/</docsUrl>
