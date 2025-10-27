@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop';
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  softwareName  = 'dbForge Schema Compare for MySQL, v2025.2.37'
+  softwareName  = 'dbForge Schema Compare for MySQL, v2025.2.91'
   fileType      = 'exe'
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Uninstall.log`""
   validExitCodes= @(0, 3010, 1605, 1614, 1641)  

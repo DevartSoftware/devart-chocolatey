@@ -1,13 +1,13 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://choco.devart.com/s/88E2FC49766DA08F7A7012B4E7FBAA586AA2C2A373F6C7D734919490CEDE5135/schemacomparemysql.exe' 
+$url        = 'https://choco.devart.com/s/9650B0CAA0EE9EA345AB39E3844E8423376B06E9A6A1787CB10694B34B638B6B/schemacomparemysql.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Schema Compare for MySQL, v2025.2.37' 
-  checksum      = '88E2FC49766DA08F7A7012B4E7FBAA586AA2C2A373F6C7D734919490CEDE5135'
+  softwareName  = 'dbForge Schema Compare for MySQL, v2025.2.91' 
+  checksum      = '9650B0CAA0EE9EA345AB39E3844E8423376B06E9A6A1787CB10694B34B638B6B'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
   validExitCodes= @(0, 3010, 1641)
