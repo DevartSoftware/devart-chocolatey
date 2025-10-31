@@ -1,13 +1,13 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://choco.devart.com/s/757F82FB281E651784651455BFB423FC08118679772A14673B248F2E4DDC2C6F/monitorsql.exe' 
+$url        = 'https://choco.devart.com/s/670EE18284569A240524C1A137E1BCEA675B44FE7548FC2A3F666C05E78E3D62/monitorsql.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Monitor for SQL Server, v2025.2.91' 
-  checksum      = '757F82FB281E651784651455BFB423FC08118679772A14673B248F2E4DDC2C6F'
+  softwareName  = 'dbForge Monitor for SQL Server, v2025.2.109' 
+  checksum      = '670EE18284569A240524C1A137E1BCEA675B44FE7548FC2A3F666C05E78E3D62'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
   validExitCodes= @(0, 3010, 1641)
