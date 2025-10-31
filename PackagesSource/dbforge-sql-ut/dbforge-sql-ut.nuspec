@@ -1,7 +1,7 @@
 <package>
     <metadata>
         <id>dbforge-sql-ut</id>
-        <version>2025.2.91</version>
+        <version>2025.2.109</version>
         <title>dbForge Unit Test for SQL Server</title>
         <description>A tool for writing SQL unit tests with SSMS 
 
@@ -16,7 +16,7 @@ This tool is a part of the SQL Tools package, and a separate solution for SSMS i
         <projectUrl>https://www.devart.com/dbforge/sql/unit-test/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-unit-test.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/63AC4ED04460DF2872EB5E3FEE51A23C398A2D167D9E5FC30EAAE07906276783/revision_history.html</releaseNotes>
+        <releaseNotes>https://choco.devart.com/s/24335B6CAA3956D5D6E3C5F329AE4294BF9573ADA17225CEE903F1B7637B4183/revision_history.html</releaseNotes>
         <tags>MSSQL Database SQL Tools SQLServer Unit Testing Test TSQL</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-ut</packageSourceUrl>
         <docsUrl>https://docs.devart.com/unit-test/</docsUrl>
