@@ -1,13 +1,13 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://choco.devart.com/s/CC42028991A0EDE724B15FBA4EB2F68C796450800DCE0ED2567B604CC605B596/dbforgesql.exe' 
+$url        = 'https://choco.devart.com/s/00AAD17ABB75B6E44FCEFAF58E8A85E21DA2FD9C30C1DBA1FE5C08D6D994B8F1/dbforgesql.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Studio for SQL Server, v2025.2.109' 
-  checksum      = 'CC42028991A0EDE724B15FBA4EB2F68C796450800DCE0ED2567B604CC605B596'
+  softwareName  = 'dbForge Studio for SQL Server, v2025.2.138' 
+  checksum      = '00AAD17ABB75B6E44FCEFAF58E8A85E21DA2FD9C30C1DBA1FE5C08D6D994B8F1'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
   validExitCodes= @(0, 3010, 1641)
