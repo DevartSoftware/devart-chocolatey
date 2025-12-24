@@ -1,13 +1,13 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://choco.devart.com/s/F0334EDEE7178CF1AF264B02BF63F64418FB640BAB1F9E92393C373469A814C8/qbuildersql.exe' 
+$url        = 'https://choco.devart.com/s/6C3BF768FAE9F827F41663E9D3D1E3016484D3744242DE713C936382B8AC80B5/qbuildersql.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Query Builder for SQL Server, v2025.2.138' 
-  checksum      = 'F0334EDEE7178CF1AF264B02BF63F64418FB640BAB1F9E92393C373469A814C8'
+  softwareName  = 'dbForge Query Builder for SQL Server, v2025.3.61' 
+  checksum      = '6C3BF768FAE9F827F41663E9D3D1E3016484D3744242DE713C936382B8AC80B5'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
   validExitCodes= @(0, 3010, 1641)
