@@ -1,13 +1,13 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://choco.devart.com/s/8B9808BC34A97E889FF98692CA209528F6E7B1590B96F71AADBAB90B6433E4C7/datacomparepostgresql.exe' 
+$url        = 'https://choco.devart.com/s/6B183C55B3B45E4BEB2F8E7DB73A3032DC8A7F04007DF7BE8934E8E948770D89/datacomparepostgresql.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Data Compare for PostgreSQL, v2025.2.138' 
-  checksum      = '8B9808BC34A97E889FF98692CA209528F6E7B1590B96F71AADBAB90B6433E4C7'
+  softwareName  = 'dbForge Data Compare for PostgreSQL, v2025.3.61' 
+  checksum      = '6B183C55B3B45E4BEB2F8E7DB73A3032DC8A7F04007DF7BE8934E8E948770D89'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
   validExitCodes= @(0, 3010, 1641)
