@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <metadata>
         <id>dbforge-sql-tools</id>
-        <version>2025.3.61</version>
+        <version>2025.3.93</version>
         <title>dbForge SQL Tools</title>
         <description>
 
