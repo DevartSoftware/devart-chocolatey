@@ -22,7 +22,7 @@ dbForge SQL Complete is one of the most favored tools for all database specialis
         <projectUrl>https://www.devart.com/dbforge/sql/sqlcomplete/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-sqlcomplete.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/7B8CB7765A267F5BC122DC6C8EDF60214A504E46E58726D29459E68B4199E27F/revision_history.html</releaseNotes>
+        <releaseNotes>https://chocolatey.devart.com/files/7B8CB7765A267F5BC122DC6C8EDF60214A504E46E58726D29459E68B4199E27F/revision_history.html</releaseNotes>
         <tags>MSSQL Database SQL Tools SQLServer TSQL Autocompletion IntelliSense Formatter Debugger Refactoring Productivity SSMS VisualStudio</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-cmpl</packageSourceUrl>
         <docsUrl>https://docs.devart.com/sqlcomplete/</docsUrl>

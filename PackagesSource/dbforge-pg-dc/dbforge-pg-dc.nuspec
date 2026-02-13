@@ -16,7 +16,7 @@ You can use the fully-functional free trial of the Data Compare tool to evaluate
         <projectUrl>https://www.devart.com/dbforge/postgresql/datacompare/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-postgresql-datacompare.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/E7126D5E74F056E53963CEA5DEF458AEC5295ACBDD0D35C27D4E61CA1B42A36C/revision_history.html</releaseNotes>
+        <releaseNotes>https://chocolatey.devart.com/files/E7126D5E74F056E53963CEA5DEF458AEC5295ACBDD0D35C27D4E61CA1B42A36C/revision_history.html</releaseNotes>
         <tags>PostgreSQL Amazon-redshift database database-management Tool rdbms</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-pg-dc</packageSourceUrl>
         <docsUrl>https://docs.devart.com/data-compare-for-postgresql/</docsUrl>

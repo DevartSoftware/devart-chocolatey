@@ -16,7 +16,7 @@ The tool is integrated with SSMS to grant advanced functionality for the databas
         <projectUrl>https://www.devart.com/dbforge/sql/schemacompare/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-schemacompare.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/6F1409832E8521751952D3BE2ACF296533E948991B83FFDBB4F4B97231A5D8E0/revision_history.html</releaseNotes>
+        <releaseNotes>https://chocolatey.devart.com/files/6F1409832E8521751952D3BE2ACF296533E948991B83FFDBB4F4B97231A5D8E0/revision_history.html</releaseNotes>
         <tags>MSSQL Database SQL Tools SQLServer Admin DBA Schema Compare Comparison Diff Sync</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-schcmpr</packageSourceUrl>
         <docsUrl>https://docs.devart.com/schema-compare-for-sql-server/</docsUrl>

@@ -16,7 +16,7 @@ This tool is a part of the SQL Tools package, and a separate solution for SSMS i
         <projectUrl>https://www.devart.com/dbforge/sql/unit-test/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-unit-test.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/D3F1503F4EF2B2333204E8FD3FD6EA5F3BE7A7A55BCBB561E8548A42A5137519/revision_history.html</releaseNotes>
+        <releaseNotes>https://chocolatey.devart.com/files/D3F1503F4EF2B2333204E8FD3FD6EA5F3BE7A7A55BCBB561E8548A42A5137519/revision_history.html</releaseNotes>
         <tags>MSSQL Database SQL Tools SQLServer Unit Testing Test TSQL</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-ut</packageSourceUrl>
         <docsUrl>https://docs.devart.com/unit-test/</docsUrl>

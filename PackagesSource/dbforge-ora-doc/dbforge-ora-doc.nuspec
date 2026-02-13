@@ -17,7 +17,7 @@ dbForge Documenter for Oracle can be purchased separately or as a part of the St
         <projectUrl>https://www.devart.com/dbforge/oracle/documenter/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-oracle-documenter.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/B99152FBD16A7B4A7C72656946725696C100C860D48322EED79DD944A65BB032/revision_history.html</releaseNotes>
+        <releaseNotes>https://chocolatey.devart.com/files/B99152FBD16A7B4A7C72656946725696C100C860D48322EED79DD944A65BB032/revision_history.html</releaseNotes>
         <tags>Oracle database Development Tool rdbms Ide Windows Export Import Report</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-ora-doc</packageSourceUrl>
         <docsUrl>https://docs.devart.com/documenter-for-oracle/</docsUrl>

@@ -1,6 +1,6 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://choco.devart.com/s/D01A411A220D02E29F6F5F9D4045B7E05AF907E35CCA0999279139704CA1A60E/datacompareoracle.exe' 
+$url        = 'https://chocolatey.devart.com/files/D01A411A220D02E29F6F5F9D4045B7E05AF907E35CCA0999279139704CA1A60E/datacompareoracle.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir

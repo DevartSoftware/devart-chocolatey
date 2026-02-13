@@ -16,7 +16,7 @@ The Documenter for SQL Server is available as a separate solution or as a part o
         <projectUrl>https://www.devart.com/dbforge/sql/documenter/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-documenter.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/09056250E8A748D7F132E0F53CDCB3160A431836A93BB2FC0A5EB2AB46DFCCCC/revision_history.html</releaseNotes>
+        <releaseNotes>https://chocolatey.devart.com/files/09056250E8A748D7F132E0F53CDCB3160A431836A93BB2FC0A5EB2AB46DFCCCC/revision_history.html</releaseNotes>
         <tags>MSSQL Database SQL Tools SQLServer Document Documentation</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-doc</packageSourceUrl>
         <docsUrl>https://docs.devart.com/documenter-for-sql-server/</docsUrl>

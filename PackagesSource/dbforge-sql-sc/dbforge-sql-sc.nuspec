@@ -16,7 +16,7 @@ You can test the functionality of this tool properly, as the free trial is avail
         <projectUrl>https://www.devart.com/dbforge/sql/source-control/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-source-control.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/431417F26A0422F1C03AD54D1E856CD9CBA8B88EE5A6A2E9544D7182EBA9E787/revision_history.html</releaseNotes>
+        <releaseNotes>https://chocolatey.devart.com/files/431417F26A0422F1C03AD54D1E856CD9CBA8B88EE5A6A2E9544D7182EBA9E787/revision_history.html</releaseNotes>
         <tags>MSSQL Database SQL Tools SQLServer Source Version Control Git SVN TFVC TFS Mercurial Perforce</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-sc</packageSourceUrl>
         <docsUrl>https://docs.devart.com/source-control/</docsUrl>

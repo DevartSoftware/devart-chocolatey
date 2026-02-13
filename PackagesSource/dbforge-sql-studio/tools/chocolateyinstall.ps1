@@ -1,6 +1,6 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://choco.devart.com/s/C9078BE0F41392449074959356697520EF9C3FD3969E3DBDA83AC9DB3398BD8C/dbforgesql.exe' 
+$url        = 'https://chocolatey.devart.com/files/C9078BE0F41392449074959356697520EF9C3FD3969E3DBDA83AC9DB3398BD8C/dbforgesql.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
@@ -23,3 +23,4 @@ $packageArgs = @{
   Write-Host "https://docs.chocolatey.org/en-us/troubleshooting#mainContent" -ForegroundColor Magenta
   Write-Host ""
 Install-ChocolateyPackage @packageArgs 
+

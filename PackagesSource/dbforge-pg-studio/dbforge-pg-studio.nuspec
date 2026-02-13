@@ -21,7 +21,7 @@ A fully-functional free trial of dbForge Studio for PostgreSQL is available for 
         <projectUrl>https://www.devart.com/dbforge/postgresql/studio/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-postgresql-studio.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/EB8FEF37736D69BD77BFD7C1345483F83F0AD1F25C5AC5AC42DE39C8D5E6783A/revision_history.html</releaseNotes>
+        <releaseNotes>https://chocolatey.devart.com/files/EB8FEF37736D69BD77BFD7C1345483F83F0AD1F25C5AC5AC42DE39C8D5E6783A/revision_history.html</releaseNotes>
         <tags>PostgreSQL Amazon-redshift database database-management Development Tool rdbms Ide Windows management csv json xls excel Report Export Import ER Diagram Data performance debug restore editor</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-pg-studio</packageSourceUrl>
         <docsUrl>https://docs.devart.com/studio-for-postgresql/</docsUrl>

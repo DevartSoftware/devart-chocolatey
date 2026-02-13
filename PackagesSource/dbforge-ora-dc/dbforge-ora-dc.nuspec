@@ -17,7 +17,7 @@ The Data Compare tool is available as a separate solution or as a part of dbForg
         <projectUrl>https://www.devart.com/dbforge/oracle/datacompare/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-oracle-datacompare.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/D01A411A220D02E29F6F5F9D4045B7E05AF907E35CCA0999279139704CA1A60E/revision_history.html</releaseNotes>
+        <releaseNotes>https://chocolatey.devart.com/files/D01A411A220D02E29F6F5F9D4045B7E05AF907E35CCA0999279139704CA1A60E/revision_history.html</releaseNotes>
         <tags>Oracle database database-management Tool rdbms Ide Windows management Report transfer migrate synchronize Data</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-ora-dc</packageSourceUrl>
         <docsUrl>https://docs.devart.com/data-compare-for-oracle/</docsUrl>

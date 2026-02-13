@@ -16,7 +16,7 @@ SQL Search is a small but helpful tool that eases routine database management ta
         <projectUrl>https://www.devart.com/dbforge/sql/search/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-search.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/FA813C9E68BE332E19505CC7C1DB0B9FCC4E606853628C756C123D4AB892A146/revision_history.html</releaseNotes>
+        <releaseNotes>https://chocolatey.devart.com/files/FA813C9E68BE332E19505CC7C1DB0B9FCC4E606853628C756C123D4AB892A146/revision_history.html</releaseNotes>
         <tags>MSSQL Database SQL Tools SQLServer Find Object Text Search</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-search</packageSourceUrl>
         <docsUrl>https://docs.devart.com/search/</docsUrl>

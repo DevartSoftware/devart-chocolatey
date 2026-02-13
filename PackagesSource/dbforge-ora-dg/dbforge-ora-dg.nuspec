@@ -17,7 +17,7 @@ The Data Generator is available as a separate solution or as a part of the dbFor
         <projectUrl>https://www.devart.com/dbforge/oracle/data-generator/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-oracle-data-generator.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/91E821A846125CEE2A2E4B068DE36940AD24E360D3D0BBB25C6C97E013709886/revision_history.html</releaseNotes>
+        <releaseNotes>https://chocolatey.devart.com/files/91E821A846125CEE2A2E4B068DE36940AD24E360D3D0BBB25C6C97E013709886/revision_history.html</releaseNotes>
         <tags>Oracle database Development Tool rdbms Ide Windows Export Import Data</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-ora-dg</packageSourceUrl>
         <docsUrl>https://docs.devart.com/data-generator-for-oracle/</docsUrl>

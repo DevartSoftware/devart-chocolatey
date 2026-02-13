@@ -16,7 +16,7 @@ The tool is a part of the SQL Tools package, and it is also available as a separ
         <projectUrl>https://www.devart.com/dbforge/sql/index-manager/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-index-manager.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/B1BB32BF8EBF8082CA6FED2FBFF92A0129AFB1133FC807517205E77DDD6DBBBA/revision_history.html</releaseNotes>
+        <releaseNotes>https://chocolatey.devart.com/files/B1BB32BF8EBF8082CA6FED2FBFF92A0129AFB1133FC807517205E77DDD6DBBBA/revision_history.html</releaseNotes>
         <tags>MSSQL Database SQL Tools SQLServer Rebuild Index Frangmentation Defrag</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-im</packageSourceUrl>
         <docsUrl>https://docs.devart.com/index-manager/</docsUrl>

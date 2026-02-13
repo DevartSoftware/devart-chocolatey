@@ -19,7 +19,7 @@ One more advantage of the Bundle is that its price is lower than purchasing thes
         <projectUrl>https://www.devart.com/dbforge/oracle/compare-bundle/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-oracle-compare-bundle.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/C7288B8535AA6C77652AF2A7FE9D1E3C3F290EB7C50543F664B9549DC5278C8E/revision_history.html</releaseNotes>
+        <releaseNotes>https://chocolatey.devart.com/files/C7288B8535AA6C77652AF2A7FE9D1E3C3F290EB7C50543F664B9549DC5278C8E/revision_history.html</releaseNotes>
         <tags>Oracle database database-management Tool rdbms Ide Windows management Report transfer migrate synchronize Data</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-ora-cb</packageSourceUrl>
         <docsUrl>https://www.devart.com/dbforge/oracle/compare-bundle/</docsUrl>

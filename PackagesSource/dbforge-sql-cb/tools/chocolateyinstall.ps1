@@ -1,6 +1,6 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://choco.devart.com/s/01A897A3E7E2082FBEB1DE89C99BF654BEA508BED63EE62CFC8F0DB1133CC95B/comparebundlesql.exe' 
+$url        = 'https://chocolatey.devart.com/files/01A897A3E7E2082FBEB1DE89C99BF654BEA508BED63EE62CFC8F0DB1133CC95B/comparebundlesql.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir

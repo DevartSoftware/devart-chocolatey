@@ -1,6 +1,6 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://choco.devart.com/s/0A58A658FE2BE6202524B66C6213F1C3BC1C77B26B7ABB4135FE83B21D97B40B/dbforgemysql.exe' 
+$url        = 'https://chocolatey.devart.com/files/0A58A658FE2BE6202524B66C6213F1C3BC1C77B26B7ABB4135FE83B21D97B40B/dbforgemysql.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir

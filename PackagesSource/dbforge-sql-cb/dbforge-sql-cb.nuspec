@@ -17,7 +17,7 @@ The Bundle comes with a significant discount in comparison with purchasing both 
         <projectUrl>https://www.devart.com/dbforge/sql/compare-bundle/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-compare-bundle.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://choco.devart.com/s/01A897A3E7E2082FBEB1DE89C99BF654BEA508BED63EE62CFC8F0DB1133CC95B/revision_history.html</releaseNotes>
+        <releaseNotes>https://chocolatey.devart.com/files/01A897A3E7E2082FBEB1DE89C99BF654BEA508BED63EE62CFC8F0DB1133CC95B/revision_history.html</releaseNotes>
         <tags>MSSQL Database SQL Tools SQLServer Admin DBA Schema Data Compare Comparison Diff Sync</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-cb</packageSourceUrl>
         <docsUrl>https://www.devart.com/dbforge/sql/compare-bundle/</docsUrl>
