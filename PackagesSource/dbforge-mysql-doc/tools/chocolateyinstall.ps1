@@ -6,7 +6,7 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Documenter for MySQL, v2025.3.93' 
+  softwareName  = 'dbForge Documenter for MySQL, v2025.3.107' 
   checksum      = 'FF78613FB2D60F0BBF08BE010155EA1CF43BE1B16265B9F64D560E9D1E821DB3'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""

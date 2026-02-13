@@ -6,7 +6,7 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Data Compare for PostgreSQL, v2025.3.93' 
+  softwareName  = 'dbForge Data Compare for PostgreSQL, v2025.3.107' 
   checksum      = 'E7126D5E74F056E53963CEA5DEF458AEC5295ACBDD0D35C27D4E61CA1B42A36C'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""

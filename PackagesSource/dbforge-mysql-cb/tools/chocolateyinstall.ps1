@@ -6,7 +6,7 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'Compare Bundle for MySQL Standard' 
+  softwareName  = 'dbForge Compare Bundle for MySQL' 
   checksum      = 'B7C6129A5369F65304E45B2248FDD846A287B1FEB2FD91099D81C2131ABDEC4D'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""

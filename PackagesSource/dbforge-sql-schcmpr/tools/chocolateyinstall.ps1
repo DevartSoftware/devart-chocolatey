@@ -6,7 +6,7 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Schema Compare for SQL Server, v2025.3.93' 
+  softwareName  = 'dbForge Schema Compare for SQL Server, v2025.3.107' 
   checksum      = '6F1409832E8521751952D3BE2ACF296533E948991B83FFDBB4F4B97231A5D8E0'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""

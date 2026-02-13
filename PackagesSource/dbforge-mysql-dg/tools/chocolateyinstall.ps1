@@ -6,7 +6,7 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Data Generator for MySQL, v2025.3.93' 
+  softwareName  = 'dbForge Data Generator for MySQL, v2025.3.107' 
   checksum      = 'AD7EA0EE2858C0DE9280B6C60A2B32A5176D710D860EE8D01E79A053AA905AD1'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""

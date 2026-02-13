@@ -6,7 +6,7 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Studio 2020 for PostgreSQL, v2025.3.93' 
+  softwareName  = 'dbForge Studio for PostgreSQL, v2025.3.107' 
   checksum      = 'EB8FEF37736D69BD77BFD7C1345483F83F0AD1F25C5AC5AC42DE39C8D5E6783A'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""

@@ -6,7 +6,7 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'Compare Bundle for SQL Server, v2025.3.93' 
+  softwareName  = 'Compare Bundle for SQL Server' 
   checksum      = '01A897A3E7E2082FBEB1DE89C99BF654BEA508BED63EE62CFC8F0DB1133CC95B'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""

@@ -6,7 +6,7 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Studio for MySQL, v2025.3.93' 
+  softwareName  = 'dbForge Studio for MySQL, v2025.3.107' 
   checksum      = '0A58A658FE2BE6202524B66C6213F1C3BC1C77B26B7ABB4135FE83B21D97B40B'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""

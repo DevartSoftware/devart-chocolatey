@@ -6,7 +6,7 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Event Profiler for SQL Server, v2025.3.93' 
+  softwareName  = 'dbForge Event Profiler for SQL Server, v2025.3.107' 
   checksum      = '3EBED14708ECF41469783716FF1C678D6C08E3D64D335F7D7D8F39E8FDF3BF11'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""

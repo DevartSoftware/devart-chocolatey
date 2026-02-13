@@ -6,7 +6,7 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Data Generator for SQL Server, v2025.3.93' 
+  softwareName  = 'dbForge Data Generator for SQL Server, v2025.3.107' 
   checksum      = 'A8D83EDB840461796E10789C7F995D906FDA2EAAA5DB1357DBE97A025E69C998'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""

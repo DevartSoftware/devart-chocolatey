@@ -6,7 +6,7 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Documenter for Oracle, v2025.3.93' 
+  softwareName  = 'dbForge Documenter for Oracle, v2025.3.107' 
   checksum      = 'B99152FBD16A7B4A7C72656946725696C100C860D48322EED79DD944A65BB032'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""

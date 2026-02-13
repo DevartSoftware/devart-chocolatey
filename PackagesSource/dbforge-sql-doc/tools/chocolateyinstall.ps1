@@ -6,7 +6,7 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Documenter for SQL Server, v2025.3.93' 
+  softwareName  = 'dbForge Documenter for SQL Server, v2025.3.107' 
   checksum      = '09056250E8A748D7F132E0F53CDCB3160A431836A93BB2FC0A5EB2AB46DFCCCC'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""

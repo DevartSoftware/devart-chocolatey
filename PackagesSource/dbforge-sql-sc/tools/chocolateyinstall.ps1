@@ -6,7 +6,7 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Source Control for SQL Server, v2025.3.93' 
+  softwareName  = 'dbForge Source Control for SQL Server, v2025.3.107' 
   checksum      = '431417F26A0422F1C03AD54D1E856CD9CBA8B88EE5A6A2E9544D7182EBA9E787'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""

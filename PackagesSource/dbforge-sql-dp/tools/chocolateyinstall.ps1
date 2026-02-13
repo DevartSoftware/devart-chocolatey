@@ -6,7 +6,7 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Data Pump for SQL Server, v2025.3.93' 
+  softwareName  = 'dbForge Data Pump for SQL Server, v2025.3.107' 
   checksum      = '69B6EE555EBA68EEDCB88C67947A301DF26C7C654DC72C513B96E9D536A1BD44'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""

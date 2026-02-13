@@ -6,7 +6,7 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Schema Compare for Oracle, v2025.3.93' 
+  softwareName  = 'dbForge Schema Compare for Oracle, v2025.3.107' 
   checksum      = '1AB6B372BBE33B1124E15A3450E17E938F7E3673581395C3075150E4229BCCCA'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
