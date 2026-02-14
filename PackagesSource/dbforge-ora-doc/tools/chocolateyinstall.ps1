@@ -1,13 +1,13 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://chocolatey.devart.com/files/B99152FBD16A7B4A7C72656946725696C100C860D48322EED79DD944A65BB032/documenteroracle.exe' 
+$url        = 'https://chocolatey.devart.com/files/E9349BC44877387375B248887694C86C668282D821E5BD8BB459B35FF9A501E5/documenteroracle.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
   softwareName  = 'dbForge Documenter for Oracle, v2025.3.107' 
-  checksum      = 'B99152FBD16A7B4A7C72656946725696C100C860D48322EED79DD944A65BB032'
+  checksum      = 'E9349BC44877387375B248887694C86C668282D821E5BD8BB459B35FF9A501E5'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
   validExitCodes= @(0, 3010, 1641)
