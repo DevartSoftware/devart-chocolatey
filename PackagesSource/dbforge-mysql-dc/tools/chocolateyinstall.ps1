@@ -1,13 +1,13 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://chocolatey.devart.com/files/798DE4151F65ABC8E1CB703D9AE1E9FFB39F09AAFB00D45C746C802AA8E10AE3/datacomparemysql.exe' 
+$url        = 'https://chocolatey.devart.com/files/820258D2E8092CD63AF28EFF229A865AED893E0C63DD24B67E6225B330F7D0AE/datacomparemysql.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
   softwareName  = 'dbForge Data Compare for MySQL, v2025.3.107' 
-  checksum      = '798DE4151F65ABC8E1CB703D9AE1E9FFB39F09AAFB00D45C746C802AA8E10AE3'
+  checksum      = '820258D2E8092CD63AF28EFF229A865AED893E0C63DD24B67E6225B330F7D0AE'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
   validExitCodes= @(0, 3010, 1641)
