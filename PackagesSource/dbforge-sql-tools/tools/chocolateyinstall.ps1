@@ -45,8 +45,8 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url
-  softwareName  = 'dbForge Source Control for SQL Server, v2025.3.93' 
-  packageName   = 'dbForge Source Control for SQL Server, v2025.3.93'
+  softwareName  = 'dbForge Source Control for SQL Server, v2026.1.31' 
+  packageName   = 'dbForge Source Control for SQL Server, v2026.1.31'
   checksum      = '7DB1255D3BEBFBC30205BE63CED0D6CE8E9FAE80378E8BBA10AD8F974150B9B0'
   checksumType  = 'sha256' 
   silentArgs    = '/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0'
