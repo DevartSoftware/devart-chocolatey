@@ -1,13 +1,13 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://chocolatey.devart.com/files/0842FD10D261F619459B04C9F1D6C5AA7D3795E86B49FC73E6F1370086889183/documentermysql.exe' 
+$url        = 'https://chocolatey.devart.com/files/AC32A0982606CBCA9F2149BB66ED67BFD8F680655AFD3CB6A75E76056CAC4B07/documentermysql.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Documenter for MySQL, v2026.1.39' 
-  checksum      = '0842FD10D261F619459B04C9F1D6C5AA7D3795E86B49FC73E6F1370086889183'
+  softwareName  = 'dbForge Documenter for MySQL, v2026.1.77' 
+  checksum      = 'AC32A0982606CBCA9F2149BB66ED67BFD8F680655AFD3CB6A75E76056CAC4B07'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
   validExitCodes= @(0, 3010, 1641)
