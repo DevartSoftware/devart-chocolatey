@@ -1,7 +1,7 @@
 <package>
     <metadata>
         <id>dbforge-mysql-cb</id>
-        <version>2026.1.39</version>
+        <version>2026.1.77</version>
         <title>dbForge Compare Bundle for MySQL </title>
         <description>Two powerful tools for comparing schema and data
 
@@ -21,7 +21,7 @@ The Compare Bundle for MySQL is a part of the Database Management Studio for MyS
         <projectUrl>https://www.devart.com/dbforge/mysql/compare-bundle/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-mysql-compare-bundle.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://chocolatey.devart.com/files/3B7EE8BBD06C00FED4886CCBA36E80CFB6A6081F4F3F524B3B6E6187263FE3AE/revision_history.html</releaseNotes>
+        <releaseNotes>https://chocolatey.devart.com/files/9D2D4587A76E408EC9A39C9712953B59D47D4950E1A4AAC9870347E240AC683A/revision_history.html</releaseNotes>
         <tags>mysql mariadb database database-management Development Tool transfer migrate synchronize</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-mysql-cb</packageSourceUrl>
         <docsUrl>https://www.devart.com/dbforge/mysql/compare-bundle/</docsUrl>
