@@ -1,7 +1,7 @@
 <package>
     <metadata>
         <id>dbforge-mysql-sc</id>
-        <version>2026.1.39</version>
+        <version>2026.1.77</version>
         <title>dbForge Schema Compare for MySQL</title>
         <description>Professional solution for comparing and syncing database schemas
 
@@ -17,7 +17,7 @@ dbForge Schema Compare for MySQL can be purchased as a separate tool, but it als
         <projectUrl>https://www.devart.com/dbforge/mysql/schemacompare/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-mysql-schemacompare.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://chocolatey.devart.com/files/A51E1141431F4AB4FDD610ECE332C16F686757443906D279B02C609FB31A8BCF/revision_history.html</releaseNotes>
+        <releaseNotes>https://chocolatey.devart.com/files/2B66B4E7A8FC22DFA40C3A19D1B325955CBA9EEC466CF8C567C1DDE72DBDE001/revision_history.html</releaseNotes>
         <tags>mysql mariadb database database-management Development Tool transfer migrate synchronize</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-mysql-sc</packageSourceUrl>
         <docsUrl>https://docs.devart.com/schema-compare-for-mysql/</docsUrl>
