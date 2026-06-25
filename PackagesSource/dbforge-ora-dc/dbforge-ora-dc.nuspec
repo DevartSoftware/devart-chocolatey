@@ -1,7 +1,7 @@
 <package>
     <metadata>
         <id>dbforge-ora-dc</id>
-        <version>2026.1.39</version>
+        <version>2026.1.77</version>
         <title>dbForge Data Compare for Oracle</title>
         <description>Professional solution for handling data differences in Oracle databases
 
@@ -17,7 +17,7 @@ The Data Compare tool is available as a separate solution or as a part of dbForg
         <projectUrl>https://www.devart.com/dbforge/oracle/datacompare/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-oracle-datacompare.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://chocolatey.devart.com/files/3926799A4DD2098384745E8F53D75DCA92240AFA7AC980600F2949F05D3CEB0A/revision_history.html</releaseNotes>
+        <releaseNotes>https://chocolatey.devart.com/files/F5229211B58EB61A635C92814E7708B01E1C62E4C50423A1030C32B99F95E5E7/revision_history.html</releaseNotes>
         <tags>Oracle database database-management Tool rdbms Ide Windows management Report transfer migrate synchronize Data</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-ora-dc</packageSourceUrl>
         <docsUrl>https://docs.devart.com/data-compare-for-oracle/</docsUrl>
