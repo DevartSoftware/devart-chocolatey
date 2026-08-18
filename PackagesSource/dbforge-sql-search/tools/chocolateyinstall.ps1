@@ -1,13 +1,13 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://chocolatey.devart.com/files/4AC477BF91B5ECA7FC8237C4FB143D45A6355DA529AE40DA8D1B55ED6E17AF41/searchsql.exe' 
+$url        = 'https://chocolatey.devart.com/files/924F08D0A1E8346618C56267017D16846B893B13A25368EEFFA33E8C370798CD/searchsql.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Search for SQL Server, v2026.1.77' 
-  checksum      = '4AC477BF91B5ECA7FC8237C4FB143D45A6355DA529AE40DA8D1B55ED6E17AF41'
+  softwareName  = 'dbForge Search for SQL Server, v2026.1.106' 
+  checksum      = '924F08D0A1E8346618C56267017D16846B893B13A25368EEFFA33E8C370798CD'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
   validExitCodes= @(0, 3010, 1641)
