@@ -1,13 +1,13 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://chocolatey.devart.com/files/7A6885B204740CFF77390764A36F309D3D7155E8B12630283A3AEBB54951C0B5/datageneratorsql.exe' 
+$url        = 'https://chocolatey.devart.com/files/FB071F8CCDBECAEA90F5712A5E8D0A8E2CA57C2A182CC7EEDE40C427D7C153CB/datageneratorsql.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Data Generator for SQL Server, v2026.1.77' 
-  checksum      = '7A6885B204740CFF77390764A36F309D3D7155E8B12630283A3AEBB54951C0B5'
+  softwareName  = 'dbForge Data Generator for SQL Server, v2026.1.106' 
+  checksum      = 'FB071F8CCDBECAEA90F5712A5E8D0A8E2CA57C2A182CC7EEDE40C427D7C153CB'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
   validExitCodes= @(0, 3010, 1641)
