@@ -1,7 +1,7 @@
 <package>
     <metadata>
         <id>dbforge-sql-qb</id>
-        <version>2026.1.112</version>
+        <version>2026.2.54</version>
         <title>dbForge Query Builder for SQL Server</title>
         <description>A tool for fast and accurate building any SQL queries 
 
@@ -16,7 +16,7 @@ dbForge Query Builder for SQL Server is a separate mini-tool. Also, it is a part
         <projectUrl>https://www.devart.com/dbforge/sql/querybuilder/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-sql-querybuilder.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://chocolatey.devart.com/files/C27DE490E9FBC9803D566359D47161713DB2E1CE7DADE5FBA7EF0703FCBB97A6/revision_history.html</releaseNotes>
+        <releaseNotes>https://chocolatey.devart.com/files/0A076EF38156A149C02F9CB7EC78414484E209A9A69A871AB528D9911C48699B/revision_history.html</releaseNotes>
         <tags>MSSQL Database SQL Tools SQLServer Visual Query Builder Generator Designer</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-sql-qb</packageSourceUrl>
         <docsUrl>https://docs.devart.com/querybuilder-for-sql-server/</docsUrl>
