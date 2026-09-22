@@ -1,13 +1,13 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://chocolatey.devart.com/files/8DEE76B88118A2435B84EE0E10400871853156318951F227654E4441FADA177F/datacomparesql.exe' 
+$url        = 'https://chocolatey.devart.com/files/8F8FCDBA6436D2D00D7923FF4DC574E292711D4AE838E67651E203FDD4B32F5B/datacomparesql.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Data Compare for SQL Server, v2026.1.112' 
-  checksum      = '8DEE76B88118A2435B84EE0E10400871853156318951F227654E4441FADA177F'
+  softwareName  = 'dbForge Data Compare for SQL Server, v2026.2.54' 
+  checksum      = '8F8FCDBA6436D2D00D7923FF4DC574E292711D4AE838E67651E203FDD4B32F5B'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
   validExitCodes= @(0, 3010, 1641)
