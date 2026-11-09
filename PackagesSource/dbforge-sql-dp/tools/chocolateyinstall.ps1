@@ -1,13 +1,13 @@
 $ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://chocolatey.devart.com/files/F4E941F37E877B29692C2010064429C4FC442F90A35718D09C894696CBDE8E2C/datapumpsql.exe' 
+$url        = 'https://chocolatey.devart.com/files/271B46742BBCD3315784A399E78A7B3D3C79B05FF1F318F17698002D606EACAA/datapumpsql.exe' 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'exe' 
   url           = $url 
-  softwareName  = 'dbForge Data Pump for SQL Server, v2026.2.82' 
-  checksum      = 'F4E941F37E877B29692C2010064429C4FC442F90A35718D09C894696CBDE8E2C'
+  softwareName  = 'dbForge Data Pump for SQL Server, v2026.2.96' 
+  checksum      = '271B46742BBCD3315784A399E78A7B3D3C79B05FF1F318F17698002D606EACAA'
   checksumType  = 'sha256' 
   silentArgs = "/VERYSILENT /FORCECLOSEAPPLICATIONS /ngen=0 /log=`"$env:TEMP\$($env:ChocolateyPackageName)\$($env:ChocolateyPackageName).$($env:ChocolateyPackageVersion).Install.log`""
   validExitCodes= @(0, 3010, 1641)
