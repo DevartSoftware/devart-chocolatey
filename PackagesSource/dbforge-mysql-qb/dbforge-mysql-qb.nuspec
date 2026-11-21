@@ -1,7 +1,7 @@
 <package>
     <metadata>
         <id>dbforge-mysql-qb</id>
-        <version>2026.2.96</version>
+        <version>2026.2.109</version>
         <title>dbForge Query Builder for MySQL</title>
         <description>A visual tool for easy composing any complicated queries 
 
@@ -17,7 +17,7 @@ The tool is a part of the Studio for MySQL package and can be a separate databas
         <projectUrl>https://www.devart.com/dbforge/mysql/querybuilder/</projectUrl>
         <iconUrl>https://cdn.jsdelivr.net/gh/DevartSoftware/devart-chocolatey@master/ProductsPng/dbforge-mysql-querybuilder.svg</iconUrl>
         <licenseUrl>https://www.devart.com/using-website/eula.html</licenseUrl>
-        <releaseNotes>https://chocolatey.devart.com/files/695DFD09B7F3BF37793C461EB53C0441FAC1E63BC249C969F544300F15B038A6/revision_history.html</releaseNotes>
+        <releaseNotes>https://chocolatey.devart.com/files/97F24902A0E8DA2B8585AE6D9EAFA6D062B6986E8163BE83E9D37CF632806D8D/revision_history.html</releaseNotes>
         <tags>mysql mariadb database Development Tool rdbms Ide Windows Sql  Export Import ER Diagram</tags>
         <packageSourceUrl>https://github.com/DevartSoftware/devart-chocolatey/tree/master/PackagesSource/dbforge-mysql-qb</packageSourceUrl>
         <docsUrl>https://docs.devart.com/querybuilder-for-mysql/</docsUrl>
